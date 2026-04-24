@@ -1,0 +1,26 @@
+{
+  "name": "formacion-ia-lanzadera-slides",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slides de la formacion 'IA para producto' — Manu Lorenzo · Lanzadera · Abril 2026",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "export:pdf": "slidev export --format pdf",
+    "export:pdf-notes": "slidev export --with-clicks --with-toc",
+    "export:pptx": "slidev export --format pptx"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "*",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

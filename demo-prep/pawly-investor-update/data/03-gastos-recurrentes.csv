@@ -1,0 +1,17 @@
+categoria,concepto,importe_mensual_eur,desde_mes,hasta_mes,nota
+equipo,Carlos CEO salario bruto + ss,4550,2025-09,indefinido,base 3500 bruto + 30% coste empresa
+equipo,Lucia CTO salario bruto + ss,5460,2025-09,indefinido,base 4200 bruto + 30% coste empresa
+equipo,Diego COO salario bruto + ss,4940,2025-09,indefinido,base 3800 bruto + 30% coste empresa
+equipo,Marta Head of Supply salario bruto + ss,4160,2026-02,indefinido,base 3200 bruto + 30% coste empresa
+oficina,Cowork 4 puestos La Vaguada,1200,2025-09,indefinido,contrato mensual sin permanencia
+saas,AWS infraestructura,450,2025-09,indefinido,subira con crecimiento
+saas,Stripe processing fees estimadas,180,2025-09,indefinido,aprox 2.9% + 0.25 sobre GMV
+saas,Notion + Slack + Linear + Figma team,220,2025-09,indefinido,planes team
+saas,Supabase pro + Vercel pro,150,2025-09,indefinido,stack de producto
+marketing,Google Ads adquisicion dueños,4800,2025-09,indefinido,canal principal
+marketing,Contenido y social ads,1200,2025-09,indefinido,subcontratado a freelance
+ops,Verificaciones cuidadores (background check),900,2025-09,indefinido,proveedor externo
+ops,Seguro RC cuidadores (parte mensual),500,2025-09,indefinido,prorrateo del anual
+legal,Asesoria mensual,600,2025-09,indefinido,despacho local
+otros,Banco y tarjetas empresa,80,2025-09,indefinido,
+otros,Gastos varios equipo,350,2025-09,indefinido,reuniones, material, eventos locales

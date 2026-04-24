@@ -1,0 +1,5 @@
+rol,fecha_incorporacion_prevista,salario_bruto_mensual,coste_empresa_mensual,condicional,nota
+Senior Backend Engineer,2026-06-01,5000,6500,condicional_ronda,clave para escalado + portugal. Solo entra si cerramos ronda.
+Growth Lead,2026-07-01,4500,5850,condicional_ronda,dedicado a paid + CRO. Solo si ronda.
+Country Manager Portugal,2026-08-15,4200,5460,condicional_ronda,contratacion en Lisboa. Solo si lanzamos Portugal.
+Cuidador Ops Specialist,2026-05-15,2800,3640,no,necesario ya con volumen actual, no depende de ronda.

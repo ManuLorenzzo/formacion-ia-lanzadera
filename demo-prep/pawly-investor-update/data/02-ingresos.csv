@@ -1,0 +1,28 @@
+mes,tipo,vertical,gmv_bruto_eur,take_rate,revenue_neto_eur,bookings,nota
+2026-01,historico,paseos,18200,0.15,2730,1300,mes enero cerrado
+2026-01,historico,sitting,9800,0.15,1470,115,mes enero cerrado
+2026-01,historico,vet_online,3100,0.18,558,141,mes enero cerrado
+2026-02,historico,paseos,22400,0.15,3360,1600,mes febrero cerrado
+2026-02,historico,sitting,11500,0.15,1725,135,mes febrero cerrado
+2026-02,historico,vet_online,3900,0.18,702,177,mes febrero cerrado
+2026-03,historico,paseos,28200,0.15,4230,2014,mes marzo cerrado
+2026-03,historico,sitting,12800,0.15,1920,150,mes marzo cerrado
+2026-03,historico,vet_online,4700,0.18,846,214,mes marzo cerrado
+2026-04,forecast_base,paseos,32400,0.15,4860,2314,asumido +15% MoM
+2026-04,forecast_base,sitting,14700,0.15,2205,173,asumido +15% MoM
+2026-04,forecast_base,vet_online,5400,0.18,972,245,asumido +15% MoM
+2026-05,forecast_base,paseos,37300,0.15,5595,2664,asumido +15% MoM
+2026-05,forecast_base,sitting,16900,0.15,2535,199,asumido +15% MoM
+2026-05,forecast_base,vet_online,6200,0.18,1116,282,asumido +15% MoM
+2026-06,forecast_base,paseos,42900,0.15,6435,3063,asumido +15% MoM
+2026-06,forecast_base,sitting,19400,0.15,2910,228,asumido +15% MoM
+2026-06,forecast_base,vet_online,7100,0.18,1278,323,asumido +15% MoM
+2026-07,forecast_base,paseos,49300,0.15,7395,3522,asumido +15% MoM
+2026-07,forecast_base,sitting,22300,0.15,3345,262,asumido +15% MoM
+2026-07,forecast_base,vet_online,8200,0.18,1476,373,asumido +15% MoM
+2026-08,forecast_base,paseos,56700,0.15,8505,4051,asumido +15% MoM
+2026-08,forecast_base,sitting,25700,0.15,3855,302,asumido +15% MoM
+2026-08,forecast_base,vet_online,9400,0.18,1692,427,asumido +15% MoM
+2026-09,forecast_base,paseos,65200,0.15,9780,4658,asumido +15% MoM + inicio portugal sin revenue aun
+2026-09,forecast_base,sitting,29500,0.15,4425,347,asumido +15% MoM + inicio portugal sin revenue aun
+2026-09,forecast_base,vet_online,10800,0.18,1944,491,asumido +15% MoM + inicio portugal sin revenue aun

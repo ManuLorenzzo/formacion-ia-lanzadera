@@ -1,0 +1,8 @@
+fecha_prevista,concepto,importe_eur,condicional,nota
+2026-04-20,Pago impuestos Q1 IRPF y SS,14800,no,ya reservado en cuenta impuestos
+2026-06-15,Renovación seguro RC anual cuidadores,4200,no,se renueva cada junio
+2026-06-30,Honorarios legales ronda seed,8000,condicional_ronda,solo si cerramos ronda
+2026-07-10,Pago IRPF y SS Q2,16500,no,estimado con crecimiento de plantilla actual
+2026-08-15,Campaña lanzamiento Portugal (pre-launch),15000,condicional_ronda,solo si ronda cierra a tiempo
+2026-09-01,Viaje team offsite Valencia,3500,no,presupuesto ya aprobado
+2026-09-30,Pago IRPF y SS Q3 2026,17000,no,estimado

@@ -6,53 +6,61 @@
 
 ---
 
-## Demo 1 — Gemini Deep Research: análisis de competidor (bloque Cliente)
+## Demo 1 — Deep Research: voice of customer del sector (bloque Día a día · investigar)
 
-**Tool:** Gemini (AI Pro) → Deep Research. `[CAJA]` — elegimos Deep Research porque genera un informe navegado con decenas de fuentes citadas, no un resumen rápido.
+**Tool:** Gemini Deep Research / Claude Research / ChatGPT Deep Research / Perplexity Pro. `[CAJA]` — elegimos Deep Research porque navega y cruza decenas de páginas en 5–30 minutos y devuelve un informe con citas verificables, no un resumen rápido.
 
-**Por qué funciona:** Deep Research hace búsqueda iterativa (~30-60 min), cita fuentes y produce un dossier tipo analyst. Para competitor research es superior a un chat normal porque explora múltiples ángulos sin que se lo tengas que pedir.
+**Por qué funciona:** Voice of customer "a mano" implica leer 200+ reseñas, foros y posts. Deep Research lo hace en 10 minutos y te entrega los dolores top con quotes literales y URLs. Es el research RECURRENTE — un founder lo hace cada 1–2 meses, no una vez antes del pitch.
 
-### Prompt
+### Prompt — plantilla genérica
 
 ```
-Actúa como un analista senior especializado en {{sector, ej: "SaaS B2B de retail operations"}}.
-
 [CONTEXTO]
-Soy founder de una startup que compite directamente con {{nombre_competidor}}. 
-Mi producto se diferencia en {{diferenciador_principal, ej: "integración nativa con SAP y pricing por tienda, no por usuario"}}.
-Mi mercado objetivo son {{ICP, ej: "cadenas de retail de 10-100 tiendas en España y Portugal"}}.
+Soy founder de {{startup}}, {{descripción 1 frase, ej: "marketplace para dueños de perros en España"}}. 
+Llevamos {{tiempo}} funcionando, vamos a sacar la versión {{X.0}} a {{N}} semanas vista.
 
-[CABEZA] 
-Necesito tomar decisiones concretas en los próximos 30 días sobre posicionamiento y pricing.
-NO busco un resumen de su web. Busco insights accionables.
+[CABEZA]
+Mi nivel: {{experiencia previa relevante, ej: "Vendí un veterinario hace 4 años — conozco el sector"}}. 
+Pero {{lo que NO sabes hacer, ej: "nunca he hecho discovery sistemático de clientes a escala"}}.
 
-[CORTAR] Estructura el informe en estas 5 secciones EXACTAS, cada una con evidencia citada:
+Quiero VOICE OF CUSTOMER del sector — no de mi producto, de TODA la categoría.
 
-1. **Traction y momentum (últimos 12 meses)**: funding, hires clave, lanzamientos de producto, menciones en prensa tier-1, cambios en el equipo ejecutivo.
+[CORTAR]
+Necesito los 10 dolores más mencionados en reseñas de 1–2 estrellas de los principales {{tipo de productos, ej: "marketplaces y apps pet"}} en {{geografía}} en los últimos 6 meses.
 
-2. **Pricing real**: qué cobran de verdad (no la web), por qué variables, descuentos observados en casos reportados, quién son sus 3 clientes más grandes públicamente.
+Para cada dolor, dame:
+1. Frecuencia aproximada (cuántas menciones encontraste)
+2. Gravedad reportada (1–5, según el tono de la queja)
+3. Qué competidor lo resuelve (o nadie)
+4. 2 quotes literales de reseñas, con URL de la fuente
 
-3. **Posicionamiento y messaging**: cómo se venden ellos mismos, qué dolores atacan en su copy, qué NO mencionan (gaps).
-
-4. **Debilidades reportadas**: reviews en G2/Capterra/Reddit, complaints recurrentes, churn signals públicos (perfiles de LinkedIn de ex-clientes que se fueron).
-
-5. **3 ángulos concretos de ataque para mi startup**: basados en todo lo anterior, qué 3 movimientos específicos haría yo (posicionamiento, producto, pricing) para ganar cuentas ante ellos.
+Fuentes a cubrir: App Store, Google Play, Trustpilot, foros relevantes (Reddit, foros de nicho), redes sociales si aplica.
 
 [CHECK]
-Cita fuentes URL para cada afirmación factual. Si algo es opinión o inferencia, márcalo [inferencia]. Si un dato no lo encuentras, escribe [no encontrado] en vez de inventarlo.
+- No inventes citas. Si un dato no lo encuentras, escribe [no encontrado].
+- Toda quote debe tener URL clicable.
+- Si la URL no carga o el contenido fue editado, márcalo [URL inestable].
+- Antes de ejecutar, hazme las preguntas que necesites: qué competidores priorizo, qué segmentos, qué idioma, qué ventana temporal exacta.
 ```
 
 **Follow-ups típicos:**
-- "Profundiza solo en la sección 4. Dame 10 quotes literales de reviews negativas con fecha y fuente."
-- "Del ángulo #2 del punto 5, redacta un pitch deck outline de 10 slides."
+- "Profundiza solo en el dolor #3. Dame 10 quotes adicionales con fecha y fuente."
+- "Cruza los 3 dolores top con la oferta actual de mi producto: ¿cuáles ya resolvemos parcialmente y dónde está el gap real?"
+- "A partir del informe, genera un brief de 5 ideas de feature priorizadas para la versión {{X.0}}."
 
 ---
 
-## Demo 2 — NotebookLM: asistente sobre docs internos (bloque Equipo)
+## Demo 2 — NotebookLM: digerir docs en podcast/mapa mental (bloque Día a día · digerir)
 
-**Tool:** NotebookLM (free). `[CAJA]` — elegimos NotebookLM porque es el mejor RAG gratuito, cita pasajes exactos y no alucina sobre fuentes que no le has dado.
+**Tool:** NotebookLM (free, cuenta Google). `[CAJA]` — elegimos NotebookLM porque transforma documentos en podcast, vídeo y mapa mental, cita pasajes exactos y no alucina sobre fuentes que no le has dado.
 
-**Por qué funciona:** NotebookLM solo responde con info de las fuentes que subes. Si no está, te dice "no está". Perfecto para onboarding, handbook interno, búsqueda en docs legales.
+**Por qué funciona:** NotebookLM solo responde con info de las fuentes que subes. Si no está, te dice "no está". Perfecto para: convertir el research que acabas de generar en un podcast para escuchar conduciendo, onboarding del nuevo hire, búsqueda en docs legales.
+
+### Tres casos típicos de un founder
+
+1. **Cargar el voice-of-customer del Demo 1 → Audio Overview en castellano**. Lo escuchas el lunes en el coche y te quedan grabados los 3 dolores top sin haber leído el informe.
+2. **Onboarding del nuevo hire**. Cargas handbook + procesos + transcripts de meetings clave. Generas Audio Overview de 15 min. Lo escucha en el coche el primer día.
+3. **Consulta legal/compliance**. Cargas políticas internas, contratos, normativa. Preguntas con citas verificables.
 
 ### Setup (3 minutos)
 
@@ -103,13 +111,166 @@ Soy un empleado nuevo que acaba de unirse como {{rol, ej: "Account Executive Jun
 
 ---
 
-## Demo 3 — Nano Banana Pro: imagen marketing (bloque Marca)
+## Demo 2bis — Cowork + Artifact: del research a la herramienta (bloque Día a día · ejecutar)
 
-**Tool:** Nano Banana Pro (dentro de Gemini). `[CAJA]` — buen equilibrio calidad/control de texto. Para dirección artística más artística, Midjourney; para iteración rápida e integrada en el flujo Google, Nano Banana.
+**Tool:** Claude Cowork (incluido en Claude Pro, Mac/Windows). `[CAJA]` — elegimos Cowork porque puede leer archivos locales, navegar conectores y construir Artifacts (mini-apps interactivas) que viven al lado del chat.
 
-**Por qué funciona:** los generadores de imagen son literales con la estructura del prompt. Un template con 7 campos fijos produce resultados 10x más consistentes que un párrafo suelto.
+**Por qué funciona:** un research en markdown es texto muerto. Un Artifact es software vivo en tu mesa — un dashboard, un simulador, un mapa. Cowork hace ambas cosas en una conversación: lee el markdown, te monta la herramienta a medida y te la deja abierta para que la uses.
 
-### Template estructurado (los 7 campos)
+### Prompt — del Voice of Customer al Pain Map
+
+```
+[CONTEXTO]
+Adjunto voice-of-customer.md — el research que acabo de generar con Deep Research.
+Contiene los 10 dolores top del sector {{sector}} con frecuencia, gravedad, gap competitivo y quotes.
+
+[CABEZA]
+Soy founder de {{startup}}. Quiero VER los dolores como una herramienta interactiva — no leerlos en markdown.
+Esto vive en mi escritorio, lo uso yo, no es para vender.
+
+[CORTAR]
+Construye un Artifact (HTML + JS standalone, sin frameworks externos) que:
+1. Muestre los 10 dolores como puntos en un cuadrante 2D — eje X frecuencia, eje Y gravedad
+2. Coloree cada punto según gap competitivo: verde (nadie lo resuelve), ámbar (parcial), rojo (resuelto bien)
+3. Big number arriba: "TOP OPPORTUNITY" — el dolor con mayor frecuencia × gravedad y color verde
+4. Slider de segmento (urbano/rural, edad, raza, etc. según el research) — los puntos se reordenan
+5. Click en cualquier punto → tarjeta lateral con quote literal y URL de fuente
+
+[CHECK]
+- Todos los datos deben venir del adjunto. NO inventes dolores.
+- Si una dimensión (ej: segmento) no está en el research, márcala "no diferenciado por segmento" en lugar de inventarla.
+- El Artifact debe funcionar standalone — abrible sin internet en cualquier navegador.
+```
+
+**Follow-ups típicos:**
+- "Añade un export a PNG del cuadrante para meter en el siguiente sprint planning."
+- "Cambia el cuadrante por una matriz 2x2 — fácil/difícil de resolver vs. alta/baja frecuencia."
+- "Genera la versión móvil del Artifact — para enseñárselo al cofounder en el AVE."
+
+---
+
+## Demo 2ter — Del Pain Map a las features priorizadas (puente Día a día → Producto)
+
+**Tool:** Claude Chat / Cowork (no técnico) o Claude Code (control total). `[CAJA]` — Chat/Cowork para sacar el brief en 5 minutos; Code para versionarlo como PRD en repo.
+
+### Prompt — ruta no técnica
+
+```
+[CONTEXTO]
+Adjunto voice-of-customer.md (el research) y pawly-pain-map (el Artifact que construyó Cowork).
+
+Soy founder de {{startup}}. Versión {{X.0}} a {{N}} semanas vista, equipo de {{tamaño}}.
+
+[CABEZA + CORTAR]
+Quiero 5 ideas de feature priorizadas. Para cada una:
+1. El dolor que resuelve — cita literal del research
+2. Por qué {{startup}} puede ganarlo (vs. competidores)
+3. Esfuerzo estimado: S (días), M (semanas), L (meses)
+4. Gap competitivo que abre
+
+[CHECK]
+- Toda cita literal debe existir en el research adjunto.
+- Si una feature requiere validación adicional con clientes, márcala "validar antes de construir".
+- Antes de ejecutar, hazme las preguntas que necesites: segmento prioritario, restricciones técnicas, ventana de timing.
+```
+
+---
+
+## Demo 3 — Marca: imagen + vídeo + variantes (bloque Marca)
+
+**Caso fijo:** Pawly anuncia su novedad "vet disponible los domingos" en redes.
+**Herramientas:** Nano Banana Pro (imagen) + Veo 3.1 (vídeo) + Claude Design (variantes).
+
+### El truco principal · te ahorra ser experto en composición
+
+Para imagen y vídeo el prompt técnico es muy específico — composición, encuadre, lentes, iluminación, paleta, formato. **No hace falta que sepáis esto**. Le pedís a Claude que os escriba el prompt experto. Vosotros declaráis la escena en castellano normal, Claude os devuelve el brief técnico, lo copiáis y lo pegáis en la herramienta correspondiente.
+
+A esto se le llama **meta-prompting**: un prompt para que la IA escriba el prompt.
+
+---
+
+### Meta-prompt 1 · para Nano Banana (imagen)
+
+Pega esto en Claude (chat normal). Recibirás un prompt con los 7 campos estructurados, listo para Nano Banana.
+
+```
+Quiero un anuncio en imagen para Instagram.
+
+Caso: Pawly (marketplace para dueños de perros) anuncia una novedad — un servicio de veterinario disponible los domingos. El claim de la campaña es: "Tu perro no entiende de domingos. Nosotros sí."
+
+Escena que tengo en la cabeza: un domingo por la tarde en el salón de casa. Una mujer joven en el sofá con su perro decaído al lado. Mira el móvil con cara de alivio — en la pantalla del móvil aparece un veterinario en videollamada. Luz cálida, tranquila, ambiente de hogar.
+
+Hazme tú el prompt técnico para Nano Banana Pro con los 7 campos clásicos:
+1. Sujeto (qué aparece, en detalle)
+2. Composición (encuadre, regla, ángulo)
+3. Iluminación (tipo de luz, hora, sombras)
+4. Fondo (qué hay detrás, nivel de detalle)
+5. Espacio para titular (dónde dejar el frame limpio)
+6. Estilo (referencia visual, paleta, grano)
+7. Restricciones técnicas (formato, manos naturales, sin texto generado, sin logos)
+
+Antes de redactar, hazme las preguntas que necesites para clavarlo: paleta exacta, raza concreta del perro, edad y look de la mujer, tono más alegre o más íntimo, formato cuadrado o vertical para Instagram.
+```
+
+### Meta-prompt 2 · para Veo 3.1 (vídeo)
+
+Pega esto en Claude. Recibirás un guion de 8 segundos con planos detallados, listo para Veo.
+
+```
+Mismo caso anterior — Pawly anuncia "vet los domingos", claim "Tu perro no entiende de domingos. Nosotros sí."
+
+Ahora quiero un vídeo de 8 segundos para Reel y Story de Instagram (formato vertical 9:16).
+
+La escena emocional: el dueño nota que su perro está decaído un domingo, coge el móvil, abre Pawly, contacta con un veterinario, alivio.
+
+Hazme tú el prompt técnico para Veo 3.1 con:
+- Guion plano por plano (4 planos en 8 segundos: 2s + 2s + 2s + 2s)
+- Encuadre y movimiento de cámara para cada plano
+- Iluminación y paleta consistentes en los 4
+- Ritmo cinematográfico, sin diálogo
+- Cierre con foco en el perro (no en el logo)
+
+Antes de redactar, pregúntame lo que necesites: estilo más cinematográfico o más cotidiano de móvil, presencia o no de música implícita en la descripción, edad y look de los personajes, tono final más esperanzador o más sereno.
+```
+
+### Meta-prompt 3 · para Claude Design (variantes de anuncio)
+
+Pega esto en Claude. Recibirás un prompt detallado para Claude Design que monte las 4 variantes.
+
+```
+Tengo la imagen del anuncio de Pawly (la generada con Nano Banana, la adjunto).
+
+Quiero adaptarla a 4 formatos para redes:
+1. Instagram cuadrado (1:1)
+2. Story / Reel vertical (9:16)
+3. Facebook horizontal (1.91:1)
+4. Banner web horizontal (16:9)
+
+Mismo titular en las 4: "Tu perro no entiende de domingos. Nosotros sí."
+Subtítulo más pequeño: "Veterinario los 7 días, también domingos. Solo en Pawly."
+Logo de Pawly visible en una esquina (placeholder cuadrado verde con la palabra Pawly en blanco, sans serif).
+
+Hazme tú el prompt técnico para Claude Design con:
+- Reglas de tipografía (qué fuente para titular, qué fuente para subtítulo, jerarquía clara)
+- Posición exacta del titular en cada formato (no se debe cortar nunca, siempre legible)
+- Posición del logo en cada formato
+- Tratamiento de la imagen base (cómo recortar para que no se deforme en cada relación de aspecto)
+- Paleta, contraste, espaciados
+
+Antes de redactar, pregúntame lo que necesites: jerarquía visual (titular dominante o equilibrado con la imagen), si quiero un CTA visible o solo claim, paleta extra fuera del verde Pawly.
+```
+
+---
+
+### Por qué el meta-prompting funciona aquí
+
+Imagen y vídeo son los dos casos donde **el founder NO sabe especificar bien**. Composición fotográfica, encuadre cinematográfico, lentes, lighting setups — son disciplinas en sí mismas. Pero Claude sí lo sabe (ha leído manuales de fotografía, scripts de cine, briefs de campaña). Si tú le declaras la escena emocional y le dejas preguntar lo que necesite, te devuelve un brief que un director de arte humano cobraría.
+
+El asset descargable contiene los 3 meta-prompts arriba + el ejemplo de output esperado debajo (los 7 campos rellenados) por si quieres ir directo sin pasar por Claude.
+
+---
+
+### Template estructurado (los 7 campos · output esperado del meta-prompt 1)
 
 ```
 [CONTEXTO + CORTAR — estructura de 7 campos, en este orden]
@@ -129,23 +290,25 @@ ESTILO: {{referencia visual. Ej: "Fotografía editorial tipo Monocle, paleta cá
 CONSTRAINT TÉCNICO: {{formato y restricciones. Ej: "Aspect ratio 16:9 para hero de landing. Sin texto superpuesto generado. Sin watermarks ni logos visibles. Realismo fotográfico, no ilustración"}}
 ```
 
-### Ejemplo completo rellenado
+### Ejemplo completo rellenado · imagen de anuncio para Pawly (caso de la charla)
 
 ```
-SUJETO: Una founder de unos 35 años, pelo castaño recogido, sudadera gris, sosteniendo un portátil abierto mientras señala algo en la pantalla con expresión concentrada pero relajada.
+SUJETO: Mujer joven, unos 30 años, sentada en el sofá del salón un domingo por la tarde. A su lado, su golden retriever decaído tumbado. Ella sostiene el móvil con la otra mano y mira la pantalla con una expresión clara de alivio. En la pantalla del móvil se ve una videollamada con un veterinario sonriendo (ligeramente desenfocado, sugerido).
 
-COMPOSICIÓN: Plano medio desde un ángulo ligeramente bajo, regla de tercios, sujeto alineado a la izquierda, mirada dirigida fuera del frame hacia la derecha.
+COMPOSICIÓN: Plano medio desde un ángulo ligeramente bajo. Regla de tercios. La mujer y el perro alineados a la izquierda del frame. La mirada de ella dirigida al móvil. Espacio claro y limpio en la mitad derecha para colocar después el titular del anuncio.
 
-ILUMINACIÓN: Luz natural de ventana grande a la izquierda del sujeto, contraluz suave, hora dorada de media tarde, sombras largas pero difusas.
+ILUMINACIÓN: Luz natural cálida de ventana grande a la izquierda. Hora dorada de domingo de tarde. Sombras suaves, ambiente de calma doméstica. Sin luces artificiales.
 
-FONDO: Coworking minimalista desenfocado, paredes de ladrillo visto desaturado, plantas verdes puntuales, bokeh fuerte en el fondo.
+FONDO: Salón con paleta crema y madera clara, plantas, cojines. Desenfocado en bokeh suave. Sensación de hogar tranquilo, no estudio.
 
-ESPACIO PARA COPY: Dejar mitad derecha del frame visualmente limpia y con bajo contraste para poder superponer headline en blanco sin post-producción compleja.
+ESPACIO PARA COPY: Mitad derecha del frame con muy poco contraste, casi vacía visualmente, para poder colocar el titular del anuncio en blanco o crema oscuro sin retoque adicional.
 
-ESTILO: Fotografía editorial contemporánea tipo Kinfolk / Monocle, paleta cálida (crema, tostado, verde oliva), grano muy sutil de película 35mm, color grading cinemático.
+ESTILO: Fotografía editorial cinematográfica tipo campaña de Apple o de Airbnb. Paleta cálida (crema, tostado, marrón claro). Grano muy sutil de película 35mm. Realismo fotográfico, no ilustración.
 
-CONSTRAINT TÉCNICO: Aspect ratio 16:9 para hero de landing. Realismo fotográfico puro, no ilustración. Sin texto generado dentro de la imagen. Sin logos ni watermarks. Sin manos deformadas (priorizar que las manos salgan naturalmente).
+RESTRICCIONES TÉCNICAS: Formato 4:5 (vertical Instagram). Sin texto generado dentro de la imagen. Sin logos ni marcas de agua. Las manos de la mujer naturales, no deformadas. La cara del perro debe transmitir decaimiento sin ser dramática. La cara de la mujer debe transmitir alivio sin ser teatral.
 ```
+
+> **Por qué este ejemplo funciona como brief de campaña.** El research de Pawly (palanca 1 de la charla) identificó "vet disponible los domingos" como el dolor número uno del sector pet (847 menciones, gravedad 4.6/5, sin solución actual). El anuncio cuenta exactamente ese momento: el dolor (perro decaído un domingo) y la solución (vet en pantalla, madre aliviada). La emoción reconocible mueve más clics que un plano de producto.
 
 ### `[CHECK]` — qué mirar antes de usar la imagen
 

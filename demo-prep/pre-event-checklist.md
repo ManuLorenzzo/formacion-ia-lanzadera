@@ -18,8 +18,7 @@ Lista pragmática de cosas a hacer antes de dar la charla. Organizada por ventan
 ## 4 DÍAS antes
 
 - [ ] **⭐ PRE-WORK · Lanzadera envía la encuesta a la cohorte**
-- [ ] Elegir competidor real para Demo 1 (Gemini Deep Research)
-- [ ] Elegir informe para Demo 2 (NotebookLM podcast)
+- [ ] Confirmar caso Pawly como hilo conductor de Día a día (sector pet, marketplaces existentes a scrappear: Tiendanimal, Kiwoko, Wamiz, BarkBox, etc.)
 - [ ] Elegir PDF para Demo 4 (análisis financiero)
 - [ ] Elegir sector/ejemplos sectoriales a citar durante la charla
 - [ ] Definir hosting del asset descargable (GitHub repo / Notion / plataforma Lanzadera)
@@ -38,11 +37,13 @@ Lista pragmática de cosas a hacer antes de dar la charla. Organizada por ventan
   - Claude Design sigue en research preview
 - [ ] Ensayo completo end-to-end de la charla, objetivo <85 min
 - [ ] Ensayo específico de cada demo con cronómetro
-- [ ] Pre-generar backups:
-  - Output de Gemini Deep Research (demo 1)
-  - Podcast MP3 de NotebookLM (demo 2)
-  - Imagen + vídeo + prototipo (demo 3)
-  - Output de análisis PDF (demo 4)
+- [ ] Pre-generar backups de los demos del día:
+  - Resultado del research (Voice of Customer pet) — palanca Día a día · investigar
+  - Screenshot del Pawly Pain Map renderizado en Cowork — palanca Día a día · ejecutar (backup si Cowork falla)
+  - Audio Overview MP3 de NotebookLM con el research como source — palanca Día a día · digerir
+  - Landing de Pawly publicada y URL funcionando — palanca Producto
+  - 2 piezas del anuncio de Pawly (imagen del anuncio + screenshot de las 4 variantes de Claude Design) — palanca Marca
+  - Versión vaga de la imagen del anuncio (prompt en lenguaje normal de founder no técnico) para enseñar contraste — palanca Marca
 - [ ] Grabar **vídeo backup de 3-5 min** que cuente la historia completa sin depender de live
 - [ ] Exportar presentación a PDF como fallback
 - [ ] Asset descargable publicado y URL probada desde 3 dispositivos distintos
@@ -51,13 +52,13 @@ Lista pragmática de cosas a hacer antes de dar la charla. Organizada por ventan
 
 ## 24 HORAS antes
 
-- [ ] **⭐ PRE-WORK · leer TODAS las respuestas** (cierre fue T-48h)
-- [ ] **⭐ Elegir founder_A** para demo Cliente / Deep Research (ver `pre-work-survey.md` sección 3)
-- [ ] **⭐ Elegir founder_B** para demo Producto / MVP construcción (sector visualizable, opt-in, distinto a founder_A)
-- [ ] **⭐ Pre-ejecutar Deep Research** con el competidor de founder_A — verificar que hay reseñas suficientes
-- [ ] **⭐ Pre-construir el MVP con Lovable** para startup_B — guardar URL funcionando como backup (ver `demo-2-mvp-lovable.md`)
-- [ ] **⭐ Pre-generar assets de marca** (imagen, vídeo, prototipo) — caso genérico o ficticio (Paellabox u otro)
-- [ ] **⭐ Sustituir variables** en `slides.md`: `[founder_A]`, `[competidor_A]`, `[startup_A]`, `[founder_B]`, `[startup_B]`, `[N de M]`, `[patrón de pricing]`, `[X]`, `[Y]`, `[Z]`, `[sector 1-3]`, `[tarea 1-3]`
+- [ ] **⭐ PRE-WORK · leer TODAS las respuestas** (cierre fue T-48h) — para sustituir variables sectoriales `[sector 1-3]`, `[tarea 1-3]` con datos reales de la cohorte
+- [ ] **⭐ Día a día · investigar · Pre-ejecutar Voice of Customer Deep Research** sobre el sector pet (caso Pawly) — verificar que hay 5–10 dolores con quotes y URLs verificables. Guardar el resultado del research como archivo local.
+- [ ] **⭐ Día a día · ejecutar · Pre-construir el Pain Map en Claude Cowork** — pasarle el resultado del research como input + el prompt de `demo-cowork-pawly-pain-map.md`. Iterar 2–3 veces hasta que el Artifact funcione (slider, top opportunity, datos coherentes). DEJAR la conversación abierta. NO cerrar Claude desktop.
+- [ ] **⭐ Día a día · digerir · Pre-generar Audio Overview en NotebookLM** — crear notebook, subir el resultado del research como source, generar Audio Overview en castellano. Descargar el `.mp3` como BACKUP local. Verificar reproducción en altavoces de la sala.
+- [ ] **⭐ Producto · Pre-construir la landing de Pawly con Lovable / Claude Code** — guardar URL funcionando como backup (ver `demo-2-mvp-lovable.md`). Caso fijo Pawly, no de la cohorte.
+- [ ] **⭐ Marca · Pre-generar las 2 piezas de la campaña Pawly** (imagen del anuncio + 4 variantes de formato con Claude Design) — ver `demo-3-triple-marca.md`. Todo el caso es Pawly, igual que las palancas anteriores.
+- [ ] **⭐ Sustituir variables** en `slides.md`: `[N de M]`, `[patrón de pricing]`, `[X]`, `[Y]`, `[Z]`, `[sector 1-3]`, `[tarea 1-3]`
 - [ ] Re-verificar URLs críticas:
   - aistudio.google.com
   - antigravity.google
@@ -148,8 +149,8 @@ Lista pragmática de cosas a hacer antes de dar la charla. Organizada por ventan
 - [ ] Q&A (sin contar en los 90 min oficiales)
 - [ ] Pedir feedback a 2-3 personas concretas
 - [ ] Confirmar que el asset descargable les llegó
-- [ ] **⭐ T+24h · enviar email a founder_A** con el informe completo de Deep Research sobre su competidor
-- [ ] **⭐ T+24h · enviar email a founder_B** con la URL del MVP construido + invitación al proyecto Lovable + acceso a Supabase
+- [ ] **⭐ T+24h · publicar el asset descargable** con todos los prompts y materiales de la charla
+- [ ] **⭐ T+24h · enviar email a la cohorte** con: enlace al asset descargable, enlace a la versión final de las slides, recordatorio de los 3 prompts clave (Voice of Customer, Pain Map en Cowork, anuncio de Marca con los 7 campos)
 - [ ] Autoreflexión nocturna:
   - Qué funcionó mejor de lo esperado?
   - Qué falló?

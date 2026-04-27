@@ -4,6 +4,8 @@
 
 > Decide rápido: tienes un problema concreto, busca el caso en la tabla y te digo qué herramienta usar. Dos versiones: sin presupuesto (Free Stack) y con presupuesto para tracción seria (Pro Stack).
 
+> **Cómo está organizado.** Las 3 palancas de la charla se mapean así: **Día a día** (asistentes para investigar, digerir, ejecutar — Deep Research, NotebookLM, Cowork) · **Producto** (construir lo que vendéis — landing, SaaS, MVP) · **Marca** (contenido, imagen, vídeo, voz, música).
+
 ---
 
 ## Free Stack
@@ -12,7 +14,7 @@ Todo lo que puedes tener operativo hoy con una cuenta Google + una cuenta Claude
 
 | Quiero | Tool recomendada | URL | Free limits | Nota |
 |---|---|---|---|---|
-| Asistente interno sobre mis docs | NotebookLM | https://notebooklm.google.com | Hasta 100 notebooks, 50 fuentes por notebook, 500k palabras por fuente | Mejor herramienta gratuita para RAG sobre PDFs, docs, webs. Cita pasajes exactos. |
+| Digerir docs largos en podcast / mapa mental | NotebookLM | https://notebooklm.google.com | Hasta 100 notebooks, 50 fuentes por notebook, 500k palabras por fuente | Mejor herramienta gratuita para RAG sobre PDFs, docs, webs. Cita pasajes exactos. Audio Overview en castellano. |
 | Landing + captura leads | Lovable (free tier) | https://lovable.dev | 5 mensajes/día, proyectos públicos | Tier free ajustado. Alternativa: Bolt (https://bolt.new) con tokens diarios. |
 | MVP funcional | Bolt | https://bolt.new | Tokens diarios reseteables | Genera full-stack en browser. Para prototipos rápidos. |
 | Research con citas | Gemini Deep Research (plan free) | https://gemini.google.com | Deep Research limitado en free, disponible completo con AI Pro | En free se puede probar; para uso intensivo pasar a Pro. |
@@ -36,7 +38,8 @@ Cuando el Free Stack se queda corto y el tiempo vale más que los 20-200€/mes.
 
 | Quiero | Tool recomendada | URL | Precio | Cuándo compensa |
 |---|---|---|---|---|
-| Asistente interno sobre mis docs | Claude Projects (Claude Pro) | https://claude.ai | $20/mes | Cuando quieres el conocimiento en el mismo sitio donde chateas y produces. NotebookLM Pro si lo prefieres en ecosistema Google. |
+| Asistente que ejecuta en mi ordenador (día a día) | Claude Cowork (Claude Pro) | https://claude.ai | $20/mes | Abre archivos, escribe mails, monta Excels, construye Artifacts a partir de tus PDFs. Y desde el móvil con Dispatch. La pieza estrella de la palanca Día a día. |
+| Chat sobre mis docs | Claude Projects (Claude Pro) | https://claude.ai | $20/mes | Cuando quieres el conocimiento en el mismo sitio donde chateas y produces. NotebookLM Pro si lo prefieres en ecosistema Google. |
 | Landing + captura leads | Lovable Pro | https://lovable.dev | $25/mes | Cuando iteras landings cada semana. Lovable llegó a $10M ARR en 2 meses por algo. |
 | MVP funcional | Lovable Pro / Bolt Pro / v0 | — | $20-25/mes | Lovable para full-stack end-to-end. v0 si ya estás en ecosistema Vercel/Next. |
 | Research con citas | Perplexity Pro | https://perplexity.ai | $20/mes | Deep Research ilimitado (corre sobre Claude Opus por debajo). Si ya tienes Claude Pro, es redundancia parcial. |

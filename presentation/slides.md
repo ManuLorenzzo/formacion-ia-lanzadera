@@ -13,7 +13,7 @@ fonts:
   serif: 'IBM Plex Serif'
   mono: 'IBM Plex Mono'
 mdc: true
-transition: slide-left
+transition: fade
 drawings:
   persist: false
 download: true
@@ -241,7 +241,6 @@ NOTAS:
 
 ---
 layout: default
-transition: fade
 ---
 
 <span class="eyebrow">la otra mitad · lo que no cabe en la encuesta</span>
@@ -861,15 +860,15 @@ layout: default
 
 <div class="card palanca-cliente">
 
-### <span style="color: var(--palanca-cliente);">01 · Cliente</span>
-Research. Decisiones. Escuchar lo que ya se sabe.
+### <span style="color: var(--palanca-cliente);">01 · Día a día</span>
+Investigar. Digerir. Ejecutar. <em>Sin equipo.</em>
 
 </div>
 
 <div class="card palanca-producto">
 
 ### <span style="color: var(--palanca-producto);">02 · Producto</span>
-Landing. SaaS. Asistente interno. Construir con IA.
+Landing. SaaS. Construir con IA.
 
 </div>
 
@@ -887,16 +886,17 @@ GUIÓN:
 "Las tareas que queréis delegar, los dolores que tenéis — todos caen
 en tres frentes.
 
-Cliente. Producto. Marca.
+Día a día. Producto. Marca.
 
 En cada uno: un problema real, una tool concreta, una demo en vivo
 y una acción que podéis hacer el lunes.
 
-Empezamos por Cliente."
+Empezamos por el día a día — lo que os come la mañana sin construir
+producto."
 
 NOTAS:
 - Enumera los 3 con pausas cortas entre cada uno
-- Transición directa a palanca 1 (Cliente)
+- Transición directa a palanca 1 (Día a día)
 -->
 
 ---
@@ -907,20 +907,27 @@ class: text-center
 <PalancaHeader
   color="cliente"
   numero="01"
-  titulo="Cliente"
+  titulo="Día a día"
+  duracion="20 min"
 >
 
-Lo que pasa ahí fuera — mercado, competencia, tendencias — <br/>
-con <em>citas defendibles</em>, en 10 minutos.
+Investigar, digerir, ejecutar. <br/>
+Lo que un founder hace cada mañana — <em>sin equipo, sin perder horas</em>.
 
 </PalancaHeader>
 
 <!--
 GUIÓN:
-"Palanca uno. Cliente.
+"Palanca uno. Día a día.
 
-Lo que pasa ahí fuera — vuestro mercado, vuestra competencia,
-las tendencias. Con citas defendibles, en diez minutos. No con intuición."
+Esto es lo que hacéis cada mañana — investigar, digerir documentos,
+ejecutar tareas operativas. Lo que os come las primeras horas y os
+deja sin tiempo para construir producto.
+
+Tres asistentes para tres trabajos. Investigar lo que pasa ahí fuera.
+Digerir documentos densos. Ejecutar encargos en vuestro ordenador.
+Y todo cosido con un mismo caso real — Pawly, founder primerizo
+preparando la versión 2.0."
 
 NOTAS:
 - 3 segundos de pausa en esta slide
@@ -931,45 +938,46 @@ NOTAS:
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-cliente);">Cliente · el dolor</span>
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · el dolor</span>
 
-# Research a mano <br/><mark class="highlight">no escala</mark>.
+# Tres horas operando, <br/><mark class="highlight">cero construyendo</mark>.
 
 <p class="lead" style="margin-top: 2rem;">
-Research de competencia. Lectura de reseñas. Tendencias de mercado. <br/>
-Legal comparado. Noticias del sector.
+Research de clientes y competencia. Leer manuales y regulación. <br/>
+Escribir mails e informes. Preparar reuniones. Ordenar archivos.
 </p>
 
 <p class="lead" style="margin-top: 1rem; color: var(--ink);">
-Todo eso tiene ya <mark class="highlight">un agente que lo hace por ti</mark>.
+Todo eso ya tiene <mark class="highlight">quién lo haga por ti</mark>.
 </p>
 
 <!--
 GUIÓN:
 "Pregunta rápida a la sala — sin manos arriba, solo pensadlo:
-¿cuántas horas a la semana dedicáis a research?
+¿a qué hora del día tocáis producto por primera vez?
 
-Research de competencia, reseñas de clientes, tendencias, legal
-comparado entre países, noticias del sector.
+Antes hacéis research. Leéis docs. Contestáis mails. Preparáis la
+reunión de las 11. Ordenáis archivos. Y son las 13:00 y aún no habéis
+escrito una línea de código ni hablado con un cliente.
 
-Probablemente más de las que os gustaría. Y escala mal — cuanto
-más crece la startup, más research hay que hacer, y no tenéis más
-horas en el día.
+Esas tres-cuatro horas de la mañana las pierde casi todo founder
+que conozco. Y escala mal — cuanto más crece la startup, más
+operación cae encima.
 
-Todo eso ya tiene un agente que lo hace por vosotros. Y ese agente
-se llama Deep Research. Vamos a verlo."
+Todo eso ya tiene quién lo haga por vosotros. Empezamos por el
+primer trabajo del día — investigar. Y la herramienta es Deep Research."
 
 NOTAS:
 - No pidas manos — es un momento reflexivo
-- Enumera las 5 actividades lentamente
-- La frase final es la transición al siguiente slide
+- Enumera las 5 actividades lentamente con pausas
+- La frase final es la transición directa a Deep Research
 -->
 
 ---
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-cliente);">Cliente · qué es</span>
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · investigar · qué es</span>
 
 # <mark class="highlight">Deep Research</mark> no es "búsqueda con IA".
 
@@ -1044,24 +1052,24 @@ NOTAS:
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-cliente);">Cliente · un prompt real · el flip</span>
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · investigar · un prompt real · el flip</span>
 
 # No le des instrucciones. <br/>Dile <mark class="highlight">quién eres</mark> y déjala preguntar.
 
 <div style="background: var(--paper-sunken); padding: 1.1rem 1.5rem; border-left: 3px solid var(--palanca-cliente); font-family: 'IBM Plex Mono', monospace; font-size: 0.85rem; line-height: 1.6; margin-top: 1.4rem;">
 
-**Quién soy**: Carlos, founder primerizo de <strong>Pawly</strong> — marketplace SaaS B2C para dueños de perros en España, expandiendo a Portugal.
+**Quién soy**: Carlos, founder de <strong>Pawly</strong> — marketplace para dueños de perros en España. Llevamos 8 meses funcionando, vamos a sacar la <strong>versión 2.0</strong>.
 
-**Mi nivel**: Vendí un veterinario hace 4 años — conozco el sector. Pero nunca he preparado un pitch seed para VCs.
+**Mi nivel**: Vendí un veterinario hace 4 años — conozco el sector. Pero nunca he hecho discovery sistemático de clientes a escala.
 
-**Qué necesito**: El bloque de <strong>market context</strong> del pitch — TAM/SAM/SOM, 3 tendencias que justifiquen "por qué ahora", 3 competidores principales, y el gap que puedo ocupar.
+**Qué necesito**: <strong>Voice of customer</strong> del sector pet en España y Portugal. Quiero los <strong>10 dolores más mencionados</strong> en reseñas de 1-2 estrellas de los marketplaces pet existentes (App Store, Google Play, Trustpilot, foros) en los últimos 6 meses. Para cada dolor: frecuencia aproximada, gravedad reportada, qué competidor lo resuelve (o nadie), 2 quotes literales.
 
-**Antes de ejecutar**: hazme las preguntas que necesites (formato, longitud, fuentes, foco geográfico…). Y no inventes citas — si un dato no lo encuentras, dímelo.
+**Antes de ejecutar**: hazme las preguntas que necesites (qué competidores priorizo, segmentos, idioma, ventana temporal). Y <strong>no inventes citas</strong> — si un dato no lo encuentras, dímelo.
 
 </div>
 
 <div class="text-mono text-small text-mute" style="margin-top: 1.2rem;">
-Este prompt está en el asset descargable. Adaptadlo y pegadlo.
+Este prompt está en el asset descargable. Adaptadlo a vuestro sector y pegadlo.
 </div>
 
 <!--
@@ -1069,37 +1077,40 @@ GUIÓN:
 "Antes de la demo, el prompt. Fijaos — es un prompt que podría haber
 escrito cualquier founder de esta sala. Cuatro párrafos cortos.
 
-Caso: Carlos, founder de Pawly — startup ficticia de PetTech.
-Primer pitch seed.
+Caso: Carlos, founder de Pawly. Llevamos 8 meses, vamos a sacar
+la versión 2.0. Y antes de decidir QUÉ feature priorizar, queremos
+oír a los clientes — no a los nuestros, a los de TODA la categoría.
 
-Uno — quién soy. Dos líneas. 'Founder primerizo de Pawly, marketplace
-para dueños de perros en España, expandiendo a Portugal'.
+Uno — quién soy. Dos líneas. 'Founder de Pawly, marketplace para
+dueños de perros en España. Versión 2.0'.
 
 Dos — mi nivel. Ésta es la clave. 'Vendí un veterinario hace 4 años,
-conozco el sector. Pero nunca he preparado un pitch seed'. Sin esto
-la IA asume que soy consultor de McKinsey y me devuelve un output
-denso que no puedo defender.
+conozco el sector. Pero nunca he hecho discovery sistemático'. Sin
+esto la IA asume que soy consultor de McKinsey y me devuelve un
+output denso que no puedo defender.
 
 Tres — qué necesito. Aquí SÍ soy específico — porque como founder
-sé qué bloques tiene un pitch deck. TAM/SAM/SOM, tres tendencias,
-tres competidores, el gap. Los cuatro bloques de Mercado de cualquier
-deck seed. Nadie tiene que decirme esto.
+sé qué quiero. Los 10 dolores más mencionados en reseñas de 1-2
+estrellas. Frecuencia, gravedad, qué competidor lo resuelve, dos
+quotes literales por dolor. Esto NO es un research de pitch deck
+para inversores. Esto es discovery para decidir QUÉ construir.
 
 Pero — y aquí viene el giro, cuarto — lo que NO sé es CÓMO. 'Hazme
-las preguntas que necesites — formato, longitud, fuentes, foco
-geográfico'. Delego el CÓMO. La IA me va a preguntar: ¿qué foco
-geográfico priorizamos? ¿longitud de cada sección? ¿fuentes
-preferidas? Preguntas que yo SÍ puedo contestar desde mi experiencia
-de sector — pero que no sabía que tenía que especificar.
+las preguntas que necesites — qué competidores priorizo, qué
+segmentos, qué idioma, qué ventana temporal'. Delego el CÓMO. La IA
+me va a preguntar: ¿priorizamos marketplaces puros o también vets
+online? ¿solo España y Portugal o también UK? Preguntas que yo SÍ
+puedo contestar desde mi experiencia — pero que no sabía que tenía
+que especificar.
 
 Esto es DECLARAR y DEJAR PREGUNTAR. Vamos a la demo."
 
 NOTAS:
-- El matiz clave: el founder sabe el QUÉ (bloques de pitch deck),
-  la IA pregunta el CÓMO (formato, fuentes, foco).
+- El matiz clave: el founder sabe el QUÉ (lista de dolores con quotes),
+  la IA pregunta el CÓMO (competidores, segmentos, idioma, ventana).
 - "Es un prompt que podría haber escrito cualquier founder" — es la
   liberación para la audiencia no-técnica.
-- Transición limpia a S14 (demo pre-ejecutada)
+- Transición limpia a la demo pre-ejecutada
 -->
 
 ---
@@ -1109,34 +1120,31 @@ class: demo-slide
 
 <SlideBadge demo />
 
-<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-cliente); margin-bottom: 2rem;">demo · Deep Research · el informe generado</div>
+<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-cliente); margin-bottom: 2rem;">demo · Deep Research · voice of customer pet</div>
 
-<h2 style="font-size: 2.8rem; line-height: 1.15; max-width: 28ch; margin: 0 auto; font-weight: 600;">
-<mark class="highlight">Market context</mark> para el pitch seed <br/>de <em>Pawly</em>.
+<h2 style="font-size: 2.8rem; line-height: 1.15; max-width: 30ch; margin: 0 auto; font-weight: 600;">
+Los <mark class="highlight">10 dolores</mark> reales <br/>de los clientes de <em>Pawly</em>.
 </h2>
 
-<p class="text-mute" style="margin-top: 2.5rem; max-width: 52ch; margin-left: auto; margin-right: auto;">
-Deep Research tarda 5–30 minutos. <br/>
-Lo corrí anoche con el prompt de la slide anterior.<br/>
-Abrimos el informe real. Y una cita al azar.
+<p class="text-mute" style="margin-top: 2.5rem; max-width: 56ch; margin-left: auto; margin-right: auto;">
+Deep Research tarda 5–30 minutos. Lo corrí anoche con el prompt de la slide anterior.<br/>
+Abrimos el informe real. Una cita al azar para verificar que no inventa.
 </p>
 
 <!--
 GUIÓN:
 "Deep Research tarda entre 5 y 30 minutos — no tiene sentido quemar
-tiempo de sala esperando. Anoche corrí el prompt que acabáis de ver
-en la slide anterior, con Pawly como caso. Ahora abrimos el informe
-real.
+tiempo de sala esperando. Anoche corrí el prompt que acabáis de ver,
+con Pawly como caso. Ahora abrimos el informe real.
 
 [ALT-TAB a la app de Deep Research (Gemini / Claude Research / ChatGPT).
 Informe generado la noche anterior ya cargado:]
 
 - Scroll rápido de arriba abajo: enseña volumen — fuentes leídas,
-  tamaño del informe, las 4 secciones (TAM/SAM/SOM, tendencias,
-  competencia, gap).
-- Leo una tendencia clave en alto — la que más fuerte justifique
-  'por qué ahora'.
-- Señalo el bloque de TAM/SAM en euros.
+  número de dolores identificados (típicamente 8-12), longitud.
+- Leo en alto un dolor concreto: el más mencionado, con su quote
+  literal, su frecuencia y qué competidor lo resuelve (o nadie).
+- Señalo otra fila — un dolor sin solución actual, oportunidad clara.
 
 Y ahora lo importante — la verificación. Clico en una cita al azar.
 
@@ -1146,134 +1154,445 @@ Está. URL real. Contenido real. Dice lo que el informe resumió.
 Si la URL no hubiese cargado, o el texto hubiese sido distinto,
 descarto TODO el informe. C de Check — siempre.
 
-Pero aún no hemos acabado con este research. Mirad lo que pasa
-ahora en la siguiente slide."
+Eso es Deep Research. Lo guardo en mi carpeta y paso a la siguiente
+herramienta del día a día — Cowork."
 
 NOTAS:
 - ANTES DEL EVENTO:
-  1. LA NOCHE ANTES correr Deep Research con el prompt de S13 con
-     Pawly como caso. Abrir la app con el informe ya cargado en
-     una pestaña.
+  1. LA NOCHE ANTES correr Deep Research con el prompt de slide
+     anterior con Pawly como caso. Abrir la app con el informe ya
+     cargado en una pestaña.
   2. Revisar 2-3 citas del informe — identificar una que cargue bien
      en navegador, para abrirla en vivo durante la demo.
-  3. IMPORTANTE: guardar el informe completo como archivo markdown
-     local (market-context.md) — Claude Code lo va a leer en la
-     slide bonus que viene inmediatamente después.
+  3. Guardar el informe como archivo local — Cowork y NotebookLM lo
+     van a usar como input en sus respectivas demos pre-grabadas.
 - PASOS DE LA DEMO EN SALA (~2.5 MINUTOS):
   1. ALT-TAB a la app de Deep Research con el informe generado
-  2. Scroll rápido arriba → enseñas volumen (fuentes, secciones)
-  3. Cuentas 1-2 insights en alto — NO leas todo el informe
+  2. Scroll rápido arriba → enseñas volumen (fuentes, dolores listados)
+  3. Lee EN ALTO 1-2 dolores con sus quotes y frecuencia
   4. CLICK en una cita → abrir URL en vivo
   5. "Real. Dice lo resumido. Verificado."
-  6. Cierre: "y ahora, lo que pasa con este informe — siguiente slide"
+  6. Cierre: "guardo este archivo, lo váis a ver dos veces más"
 - BACKUP si la app no carga en vivo: screenshots de la noche anterior
   (página principal del informe + 1 cita con URL abierta) en visor
   local.
-- EJEMPLO ELEGIDO: Pawly, startup ficticia de PetTech pidiendo market
-  context para pitch seed. Razones: (a) universal — cualquier founder
-  de Lanzadera preparando ronda entiende la necesidad, (b) fuentes
-  EU robustas (FEDIAF, ANFAAC, Statista) que Deep Research puede
-  encontrar, (c) el output del research (TAM/SAM, tendencias, compe-
-  tencia, gap) se mapea 1-a-1 a 4 slides del pitch deck — lo que
-  permite la demo bonus con Claude Code en la siguiente slide.
+- HILO NARRATIVO CLAVE: este informe es el INPUT de las dos demos
+  siguientes (Cowork Pain Map + NotebookLM podcast). Asegúrate de
+  enfatizarlo aquí para que el público vea la cadena.
+- EJEMPLO ELEGIDO: Pawly. Caso ya conectado con la palanca Producto
+  (donde la landing de Pawly ya está construida). Voice of Customer
+  encaja con "Día a día" porque es research RECURRENTE — un founder
+  lo hace cada 1-2 meses, no una vez antes del pitch.
 -->
 
 ---
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-cliente);">bonus · del research al deck · 1 prompt</span>
+<SlideBadge provider="claude" />
 
-<h1 style="font-size: 2.3rem; line-height: 1.05; margin-bottom: 0.9rem;">El deck lo escribe <mark class="highlight">ella</mark>. <br/>Con el research en la mano.</h1>
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · ejecutar · qué es</span>
 
-<div class="text-mono text-caps text-mute" style="letter-spacing: 0.14em; font-size: 0.66rem; margin-top: 0.6rem;">Dos caminos según tu perfil</div>
+# Claude Cowork. <br/>La <mark class="highlight">navaja suiza</mark> que vive en tu ordenador.
 
-<div style="margin-top: 0.4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem;">
+<p style="margin: 0.9rem 0 0; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.28rem; line-height: 1.4; color: var(--ink-soft); max-width: 62ch;">
+Claude, pero con llaves de tu ordenador. Abre tus archivos, usa tus apps, escribe tus mails. Chat normal — <em>sin consola, sin código</em>. Y si estás fuera de casa, se lo pides <strong>desde el móvil</strong>.
+</p>
 
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-cliente); padding: 0.65rem 0.9rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.62rem; color: var(--ink-mute);">Si no quieres tocar código</div>
-<div style="font-weight: 600; font-size: 0.98rem; margin-top: 0.2rem;">Claude Design</div>
-<div style="font-size: 0.78rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">Subes el <strong>informe del Deep Research</strong>, pides un pitch deck, te hace preguntas de estilo, genera slides. Export PPTX, Canva, PDF.</div>
+<div class="grid-3" style="margin-top: 2rem; gap: 1.8rem; align-items: start;">
+
+<div>
+
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-cliente);">qué hace por ti</div>
+
+<ul style="margin: 0; font-size: 0.94rem; line-height: 1.55; padding-left: 1.1rem;">
+  <li style="margin-bottom: 0.3rem;">Abre, lee y ordena tus archivos</li>
+  <li style="margin-bottom: 0.3rem;">Escribe mails, documentos e informes</li>
+  <li style="margin-bottom: 0.3rem;">Monta Excels desde PDFs o fotos</li>
+  <li style="margin-bottom: 0.3rem;">Busca en tu Drive, Gmail, Notion</li>
+  <li>Te pide permiso antes de borrar nada</li>
+</ul>
+
 </div>
 
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-cliente); padding: 0.65rem 0.9rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.62rem; color: var(--ink-mute);">Si quieres control total</div>
-<div style="font-weight: 600; font-size: 0.98rem; margin-top: 0.2rem;">Claude Code</div>
-<div style="font-size: 0.78rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">Claude Code lee el informe y te escribe las slides en tu ordenador. Le pides cambios por chat y las actualiza tantas veces como quieras. <em>Esta presentación está hecha así</em>.</div>
+<div>
+
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-cliente);">cómo se lo pides</div>
+
+<p style="margin: 0 0 0.7rem 0; font-size: 0.94rem; line-height: 1.55;">
+<strong>Desde el ordenador,</strong> chat normal.
+</p>
+
+<p style="margin: 0 0 0.7rem 0; font-size: 0.94rem; line-height: 1.55;">
+<strong>Desde el móvil,</strong> le escribes en el AVE — y cuando llegas a la oficina el trabajo ya está en tu carpeta.
+</p>
+
+<p style="margin: 0; font-size: 0.94rem; line-height: 1.55;">
+<strong>En automático,</strong> cada lunes a las 9 — sin tener que acordarte.
+</p>
+
+</div>
+
+<div>
+
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-cliente);">ejemplos reales</div>
+
+<ul style="margin: 0; font-size: 0.92rem; line-height: 1.55; padding-left: 1.1rem;">
+  <li style="margin-bottom: 0.4rem;">"Ordena los 47 archivos del trimestre por proyecto"</li>
+  <li style="margin-bottom: 0.4rem;">"Abre las facturas del mes y sácame las pendientes en Excel"</li>
+  <li style="margin-bottom: 0.4rem;">"Coge el research que acabo de generar y montame un dashboard"</li>
+  <li>"Cada lunes, resúmeme los mails sin leer por prioridad"</li>
+</ul>
+
 </div>
 
 </div>
 
-<div class="text-mono text-caps text-mute" style="letter-spacing: 0.14em; font-size: 0.66rem; margin-top: 0.7rem;">El prompt — ruta Claude Code</div>
+<div style="margin-top: 1.8rem; border-top: 1px solid var(--rule); padding-top: 0.9rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
+<p style="font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.15rem; margin: 0;">
+Claude Code es para programadores. <mark class="highlight">Cowork</mark> es para el resto.
+</p>
+<div class="text-mono text-small text-mute" style="letter-spacing: 0.04em;">
+incluido en Claude Pro · Mac y Windows
+</div>
+</div>
 
-<div style="background: var(--paper-sunken); padding: 0.6rem 0.9rem; border-left: 3px solid var(--palanca-cliente); font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem; line-height: 1.45; margin-top: 0.3rem;">
+<!--
+GUIÓN:
+"Esta es la que quiero que recordéis — si os lleváis un solo nombre
+de la palanca Día a día, que sea éste. Claude Cowork.
 
-Lee <strong>@informe-mercado</strong> (el informe que Deep Research generó anoche y acabo de guardar en el proyecto).
+Pensadlo así: Cowork es la navaja suiza. El asistente que vive DENTRO
+de vuestro ordenador, con llaves de vuestros archivos, vuestras apps
+y vuestro correo. No os advierte, no os aconseja — hace el trabajo.
+Y la interfaz sigue siendo un chat normal, como el Claude de la web.
+Sin terminal, sin código.
 
-Genera <strong>4 slides Slidev</strong> para el bloque "Mercado" del pitch seed de Pawly: 01 · TAM/SAM/SOM · 02 · 3 tendencias que justifican "por qué 2026" · 03 · 3 competidores con pricing · 04 · el gap de Pawly (1 frase).
+Lo que HACE por vosotros es bastante: abre, lee y ordena archivos
+locales. Escribe mails, documentos e informes. Monta Excels partiendo
+de PDFs o fotos de facturas. Busca en vuestro Drive, Gmail, Notion.
+Y — esto es importante — os pide permiso antes de borrar nada.
 
-Diseño: editorial, tipografía Plex, paleta sobria. Una idea por slide. Ratio 16:9.
+Cómo se lo pedís. Tres modos:
 
-<strong>Antes de ejecutar</strong>: hazme 3 preguntas sobre estilo visual (referencia estética, peso tipográfico, palette). Espera.
+Uno — desde el ordenador, chat normal. Obvio.
+
+Dos — y esto es lo que me tiene enganchado — desde el MÓVIL. Se llama
+Dispatch. Estáis en el AVE, os acordáis de una cosa, le escribís desde
+el móvil, y Claude la ejecuta en vuestro Mac en casa. Cuando llegáis
+a la oficina, el deliverable ya está en la carpeta.
+
+Tres — en automático. Le decís 'cada lunes a las nueve resume los
+mails del finde por prioridad', y se ejecuta solo. Sin tener que
+acordarse.
+
+Tercer ejemplo de la lista — fijaos — 'coge el research que acabo
+de generar y montame un dashboard'. Eso es exactamente lo que vamos
+a ver en la demo de aquí a dos slides.
+
+Frase para llevarse: Claude Code es para programadores. Cowork es
+para el resto. Y está incluido en Claude Pro. No cuesta un euro más."
+
+NOTAS:
+- NO hacer demo en vivo — hay partes en beta, puede fallar en directo
+- Si preguntan por seguridad: honestidad — le das permiso TÚ, toca
+  solo las carpetas que apruebes, pero es beta — no lo conectéis
+  aún a cuentas sensibles sin probar antes en una carpeta sandbox.
+- Dispatch requiere la app de Claude móvil + desktop emparejadas con QR
+- Transición a slide Dispatch & Artifacts (zoom-in)
+-->
+
+---
+layout: default
+---
+
+<SlideBadge provider="claude" />
+
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · ejecutar · zoom dentro de Claude Cowork</span>
+
+# Dispatch & Artifacts. <br/>Cuando <mark class="highlight">Cowork</mark> deja de ser un chat.
+
+<p style="margin: 0.5rem 0 0; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.1rem; line-height: 1.4; color: var(--ink-soft); max-width: 64ch;">
+Dos cosas dentro de <strong>Claude Cowork</strong> que merecen su propia slide. Una vive en tu bolsillo. La otra, en la ventana de al lado.
+</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1.1rem; align-items: start;">
+<div>
+<div class="text-mono text-caps" style="color: var(--palanca-cliente); letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.6rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.4rem;">Dispatch · desde el móvil</div>
+<img src="/dispatch.png" alt="Dispatch — la app móvil de Claude que ejecuta encargos en tu ordenador" style="width: 100%; height: 200px; object-fit: contain; object-position: center; display: block; border: 1px solid var(--rule); background: var(--paper-pure); padding: 0.4rem;" />
+<div class="text-mono text-caps text-mute" style="margin-top: 0.4rem; letter-spacing: 0.14em; font-size: 0.62rem;">app móvil · empareja con QR</div>
+<p style="margin: 0.9rem 0 0; font-size: 0.98rem; line-height: 1.5;">Cowork ya tiene llaves de tus carpetas, conectores y apps. Desde el móvil le mandas el encargo y <strong>usa esa misma conexión</strong> para ejecutarlo en tu ordenador.</p>
+<p style="margin: 0.6rem 0 0; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 0.95rem; line-height: 1.5; color: var(--ink-soft); border-left: 2px solid var(--palanca-cliente); padding-left: 0.8rem;">El móvil es el mando. El ordenador, el taller.</p>
+</div>
+<div>
+<div class="text-mono text-caps" style="color: var(--palanca-cliente); letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.6rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.4rem;">Artifacts · mini-apps a medida</div>
+<div style="border: 1px solid var(--rule); background: var(--paper-pure); height: 200px; display: flex; flex-direction: column; overflow: hidden;"><div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.45rem 0.7rem; border-bottom: 1px solid var(--rule); background: var(--paper-sunken);"><span style="width: 9px; height: 9px; border-radius: 50%; background: #e06b5b; display: inline-block;"></span><span style="width: 9px; height: 9px; border-radius: 50%; background: #e8b85b; display: inline-block;"></span><span style="width: 9px; height: 9px; border-radius: 50%; background: #6ba87a; display: inline-block;"></span><span class="text-mono text-mute" style="font-size: 0.65rem; margin-left: 0.4rem; letter-spacing: 0.04em;">pawly-pain-map · vivo</span></div><div style="padding: 0.95rem 1.1rem; flex: 1; display: flex; flex-direction: column; gap: 0.7rem;"><div><div class="text-mono text-caps text-mute" style="letter-spacing: 0.12em; font-size: 0.58rem;">top opportunity</div><div style="font-family: 'IBM Plex Serif', serif; font-size: 1.55rem; line-height: 1.05; margin-top: 0.2rem; color: var(--ink);">"vet disponible <br/>los domingos"</div></div><div><div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--ink-soft); margin-bottom: 0.25rem;"><span>frecuencia</span><span class="text-mono" style="color: var(--accent-success); font-weight: 600;">847 menciones</span></div><div style="position: relative; height: 4px; background: var(--paper-deep);"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 88%; background: var(--palanca-cliente);"></div></div></div><div><div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--ink-soft); margin-bottom: 0.25rem;"><span>gravedad reportada</span><span class="text-mono" style="color: var(--ink-mute);">4.6 / 5</span></div><div style="position: relative; height: 4px; background: var(--paper-deep);"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 92%; background: var(--palanca-cliente);"></div></div></div><div class="text-mono" style="font-size: 0.7rem; color: var(--accent-success); letter-spacing: 0.03em; margin-top: 0.1rem;">&#8627; nadie lo resuelve · gap claro</div></div></div>
+<div class="text-mono text-caps text-mute" style="margin-top: 0.4rem; letter-spacing: 0.14em; font-size: 0.62rem;">pawly pain map · ejemplo</div>
+<p style="margin: 0.9rem 0 0; font-size: 0.98rem; line-height: 1.5;">Claude no te devuelve texto: te monta una <strong>herramienta a medida</strong> — calculadora, simulador, dashboard — que se alimenta de tus PDFs, tu Drive, tus conectores. Y la usas tú.</p>
+<p style="margin: 0.6rem 0 0; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 0.95rem; line-height: 1.5; color: var(--ink-soft); border-left: 2px solid var(--palanca-cliente); padding-left: 0.8rem;">No software para vender. Software para tu mesa.</p>
+</div>
+</div>
+
+<div style="margin-top: 1rem; border-top: 1px solid var(--rule); padding-top: 0.6rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
+<p style="font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.05rem; margin: 0;">
+<mark class="highlight">Dispatch</mark> hace el trabajo. <mark class="highlight">Artifacts</mark> te hace la herramienta.
+</p>
+<div class="text-mono text-small text-mute" style="letter-spacing: 0.04em;">
+ambos · incluidos en Claude Pro
+</div>
+</div>
+
+<!--
+GUIÓN:
+"Zoom rápido en dos cosas de Cowork que merecen su propia slide
+porque cambian la forma en que os vais a relacionar con la IA.
+
+A la izquierda, Dispatch. Lo que veis en pantalla es la app del móvil.
+La clave: como Cowork ya está instalado en vuestro ordenador con
+permisos sobre vuestras carpetas, vuestro Drive y vuestros conectores,
+desde el móvil aprovecháis ESA misma conexión. Le escribís un encargo
+— en el AVE, en la cola del médico, lo que sea — y Claude lo ejecuta
+en VUESTRO ordenador (Mac o Windows). Cuando llegáis a la oficina, el
+deliverable ya está en la carpeta. El móvil es el mando. El ordenador,
+el taller. O dicho de otra forma: un becario que vive dentro de vuestro
+ordenador y recibe órdenes por WhatsApp.
+
+A la derecha, Artifacts. Esto es la otra mitad. Cuando le pedís a
+Claude algo que es más que un texto — un dashboard, un simulador, un
+mapa de dolores — no os lo explica: os lo MONTA. Una mini-app personal,
+viva, en una ventana al lado del chat. Y aquí está la magia: se
+alimenta de VUESTRAS cosas — vuestros PDFs, vuestro Drive, vuestros
+conectores. Lo veis ahí: el ejemplo es el Pawly Pain Map. Cogéis el
+research que generó Deep Research, y Claude os monta un dashboard
+interactivo: top opportunity, frecuencia, gravedad. Y eso es justo
+lo que vamos a ver en la siguiente slide, en vivo.
+
+La frase para llevarse: Dispatch hace el trabajo. Artifacts te hace
+la herramienta. Las dos vienen incluidas en Claude Pro."
+
+NOTAS:
+- 90 segundos máximo en esta slide. Es zoom-in, no presentación nueva.
+- Si preguntan "¿esto es Cowork también?" → matiz: Dispatch nace en
+  Cowork (móvil ↔ desktop emparejados); Artifacts también aparece en
+  claude.ai web. Pero en el discurso para founders, ambos son "Claude
+  ejecutando, no Claude respondiendo".
+- El mock-up del Artifact es ilustrativo del Pain Map de la demo
+  siguiente — los datos coinciden con los que enseñamos en vivo.
+- Transición a la demo del Pain Map (slide siguiente)
+-->
+
+---
+layout: center
+class: demo-slide
+---
+
+<SlideBadge demo />
+
+<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-cliente); margin-bottom: 2rem;">demo · cowork + artifact · pawly pain map</div>
+
+<h2 style="font-size: 2.6rem; line-height: 1.15; max-width: 32ch; margin: 0 auto; font-weight: 600;">
+El research <mark class="highlight">se vuelve herramienta</mark>. <br/>En la mesa de Carlos, no en un PDF.
+</h2>
+
+<p class="text-mute" style="margin-top: 2.5rem; max-width: 56ch; margin-left: auto; margin-right: auto;">
+Cowork leyó el resultado del research anoche y montó un Pain Map interactivo.<br/>
+Lo abrimos. Movemos el slider de segmento. Leemos el top opportunity en vivo.
+</p>
+
+<!--
+GUIÓN:
+"Demo dos. Pawly Pain Map. Esto es lo que Cowork hizo anoche cogiendo
+el research que acabamos de ver — el voice of customer en markdown.
+
+[ALT-TAB a Claude Cowork con la conversación de anoche ya abierta.
+El Artifact 'pawly-pain-map' debe estar renderizado en la ventana
+lateral del chat.]
+
+Tres cosas mostrar, ~90 segundos:
+
+Uno — el setup. Le pedí a Cowork: 'lee el research que acabo de
+generar y montame una mini-app interactiva: cuadrante 2D con frecuencia x
+gravedad, color por gap competitivo, slider de segmento, y un big
+number arriba con la top opportunity'. Una frase. Tarda unos minutos.
+
+Dos — el resultado. Lo veis ahí. Cuadrante con los 10 dolores como
+puntos. Verde = nadie lo resuelve. Rojo = bien resuelto por un
+competidor. Big number arriba: 'vet disponible los domingos · 847
+menciones · gravedad 4.6'. Eso es la decisión de feature de Pawly.
+
+Tres — manipulación. Muevo el slider de segmento de 'todos' a 'urbano
+Madrid+Barcelona'. Los puntos se reordenan. Ahora la top opportunity
+cambia: 'guardería de fin de semana'. Founder de Pawly tiene en 30
+segundos lo que un PM con un Excel haría en una semana.
+
+Y fijaos — esto NO es un PDF, no es un report. Es software vivo en
+la mesa de Carlos. Para él. No para vender."
+
+NOTAS:
+- ANTES DEL EVENTO (la noche antes, ~3-4h):
+  1. Generar el research con Deep Research (paso de la demo anterior).
+  2. Pasarle a Cowork el archivo + prompt detallado para construir
+     el Artifact (ver demo-prep/demo-cowork-pawly-pain-map.md).
+  3. Iterar 2-3 veces hasta que el Pain Map quede bien (slider
+     funciona, datos coherentes con el research).
+  4. DEJAR la conversación de Cowork abierta. NO cerrar Claude
+     desktop la noche antes.
+- PASOS DE LA DEMO EN SALA (~90 SEGUNDOS):
+  1. ALT-TAB a Claude Cowork → conversación previa
+  2. Scroll hasta el último mensaje donde está el Artifact
+  3. Mostrar el Pain Map renderizado
+  4. Leer el big number en alto + 1-2 puntos del cuadrante
+  5. Mover el slider de segmento → leer cómo cambia la top opportunity
+  6. Cierre: "software vivo en la mesa de Carlos, no un PDF"
+- BACKUP si Cowork falla / Artifact no renderiza:
+  Screenshot estático del Pain Map en una slide local. Narrar igual,
+  enseñando el screenshot. La frase de cierre funciona igual.
+- CRÍTICO: NO pedirle nada nuevo a Cowork en sala. Cowork está en
+  beta, llamadas en vivo pueden romper. Solo manipulación local del
+  Artifact ya cargado (slider).
+-->
+
+---
+layout: default
+---
+
+<SlideBadge provider="gemini" />
+
+<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · digerir · qué es</span>
+
+# Google NotebookLM. <br/>Un <mark class="highlight">centro documental</mark> con IA.
+
+<p class="lead" style="margin-top: 0.8rem; max-width: 70ch; font-size: 1.02rem;">
+No ejecuta tareas en tu ordenador como Cowork. Le cargas hasta <strong>50 fuentes</strong> — PDFs, enlaces, vídeos, audios — y te las transforma en <strong>podcast, vídeo, mapa mental</strong> o chat con citas. En la web, cuenta Google, gratis.
+</p>
+
+<div class="text-mono text-caps text-mute" style="margin-top: 1.3rem; letter-spacing: 0.14em; font-size: 0.7rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.4rem;">casos reales para un founder</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem 1.6rem; margin-top: 0.8rem;">
+
+<div style="border-left: 3px solid var(--palanca-cliente); padding: 0.4rem 0.9rem;">
+<div style="font-weight: 500; font-size: 0.98rem;">Onboarding del nuevo empleado</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Podcast del manual — lo escucha en el coche el primer día</div>
+</div>
+
+<div style="border-left: 3px solid var(--palanca-cliente); padding: 0.4rem 0.9rem;">
+<div style="font-weight: 500; font-size: 0.98rem;">Inversor con 3 minutos</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Audio ejecutivo del pitch deck — por WhatsApp</div>
+</div>
+
+<div style="border-left: 3px solid var(--palanca-cliente); padding: 0.4rem 0.9rem;">
+<div style="font-weight: 500; font-size: 0.98rem;">Cliente que no lee</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Vídeo explicativo desde la doc de producto</div>
+</div>
+
+<div style="border-left: 3px solid var(--palanca-cliente); padding: 0.4rem 0.9rem;">
+<div style="font-weight: 500; font-size: 0.98rem;">El research que generaste</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Podcast de 10 min para escuchar mientras conduces</div>
+</div>
 
 </div>
 
 <!--
 GUIÓN:
-"Y aquí es donde el research empieza a pagar de verdad.
+"Última pieza del trío: NotebookLM, de Google. Y aquí la palabra
+'asistente' se queda corta. Esto es otra cosa: un centro documental
+con IA.
 
-Ese informe que acabáis de ver — market context para Pawly — no es
-útil en markdown. Lo útil es tenerlo en un deck defendible delante
-de inversores.
+Cowork vive en tu ordenador y ejecuta tareas. NotebookLM vive en la
+web y no toca nada de tu máquina. Le cargas documentación y te la
+devuelve transformada.
 
-Antes de la IA eso eran cinco horas de trabajo — copiar datos, abrir
-Keynote, diseñar slides, buscar capturas de Statista. Ahora, dos
-caminos según tu perfil.
+Tres líneas, qué es: Está en la web. Subes archivos — PDFs, enlaces,
+vídeos, audios, lo que sea, hasta 50 fuentes. Y te genera podcasts,
+vídeos, mapas mentales y resúmenes con el contenido de esos archivos.
 
-Si no quieres tocar código — y esta es la ruta para la mayoría de
-vosotros — Claude Design. Subes el market-context que acabamos de
-generar, le pides un pitch deck para los inversores, te hace preguntas
-de estilo (paleta, tipografía, referencia), y te genera las slides.
-Export directo a PowerPoint, PDF o Canva. Cero código.
+Para qué lo usa un founder — cuatro casos concretos, fijaos en el
+último:
 
-Si queréis control total — técnicos, producto que va a iterar mucho —
-Claude Code más Slidev. Le pasas el mismo markdown, el prompt que
-tenéis abajo, y te genera Slidev. Archivos de texto en vuestro propio
-repo, versionado en git, edit directo. Esta presentación que estáis
-viendo está construida así.
+- Onboarding. Nuevo empleado. Cargáis el manual de la empresa, os
+  devuelve un podcast de diez minutos con dos voces explicándolo.
+  El empleado lo escucha en el coche el primer día.
 
-[ALT-TAB a Claude Code — ya abierto, ya con market-context.md en
-el proyecto. Pega el prompt, ejecuta. Muestra el resultado pre-
-cocinado en Slidev preview.]
+- Inversor con prisa. Cargáis el pitch deck, os devuelve un resumen
+  en audio de tres minutos. Se lo mandas por WhatsApp.
 
-4 slides generadas. En el tiempo que tardáis en abrir Keynote.
+- Cliente que no lee documentación. Cargáis la doc de vuestra API,
+  os genera un vídeo explicativo. Se lo pasáis al account manager.
 
-Resumen rápido: no-técnico → Claude Design. Técnico → Claude Code más
-Slidev. Ambos funcionan con el mismo research de entrada."
+- Y el cuarto — que es lo que vamos a hacer en directo en la
+  siguiente slide. Cargáis EL RESEARCH QUE GENERASTEIS hace 10
+  minutos. Y os devuelve un podcast de dos voces hablando de los
+  dolores reales de los clientes. Para escuchar mientras conducís
+  el lunes por la mañana.
+
+Gratis con cuenta Google. Cinco minutos de setup."
+
+NOTAS:
+- ~1.5 min en esta slide. Es setup para la demo siguiente.
+- Énfasis en el cuarto caso → conecta con la demo en vivo.
+-->
+
+---
+layout: center
+class: demo-slide
+---
+
+<SlideBadge demo />
+
+<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-cliente); margin-bottom: 2rem;">demo · notebooklm · el research, ahora en audio</div>
+
+<h2 style="font-size: 2.6rem; line-height: 1.15; max-width: 32ch; margin: 0 auto; font-weight: 600; text-align: center;">
+El mismo research, ahora en <mark class="highlight">audio</mark>. <br/>Para escuchar el lunes en el coche.
+</h2>
+
+<p class="text-mute" style="margin-top: 2.5rem; max-width: 60ch; margin-left: auto; margin-right: auto; text-align: center;">
+Subo el resultado del research como source. NotebookLM genera el Audio Overview.<br/>
+Reproducimos. Dos voces hablando de los dolores reales de los clientes pet.
+</p>
+
+<!--
+GUIÓN:
+"Demo tres. Y cierre de la palanca. El mismo research, una salida más.
+
+[ALT-TAB a NotebookLM con el notebook ya creado y el research como
+source. El Audio Overview ya generado anoche.]
+
+Tres pasos, ~90 segundos:
+
+Uno — enseño el source. Es el mismo research que generamos antes,
+ahora cargado en NotebookLM.
+
+Dos — click en el Audio Overview ya generado.
+
+Tres — reproduzco un fragmento. Dos voces conversacionales, en
+español, hablando de los dolores top de Pawly. La sala oye los
+nombres reales de los competidores citados, las frecuencias, alguna
+quote literal.
+
+Frase de cierre — y aquí es donde quiero que se les quede la palanca:
+
+'Tres herramientas, tres trabajos del día a día. Cada una hace una
+cosa muy bien — y la podéis tener funcionando el lunes, gratis o por
+veinte euros. Vamos a la siguiente palanca: Producto.'"
 
 NOTAS:
 - ANTES DEL EVENTO:
-  1. LA NOCHE ANTES: correr el prompt en Claude Code con el
-     market-context.md real del Deep Research. Guardar las 4 slides
-     generadas como pitch-deck-bonus.md.
-  2. Abrir Claude Code con el proyecto cargado y el prompt listo
-     en el clipboard o en un archivo de texto para paste rápido.
-  3. Tener el resultado (las 4 slides generadas) abierto en Slidev
-     en otra pestaña del browser — preview funcional.
-- PASOS DE LA DEMO EN SALA (~2 MINUTOS):
-  1. ALT-TAB a Claude Code
-  2. Pegar el prompt (ya listo) y ejecutar — NO es magia real, es
-     mostrar el flujo. Si tarda mucho, tiras del resultado pre-cocinado
-     mientras corre.
-  3. ALT-TAB al preview de Slidev con las 4 slides ya generadas
-  4. Scroll por las 4 — enseñando que están formateadas, con datos
-     del research, verificables.
-  5. "Esta presentación también. Claude Code + Slidev."
-- BACKUP si Claude Code falla: screenshots + las 4 slides ya abiertas.
-- TRANSICIÓN AL BLOQUE PRODUCTO:
-  "Ahora que habéis visto cómo se CONSTRUYE con IA — un research
-  que se vuelve deck — vamos al bloque principal de hoy. Producto.
-  Landing, SaaS, asistente. Construido en minutos."
+  1. Crear notebook en NotebookLM, subir el resultado del research
+  2. Generar Audio Overview en castellano (~5 min)
+  3. Descargar el .mp3 como BACKUP local
+  4. Verificar audio sale por altavoces de la sala (1h antes)
+- PASOS DE LA DEMO EN SALA (~90 SEGUNDOS):
+  1. ALT-TAB al notebook
+  2. Apuntar al source: "es el mismo research que generamos antes"
+  3. Click en Audio Overview pregenerado
+  4. Play del fragmento (juega de oído según la sala)
+  5. Pausa
+  6. Frase de cierre que enlaza directo con Producto
+- BACKUP si NotebookLM no carga / audio no sale: reproducir el .mp3
+  local desde el reproductor del sistema. Mismo discurso.
+- ESTE ES EL CIERRE DE LA PALANCA — la transición a Producto es
+  hablada (no hay slide puente). Asegúrate de decir "Vamos a la
+  siguiente palanca: Producto" antes de avanzar al PalancaHeader.
 -->
 
 ---
@@ -1309,11 +1628,11 @@ NOTAS:
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-producto);">Producto · tres tipos, tres stacks</span>
+<span class="eyebrow" style="color: var(--palanca-producto);">Producto · dos tipos, dos stacks</span>
 
 # ¿Qué es <mark class="highlight">"producto"</mark> <br/>en tu cabeza ahora mismo?
 
-<div class="grid-3" style="margin-top: 2.5rem;">
+<div class="grid-2" style="margin-top: 2.5rem; gap: 2rem;">
 
 <div class="card palanca-producto">
 
@@ -1329,17 +1648,14 @@ Usuarios, auth, base de datos, pagos. El producto de verdad.
 
 </div>
 
-<div class="card palanca-producto">
-
-### Un asistente / agente interno
-Chat sobre vuestros docs. O asistente que ejecuta tareas en tu ordenador.
-
-</div>
-
 </div>
 
 <p class="lead" style="margin-top: 2.5rem;">
-Tres tipos. Tres stacks. Tres decisiones distintas.
+Dos tipos. Dos stacks. Dos decisiones distintas.
+</p>
+
+<p class="text-mute" style="margin-top: 0.6rem; font-size: 0.92rem; max-width: 64ch;">
+<em>Asistentes para tu día a día — Cowork, NotebookLM, Deep Research — ya los vimos en la palanca anterior. Aquí construimos lo que vendéis.</em>
 </p>
 
 <!--
@@ -1349,18 +1665,21 @@ cada uno piensa en una cosa distinta.
 
 Unos pensáis en una landing — página que vende y captura emails.
 Otros en un SaaS de verdad — usuarios, login, base de datos, pagos.
-Otros en un asistente interno o agente — algo que responda sobre
-vuestros docs, o que ejecute tareas en vuestro ordenador.
 
-Los tres se construyen con IA hoy. Pero con herramientas distintas.
-Y con precios muy distintos.
+Los dos se construyen con IA hoy. Pero con herramientas distintas
+y con precios muy distintos.
 
-Voy a darle vuelta a los tres. Cada uno con un mapa visual para que
-decidáis qué usar según vuestro perfil."
+Y antes de seguir — un disclaimer rápido. Asistentes para vuestro día
+a día — Cowork, NotebookLM, Deep Research — los vimos en la palanca
+anterior. Eso NO es producto vendible. Es apalancamiento personal
+para vosotros, los founders. Aquí, en Producto, construimos lo que
+vendéis a vuestros clientes."
 
 NOTAS:
 - Transición al primer quadrant
-- Subraya "tres stacks distintos" — es el insight clave del bloque
+- Subraya "dos stacks distintos" — es el insight clave del bloque
+- El disclaimer asistente vs. producto evita confusión con la palanca
+  anterior. Importante decirlo.
 -->
 
 ---
@@ -1528,7 +1847,7 @@ El estándar clásico con IA integrada. Para equipos con diseñador ya en planti
 <p style="margin-top: 1.1rem; font-size: 0.9rem; line-height: 1.55;">
 <strong>Con diseñador</strong> → Figma. &nbsp; <strong>Ya pagas Claude</strong> → Claude Design. &nbsp; <strong>Sin pagar</strong> → Stitch.
 <br/>
-<span class="text-mono text-small text-mute">Ninguna genera código deployable — solo diseño o presentación.</span>
+<span class="text-mono text-small text-mute">Ninguna genera código real — solo diseño o presentación.</span>
 </p>
 
 <!--
@@ -1561,10 +1880,10 @@ diseñador pero ya pagáis Claude, Claude Design — cubre pitch deck,
 mockup y prototipo con un solo producto. Si no pagáis nada, Stitch
 de Google.
 
-Importante — ninguna de las tres genera código que se pueda deployar.
-Son diseño, presentación o prototipo. Si queréis pasar a producto
-real, el handoff está en Claude Design → Claude Code, o volvéis al
-quadrant anterior.
+Importante — ninguna de las tres genera código real ni deja una app
+funcionando. Son diseño, presentación o prototipo. Si queréis pasar
+a producto real, el handoff está en Claude Design → Claude Code, o
+volvéis al quadrant anterior.
 
 Pasamos al segundo tipo — SaaS, el que probablemente más os interesa."
 
@@ -1783,301 +2102,6 @@ NOTAS:
 -->
 
 ---
-layout: default
----
-
-<span class="eyebrow" style="color: var(--palanca-producto);">Producto · 02c</span>
-
-# Quiero un <mark class="highlight">asistente</mark>.
-
-<p class="text-mute" style="margin-top: 0.3rem; font-size: 0.92rem;">
-Dos tipos: uno que <strong>responde</strong> sobre tus docs, otro que <strong>ejecuta</strong> en tu ordenador.
-</p>
-
-<div style="margin-top: 0.8rem; border: 1px solid var(--rule); background: var(--paper-pure); padding: 0.8rem 1.1rem;">
-
-<div style="display: grid; grid-template-columns: auto 1fr; gap: 0.6rem 1.2rem; align-items: baseline; font-size: 0.9rem;">
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--ink-mute);">Free</div>
-<div>NotebookLM · Custom GPTs · Gems</div>
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--ink-mute);">De pago</div>
-<div>Claude Projects · Custom GPTs (Plus) · Claude Cowork</div>
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--ink-mute);">Producción</div>
-<div>API de Anthropic · OpenAI · Google</div>
-
-</div>
-
-</div>
-
-<div class="text-mono text-caps text-mute" style="margin-top: 1rem; letter-spacing: 0.14em; font-size: 0.68rem;">según tu perfil</div>
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-top: 0.4rem;">
-
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-producto); padding: 0.8rem 1rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.66rem; color: var(--ink-mute);">Sin presupuesto · chat sobre docs</div>
-<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.3rem;">NotebookLM</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.25rem; line-height: 1.45;">Hasta 50 docs. Chat + podcast, vídeo y mapa mental.</div>
-</div>
-
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-producto); padding: 0.8rem 1rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.66rem; color: var(--ink-mute);">Ya pagas Claude Pro · que ejecute</div>
-<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.3rem;">Claude Cowork</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.25rem; line-height: 1.45;">Asistente que actúa en tu ordenador. Archivos, apps, scripts. Sin código.</div>
-</div>
-
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-producto); padding: 0.8rem 1rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.66rem; color: var(--ink-mute);">Ya pagas otra IA · chat sobre docs</div>
-<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.3rem;">Projects · Custom GPTs · Gems</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.25rem; line-height: 1.45;">Lo incluyen Claude Pro, ChatGPT Plus y Google AI Pro.</div>
-</div>
-
-<div style="border: 1px solid var(--rule); border-top: 3px solid var(--palanca-producto); padding: 0.8rem 1rem; background: var(--paper-pure);">
-<div class="text-mono text-caps" style="letter-spacing: 0.12em; font-size: 0.66rem; color: var(--ink-mute);">Técnico · IA dentro del producto</div>
-<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.3rem;">API de Anthropic / OpenAI</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.25rem; line-height: 1.45;">Cuando el asistente no es para ti — es feature del producto de tus clientes.</div>
-</div>
-
-</div>
-
-<div class="text-mono text-small text-mute" style="margin-top: 0.9rem; font-style: italic; text-align: center;">
-Cowork ejecuta · los demás responden.
-</div>
-
-<!--
-GUIÓN:
-"Tercer tipo. Asistente. Pero hay dos cosas distintas que la gente
-mezcla: asistentes que RESPONDEN sobre tus docs, y asistentes que
-EJECUTAN en tu ordenador.
-
-Cuatro perfiles.
-
-Sin presupuesto, chat sobre docs → NotebookLM. Gratis, cuenta Google.
-Cargas hasta cincuenta documentos y te responde con citas. Y el
-extra que ya os conté — podcast, vídeo, mapa mental del mismo
-contenido.
-
-Si ya pagáis Claude Pro y queréis un asistente que EJECUTE cosas en
-vuestro ordenador → Claude Cowork. Le dais permiso y clasifica
-archivos, rellena spreadsheets, abre apps, hace research. Sin código.
-La siguiente slide la dedico a esto.
-
-Ya pagáis otra IA — ChatGPT Plus, Claude Pro, Google AI Pro — y
-queréis chat sobre vuestros docs → Claude Projects, Custom GPTs o
-Gems. Los tres operadores lo incluyen de serie.
-
-Técnico construyendo un producto con IA dentro — eso no es un
-asistente, eso es la API de Anthropic o de OpenAI por debajo. No lo
-cubro hoy.
-
-Resumen visual: Cowork ejecuta. Los otros responden."
-
-NOTAS:
-- Transición limpia al siguiente slide (Claude Cowork dedicada)
--->
-
----
-layout: default
----
-
-<SlideBadge provider="claude" />
-
-<span class="eyebrow" style="color: var(--palanca-producto);">Producto · 02c · el asistente que ejecuta</span>
-
-# Claude Cowork. <br/>La <mark class="highlight">navaja suiza</mark> que vive en tu ordenador.
-
-<p style="margin: 0.9rem 0 0; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.28rem; line-height: 1.4; color: var(--ink-soft); max-width: 62ch;">
-Claude, pero con llaves de tu ordenador. Abre tus archivos, usa tus apps, escribe tus mails. Chat normal — <em>sin consola, sin código</em>. Y si estás fuera de casa, se lo pides <strong>desde el móvil</strong>.
-</p>
-
-<div class="grid-3" style="margin-top: 2rem; gap: 1.8rem; align-items: start;">
-
-<div>
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-producto);">qué hace por ti</div>
-
-<ul style="margin: 0; font-size: 0.94rem; line-height: 1.55; padding-left: 1.1rem;">
-  <li style="margin-bottom: 0.3rem;">Abre, lee y ordena tus archivos</li>
-  <li style="margin-bottom: 0.3rem;">Escribe mails, documentos e informes</li>
-  <li style="margin-bottom: 0.3rem;">Monta Excels desde PDFs o fotos</li>
-  <li style="margin-bottom: 0.3rem;">Busca en tu Drive, Gmail, Notion</li>
-  <li>Te pide permiso antes de borrar nada</li>
-</ul>
-
-</div>
-
-<div>
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-producto);">cómo se lo pides</div>
-
-<p style="margin: 0 0 0.7rem 0; font-size: 0.94rem; line-height: 1.55;">
-<strong>Desde el ordenador,</strong> chat normal.
-</p>
-
-<p style="margin: 0 0 0.7rem 0; font-size: 0.94rem; line-height: 1.55;">
-<strong>Desde el móvil,</strong> le escribes en el AVE — y cuando llegas a la oficina el trabajo ya está en tu carpeta.
-</p>
-
-<p style="margin: 0; font-size: 0.94rem; line-height: 1.55;">
-<strong>En automático,</strong> cada lunes a las 9 — sin tener que acordarte.
-</p>
-
-</div>
-
-<div>
-
-<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.68rem; margin-bottom: 0.7rem; color: var(--palanca-producto);">ejemplos reales</div>
-
-<ul style="margin: 0; font-size: 0.92rem; line-height: 1.55; padding-left: 1.1rem;">
-  <li style="margin-bottom: 0.4rem;">"Ordena los 47 archivos del trimestre por proyecto"</li>
-  <li style="margin-bottom: 0.4rem;">"Abre las facturas del mes y sácame las pendientes en Excel"</li>
-  <li style="margin-bottom: 0.4rem;">"Investiga a tal competidor y déjame un informe en la carpeta"</li>
-  <li>"Cada lunes, resúmeme los mails sin leer por prioridad"</li>
-</ul>
-
-</div>
-
-</div>
-
-<div style="margin-top: 1.8rem; border-top: 1px solid var(--rule); padding-top: 0.9rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem;">
-<p style="font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.15rem; margin: 0;">
-Claude Code es para programadores. <mark class="highlight">Cowork</mark> es para el resto.
-</p>
-<div class="text-mono text-small text-mute" style="letter-spacing: 0.04em;">
-incluido en Claude Pro · Mac y Windows
-</div>
-</div>
-
-<!--
-GUIÓN:
-"Esta es la que quiero que recordéis — si os lleváis un solo nombre
-del bloque Producto, que sea éste. Claude Cowork.
-
-Pensadlo así: Cowork es la navaja suiza. El asistente que vive DENTRO
-de vuestro ordenador, con llaves de vuestros archivos, vuestras apps
-y vuestro correo. No os advierte, no os aconseja — hace el trabajo.
-Y la interfaz sigue siendo un chat normal, como el Claude de la web.
-Sin terminal, sin código.
-
-Lo que HACE por vosotros es bastante: abre, lee y ordena archivos
-locales. Escribe mails, documentos e informes. Monta Excels partiendo
-de PDFs o fotos de facturas. Busca en vuestro Drive, Gmail, Notion.
-Y — esto es importante — os pide permiso antes de borrar nada.
-
-Cómo se lo pedís. Tres modos:
-
-Uno — desde el ordenador, chat normal. Obvio.
-
-Dos — y esto es lo que me tiene enganchado — desde el MÓVIL. Se llama
-Dispatch. Estáis en el AVE, os acordáis de una cosa, le escribís desde
-el móvil, y Claude la ejecuta en vuestro Mac en casa. Cuando llegáis
-a la oficina, el deliverable ya está en la carpeta.
-
-Tres — en automático. Le decís 'cada lunes a las nueve resume los
-mails del finde por prioridad', y se ejecuta solo. Sin tener que
-acordarse.
-
-Ejemplos reales de founders — no programadores:
-
-'Ordena los cuarenta y siete archivos del trimestre por proyecto.'
-'Abre las facturas del mes y sácame las pendientes en una hoja.'
-'Investiga a tal competidor y guárdame el informe.'
-'Cada lunes, resúmeme los mails sin leer por prioridad.'
-
-La idea clave, en una frase — esta sí os la pido que os la llevéis:
-Claude Code es para programadores. Cowork es para el resto.
-
-Y está incluido en Claude Pro. No cuesta un euro más."
-
-NOTAS:
-- NO hacer demo en vivo — hay partes en beta, puede fallar en directo
-- Si preguntan por seguridad: honestidad — le das permiso TÚ, toca
-  solo las carpetas que apruebes, pero es beta — no lo conectéis
-  aún a cuentas sensibles sin probar antes en una carpeta sandbox.
-- Dispatch requiere la app de Claude móvil + desktop emparejadas con QR
-- Transición al siguiente bloque (bonus NotebookLM o cierre Producto)
--->
-
----
-layout: default
----
-
-<SlideBadge provider="gemini" />
-
-<span class="eyebrow" style="color: var(--palanca-producto);">Producto · 02c · esto no es un asistente como Cowork</span>
-
-# Google NotebookLM. <br/>Un <mark class="highlight">centro documental</mark> con IA.
-
-<p class="lead" style="margin-top: 0.8rem; max-width: 70ch; font-size: 1.02rem;">
-No ejecuta tareas en tu ordenador como Cowork. Le cargas hasta <strong>50 fuentes</strong> — PDFs, enlaces, vídeos, audios — y te las transforma en <strong>podcast, vídeo, mapa mental</strong> o chat con citas. En la web, cuenta Google, gratis.
-</p>
-
-<div class="text-mono text-caps text-mute" style="margin-top: 1.3rem; letter-spacing: 0.14em; font-size: 0.7rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.4rem;">casos reales para un founder</div>
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem 1.6rem; margin-top: 0.8rem;">
-
-<div style="border-left: 3px solid var(--palanca-producto); padding: 0.4rem 0.9rem;">
-<div style="font-weight: 500; font-size: 0.98rem;">Onboarding del nuevo empleado</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Podcast del manual — lo escucha en el coche el primer día</div>
-</div>
-
-<div style="border-left: 3px solid var(--palanca-producto); padding: 0.4rem 0.9rem;">
-<div style="font-weight: 500; font-size: 0.98rem;">Inversor con 3 minutos</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Audio ejecutivo del pitch deck — por WhatsApp</div>
-</div>
-
-<div style="border-left: 3px solid var(--palanca-producto); padding: 0.4rem 0.9rem;">
-<div style="font-weight: 500; font-size: 0.98rem;">Cliente que no lee</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Vídeo explicativo desde la doc de producto</div>
-</div>
-
-<div style="border-left: 3px solid var(--palanca-producto); padding: 0.4rem 0.9rem;">
-<div style="font-weight: 500; font-size: 0.98rem;">Política interna dispersa</div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.15rem;">Mapa mental para reuniones de equipo</div>
-</div>
-
-</div>
-
-<!--
-GUIÓN:
-"Y la última pieza del bloque asistente — aunque aquí la palabra
-asistente se queda corta. Google NotebookLM es otra cosa: un centro
-documental con IA.
-
-Cowork vive en tu ordenador y ejecuta tareas. NotebookLM vive en la
-web y no toca nada de tu máquina. Le cargas documentación y te la
-devuelve transformada.
-
-Tres líneas, qué es: Está en la web. Subes archivos — PDFs, enlaces,
-vídeos, audios, lo que sea. Y te genera podcasts, vídeos, mapas
-mentales y resúmenes con el contenido de esos archivos.
-
-Para qué lo usa un founder — cuatro casos concretos:
-
-- Onboarding. Nuevo empleado. Cargáis el manual de la empresa, os
-  devuelve un podcast de diez minutos con dos voces explicándolo.
-  El empleado lo escucha en el coche el primer día.
-
-- Inversor con prisa. Cargáis el pitch deck, os devuelve un resumen
-  en audio de tres minutos. Se lo mandas por WhatsApp.
-
-- Cliente que no lee documentación. Cargáis la doc de vuestra API,
-  os genera un vídeo explicativo. Se lo pasáis al account manager.
-
-- Vuestro propio equipo. Cargáis la política de datos, os genera un
-  mapa mental para reuniones.
-
-Gratis con cuenta Google. Cinco minutos de setup."
-
-NOTAS:
-- No te extiendas — es cierre del bloque asistente, ~1.5 min máximo
-- OPCIONAL: reproducir 15-20s de un podcast pre-generado la noche antes
-  con vuestro pitch deck o manual. Si lo tenéis, reforzáis el punto.
-- Transición al siguiente slide del bloque Producto (o cierre)
--->
-
----
 layout: section
 class: text-center
 ---
@@ -2149,27 +2173,26 @@ layout: default
 
 <div style="font-weight: 600; font-size: 1rem; display: flex; align-items: center; gap: 0.45rem;">
   <span style="display: inline-block; width: 15px; height: 15px; background-color: var(--brand-gemini); -webkit-mask: url('/logos/googlegemini.svg') center/contain no-repeat; mask: url('/logos/googlegemini.svg') center/contain no-repeat; flex-shrink: 0;"></span>
-  <span>Veo 3.1 <span style="color: var(--ink-mute); font-weight: 400; font-size: 0.85rem;">· Google · vids.new</span></span>
+  <span>Veo 3.1 <span style="color: var(--ink-mute); font-weight: 400; font-size: 0.85rem;">· Google · Vids + Flow</span></span>
   <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.56rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.14rem 0.4rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">20 $/m</span>
-  <span class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.56rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.14rem 0.4rem; font-weight: 700; line-height: 1; flex-shrink: 0;">LÍDER</span>
+  <span class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.56rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.14rem 0.4rem; font-weight: 700; line-height: 1; flex-shrink: 0;">PRÁCTICO</span>
 </div>
-<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">Único con audio nativo sincronizado. 10 clips/mes gratis.</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">Audio nativo + gratis directo desde cuenta Google (Vids: 10/mes · Flow: 12/día).</div>
 
 <div style="margin-top: 0.55rem; font-size: 0.82rem; color: var(--ink-soft); line-height: 1.85;">
+  <div style="display: flex; align-items: center; gap: 0.45rem;">
+    <span style="display: inline-block; width: 13px; height: 13px; background-color: var(--palanca-marca); -webkit-mask: url('/logos/kling.svg') center/contain no-repeat; mask: url('/logos/kling.svg') center/contain no-repeat; flex-shrink: 0;"></span>
+    <span><strong>Kling 3.0</strong> · Kuaishou · <strong>#1 calidad</strong> · free 66 cr/día</span>
+    <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.54rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.12rem 0.35rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">5,99 $/m</span>
+  </div>
+  <div style="display: flex; align-items: center; gap: 0.45rem;">
+    <span><strong>Hailuo 2.3</strong> · Minimax · más rápido + mejor en humanos</span>
+    <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.54rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.12rem 0.35rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">~10 $/m</span>
+  </div>
   <div style="display: flex; align-items: center; gap: 0.45rem;">
     <span style="display: inline-block; width: 13px; height: 13px; background-color: var(--palanca-marca); -webkit-mask: url('/logos/runway.svg') center/contain no-repeat; mask: url('/logos/runway.svg') center/contain no-repeat; flex-shrink: 0;"></span>
     <span><strong>Runway Gen-4.5</strong> · suite editorial pro</span>
     <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.54rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.12rem 0.35rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">12 $/m</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 0.45rem;">
-    <span style="display: inline-block; width: 13px; height: 13px; background-color: var(--palanca-marca); -webkit-mask: url('/logos/kling.svg') center/contain no-repeat; mask: url('/logos/kling.svg') center/contain no-repeat; flex-shrink: 0;"></span>
-    <span><strong>Kling 3.0</strong> · <strong>#1 ELO</strong> vídeo, físicas y acción humana</span>
-    <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.54rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.12rem 0.35rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">7 $/m</span>
-  </div>
-  <div style="display: flex; align-items: center; gap: 0.45rem;">
-    <span style="display: inline-block; width: 13px; height: 13px; background-color: var(--palanca-marca); -webkit-mask: url('/logos/bytedance.svg') center/contain no-repeat; mask: url('/logos/bytedance.svg') center/contain no-repeat; flex-shrink: 0;"></span>
-    <span><strong>Seedance 2.0</strong> · ByteDance · calidad/precio agresivo</span>
-    <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.54rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.12rem 0.35rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">~10 $/m</span>
   </div>
 </div>
 
@@ -2228,8 +2251,44 @@ layout: default
 
 </div>
 
-<div style="margin-top: 1rem; background: var(--paper-sunken); border-left: 2px solid var(--palanca-marca); padding: 0.6rem 1.1rem; font-size: 0.84rem; line-height: 1.5;">
-<strong>Dato útil.</strong> ChatGPT Images 2.0 llegó el 21 de abril y en 12 h ya era #1 en Image Arena con +242 puntos de ventaja — récord histórico del leaderboard. Para marketing real — imagen con texto — ha pasado a ser la opción por defecto por delante de Midjourney.
+<div style="margin-top: 0.55rem; border: 1px solid var(--rule); border-top: 3px solid var(--palanca-marca); padding: 0.65rem 0.95rem; background: var(--paper-pure);">
+
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.45rem;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--palanca-marca);">Agregadores · una suscripción → 15+ modelos en uno · sin código</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.95rem;">
+
+<div>
+<div style="font-weight: 600; font-size: 0.92rem; display: flex; align-items: baseline; gap: 0.45rem;">
+  <span>Higgsfield <span class="text-mono text-caps" style="font-weight: 400; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca);">· cinematográfico</span></span>
+  <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.1rem 0.32rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">15-99 $/m</span>
+</div>
+<div style="font-size: 0.76rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">15+ modelos (Sora 2, Veo 3.1, Kling 3.0, Seedance). <strong>Cinema Studio</strong>: control real de cámara, lente y focal.</div>
+</div>
+
+<div>
+<div style="font-weight: 600; font-size: 0.92rem; display: flex; align-items: baseline; gap: 0.45rem;">
+  <span>Krea <span class="text-mono text-caps" style="font-weight: 400; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca);">· iterar rápido</span></span>
+  <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.1rem 0.32rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">9-200 $/m · free</span>
+</div>
+<div style="font-size: 0.76rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">64 modelos (Flux, Veo 3, Runway) + Krea 1 propio. <strong>Real-time 50 ms</strong> en imagen — iteras viendo el cambio.</div>
+</div>
+
+<div>
+<div style="font-weight: 600; font-size: 0.92rem; display: flex; align-items: baseline; gap: 0.45rem;">
+  <span>Leonardo <span class="text-mono text-caps" style="font-weight: 400; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca);">· consistencia de marca</span></span>
+  <span class="text-mono text-caps" style="margin-left: auto; letter-spacing: 0.1em; font-size: 0.52rem; color: var(--palanca-marca); border: 1px solid var(--palanca-marca); padding: 0.1rem 0.32rem; font-weight: 700; line-height: 1; flex-shrink: 0; white-space: nowrap;">12-48 $/m · free</span>
+</div>
+<div style="font-size: 0.76rem; color: var(--ink-soft); margin-top: 0.2rem; line-height: 1.4;">20+ modelos (Flux, Veo, Kling, Sora, Nano Banana). <strong>Fine-tuning</strong>: subes 10 fotos y entrena tu estilo de marca.</div>
+</div>
+
+</div>
+
+</div>
+
+<div style="margin-top: 0.55rem; background: var(--paper-sunken); border-left: 2px solid var(--palanca-marca); padding: 0.45rem 0.95rem; font-size: 0.78rem; line-height: 1.45;">
+<strong>Dato útil.</strong> ChatGPT Images 2.0 llegó el 21 de abril y en 12 h ya era #1 en Image Arena (+242 puntos, récord histórico). Para marketing con texto, ha pasado a ser la opción por defecto por delante de Midjourney.
 </div>
 
 <!--
@@ -2249,10 +2308,18 @@ Lanzadera podéis tirar prácticamente sin coste. Anotádlo.
 
 Midjourney, solo si buscáis arte puro.
 
-Vídeo. Veo 3.1 de Google es gratis en vids.new, diez clips al mes.
-Y el único del mercado que genera audio sincronizado nativo — diálogo,
-efectos, ambiente, todo en una pasada. Runway, Kling y Seedance son
-alternativas pro, cada una con su ángulo.
+Vídeo. Marqué Veo 3.1 como 'lo más práctico', no como 'el mejor'.
+Y os explico la diferencia. El líder en calidad pura es Kling 3.0,
+de los chinos de Kuaishou — los hermanos de TikTok. Supera a Veo en
+realismo de movimiento, es el número uno mundial en este momento.
+Cinco euros al mes y tiene tier free de 66 créditos al día. Pero
+para vosotros, founders no técnicos, Veo gana por dos cosas: audio
+nativo y que ya viene gratis con vuestra cuenta Google. Diez vídeos
+al mes en Google Vids, doce al día en Google Flow. Sin instalar
+nada, sin tarjeta. Si la calidad visual es vuestra obsesión, dad el
+salto a Kling. Si queréis algo que ya tenéis, Veo. Hailuo y Runway
+son alternativas — Hailuo es el más rápido y mejor con humanos,
+Runway es la suite editorial más completa.
 
 Voz. ElevenLabs v3, 74 idiomas, líder sin discusión. Si hacéis vídeo
 corporativo o doblaje, el estándar. Y Veo 3 ya genera audio sincronizado
@@ -2261,14 +2328,45 @@ en el propio vídeo — importante saberlo.
 Música. Suno v5, ocho euros al mes incluye derechos comerciales.
 Jingles, música de fondo, lo que queráis.
 
+Y abajo del todo, transversal a todas las categorías — los AGREGADORES.
+Una suscripción y os dan acceso a quince o más modelos. Tres que
+merecen la pena para un founder.
+
+Higgsfield. Para vídeo cinematográfico. Lo fundó el ex-Head of
+Generative AI de Snap. Ciento treinta millones de funding, valoración
+de mil trescientos millones en enero. Su Cinema Studio simula física
+óptica real — eliges cuerpo de cámara, lente, focal. No es filtro,
+es modelado de óptica.
+
+Krea. Para iterar rápido. Dos founders españoles — uno ex-Runway,
+otro ex-Perplexity. Series B de cuarenta y siete millones, valoración
+quinientos millones. Usuarios LEGO, Samsung, Nike, Pixar. Su Real-Time
+genera en cincuenta milisegundos mientras escribís. Cambia el flujo.
+
+Leonardo. Para consistencia de marca. El menos hype de los tres pero
+el más útil para producto: subes diez fotos de vuestro logo o de
+vuestro producto y os entrena un modelo que SIEMPRE genera en vuestro
+estilo. Indispensable si tenéis e-commerce o app con cientos de
+imágenes que tienen que mantener un look.
+
+Si vais a cero euros, mejor directo a la fuente — Veo gratis de Google,
+Kling free. Si tenéis presupuesto y queréis probar todo el mercado,
+agregador.
+
 El dato importante: OpenAI sacó ChatGPT Images 2.0 anteayer y ya
 desplazó a Midjourney para marketing. Esto cambia cada semana — por
 eso os doy el mapa de abril 2026."
 
 NOTAS:
 - Enfatiza "hace 2 días" en ChatGPT Images — la audiencia va a alucinar
-- "Gratis" en Veo 3.1 es el otro dato bomba
+- "Gratis" en Veo 3.1 es el otro dato bomba — ahora directo desde
+  Google Vids y Google Flow, no solo vids.new
 - Si la charla es después del 26-abr-2026, Sora ya está muerto — no lo menciones
+- AGREGADORES: si preguntan por Freepik, dilo: "es buen agregador
+  pero solo entra al podio si ya usabais Freepik para banco de stock"
+- AGREGADORES: si preguntan por fal.ai o Replicate: "son APIs para
+  developers, pago por uso, no van por suscripción. Si tenéis técnico
+  en el equipo, miradlas; si no, los tres de la slide son el camino"
 - Diseño y prototipos NO va aquí — ya están cubiertos en la slide
   "¿Solo diseño?" del bloque Producto
 -->
@@ -2281,124 +2379,197 @@ class: demo-slide
 
 <SlideBadge demo />
 
-<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-marca); margin-bottom: 2rem;">demo · triple · [startup_B]</div>
+<div class="text-mono text-caps" style="letter-spacing: 0.3em; color: var(--palanca-marca); margin-bottom: 2rem;">demo · pawly anuncia su novedad · imagen + variantes</div>
 
-<h2 style="font-size: 2.6rem; line-height: 1.2; max-width: 28ch; margin: 0 auto; font-weight: 600;">
-Foto + vídeo + prototipo <br/>
-para <em>[startup_B]</em>.
+<h2 style="font-size: 2.4rem; line-height: 1.18; max-width: 32ch; margin: 0 auto; font-weight: 600;">
+<em>Pawly</em> tiene <mark class="highlight">vet los domingos</mark>. <br/>
+Toca anunciarlo en redes.
 </h2>
 
-<p class="text-mute" style="margin-top: 3rem;">
-Nano Banana · Veo 3.1 · Claude Design · en vivo.
+<div style="margin-top: 2.6rem; max-width: 42rem; margin-left: auto; margin-right: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; text-align: left;">
+
+<div style="border-top: 3px solid var(--palanca-marca); padding-top: 0.7rem;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--palanca-marca);">01 · imagen del anuncio</div>
+<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.35rem;">Nano Banana Pro</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.3rem; line-height: 1.45;">El frame protagonista de la campaña. Con espacio para el titular.</div>
+</div>
+
+<div style="border-top: 3px solid var(--palanca-marca); padding-top: 0.7rem;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.66rem; color: var(--palanca-marca);">02 · 4 formatos para redes</div>
+<div style="font-weight: 600; font-size: 1.05rem; margin-top: 0.35rem;">Claude Design</div>
+<div style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.3rem; line-height: 1.45;">Misma imagen, cuatro recortes: feed, Story, Reel, Facebook.</div>
+</div>
+
+</div>
+
+<p class="text-mute" style="margin-top: 1.8rem; max-width: 62ch; margin-left: auto; margin-right: auto; font-size: 0.88rem;">
+La novedad salió del research de la palanca 1. La app la construimos en la palanca 2. <br/>
+Ahora la contamos al mundo.
 </p>
 
 <!--
 GUIÓN:
-"[Founder_B] — tu turno. Me vas a dejar que use tu startup para la
-demo más visual de la charla. En 7 minutos generamos una imagen de
-marca, un vídeo corto y un prototipo de landing para [startup_B].
-Real. Te lo llevas al salir."
+"Última demo. Y enlaza con todo lo que hemos hecho hoy.
+
+Recordáis. En la palanca 1, Día a día, descubrimos un dolor real
+del sector pet — el research dijo: 'vet disponible los domingos',
+ochocientas cuarenta y siete menciones, gravedad cuatro coma seis,
+NADIE lo resolvía. En la palanca 2 acabamos de construir la landing
+de Pawly con la novedad incluida. Ahora Carlos tiene el servicio
+listo: un veterinario disponible los domingos.
+
+Pero si la novedad solo está en la app, no se entera nadie. Hay que
+contarlo en redes. Y para eso necesitamos dos piezas: la imagen del
+anuncio y las variantes para todos los formatos.
+
+Antes de la IA: fotógrafo (quinientos euros), dos semanas. Diseñador
+(trescientos euros), cuatro días más. Un mes y ochocientos euros para
+anunciar UNA novedad.
+
+Hoy, en esta sala, con dos herramientas. Vamos."
 
 NOTAS:
-- ANTES DEL EVENTO:
-  1. De las respuestas del pre-work, elegir UNA segunda startup
-     (distinta al founder_A de demo 1) con opt-in, del sector top.
-  2. 24h antes: pre-generar imagen, vídeo y prototipo CON ESE startup
-     (nombre real, sector real, propuesta real) como backups
-  3. Sustituir [founder_B] y [startup_B] en esta slide y el guion
-- DEMO 3a — NANO BANANA (~2 min):
+- ESTE ES EL CIERRE NARRATIVO de toda la charla. Pawly atravesado
+  por las tres palancas: descubrir, construir, anunciar.
+- Énfasis en el quote del Pain Map ("847 menciones, 4.6 gravedad").
+  La sala se acordará — fue la TOP OPPORTUNITY del Artifact.
+- DEMO 1 · NANO BANANA (~3 min):
   1. Alt-tab a Gemini con Nano Banana Pro
-  2. Pega el prompt — hero shot marketing para [startup_B], con el sector real
-  3. Antes de generar, LEE el prompt en alto señalando las partes:
-     "composición, iluminación, espacio negativo, estilo, ratio".
-     "Otra vez especificar. Misma tesis."
-  4. Genera. Mientras sale (~30-90s), muestra un pre-capturado
-     con prompt vago para comparar. "Misma tool. Dos niveles."
-  5. Output final a pantalla completa.
-- DEMO 3b — VEO 3.1 (LANZAR Y DEJAR CORRIENDO):
-  1. Alt-tab a vids.new
-  2. Pega prompt de vídeo 8s para [startup_B]
-  3. Click Generate
-  4. "Esto tarda 3 minutos. Lo dejo corriendo y paso al último — diseño."
-- DEMO 3c — CLAUDE DESIGN (~2 min):
-  1. Alt-tab a Claude Design
-  2. Pega prompt de prototipo landing para [startup_B]
-  3. Genera (~2-3 min)
-  4. Mientras genera, comenta: "esto salió hace días. Competidor de
-     Figma. Incluido en Claude Pro si ya lo pagáis."
-  5. Cuando termine, interactúa en vivo — click botones, scroll, hover
-- VOLVER A VEO: si terminó, reproduce los 8s.
-  Honesto: "Free tier sin audio sincronizado — Lyria 3 no está en free.
-  Le añadís un track de ElevenLabs después, 2 minutos más."
-- CIERRE PERSONAL a [Founder_B]: "[Founder_B], los tres assets son tuyos.
-  Te los mando al email que dejaste en el pre-work. Úsalos si te sirven."
-- CONTINGENCIA: si no hay founder_B apto, volver a startup ficticia
-  con humor local (ej. "Paellabox S.L."). Ver demo-prep/pre-work-survey.md.
-- BACKUPS de cada uno en pestañas pre-abiertas.
+  2. Pega el prompt visible para la sala (está en asset-pack)
+  3. LEE en alto los 7 campos del prompt: sujeto, composición,
+     iluminación, fondo, espacio para titular, estilo, formato.
+     "Misma tesis: especificar más que el modelo."
+  4. Genera. Tarda 30-90s. Mientras sale, muestra un pre-capturado
+     con prompt vago ("imagen para anuncio de Pawly") al lado para
+     contrastar.
+  5. Pantalla completa con el output bueno.
+- DEMO 2 · CLAUDE DESIGN (~3 min):
+  1. Alt-tab a Claude Design (claude.ai/design)
+  2. Adjuntas la imagen recién generada (o el backup pre-generado)
+  3. Pega el prompt: 4 variantes del mismo anuncio
+     (Instagram cuadrado, Story vertical, Reel vertical, Facebook horizontal)
+     con el titular "Tu perro no entiende de domingos. Nosotros sí."
+  4. Genera (~2-3 min)
+  5. Mientras genera, narra: "Claude Design salió hace dos semanas.
+     Lo que antes hacías en Figma — un diseñador, dos días — ahora
+     en cinco minutos. Y está incluido en Claude Pro: ya lo pagas."
+  6. Cuando termine, enseña los 4 formatos en pantalla.
+- CIERRE: muestra los 2 outputs juntos en pantalla si se puede.
+  "Imagen y cuatro variantes para anunciar la novedad de Pawly. Cero
+  euros si tiráis de versiones gratis (AI Studio + Stitch de Google).
+  Veinte euros al mes si ya pagáis Gemini AI Pro o Claude Pro."
+- BACKUPS: pre-generados de los 2 en pestañas separadas, listos
+  para alt-tab si algo falla.
+- TRANSICIÓN AL SLIDE SIGUIENTE (el truquito de los prompts):
+  "Y antes del cierre, una cosa que habéis visto sin que os la
+  contara explícitamente. El prompt que pegué para Nano Banana —
+  el largo con los siete campos — NO lo escribí yo."
 -->
 
 ---
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-marca);">lo que acabáis de ver</span>
+<span class="eyebrow" style="color: var(--palanca-marca);">marca · el truquito que no os he contado</span>
 
-# <mark class="highlight">Especificar</mark> cambia el output <br/>más que el modelo.
+# El prompt no lo escribes tú. <br/><mark class="highlight">Te lo escribe Claude</mark>.
 
-<div class="grid-2" style="margin-top: 3rem; gap: 3rem; align-items: start;">
-
-<div>
-
-**Prompt vago**: <em>"foto de paella"</em>
-
-**Prompt especificado**:
-<div class="text-small" style="font-family: 'IBM Plex Serif', serif; font-style: italic; background: var(--paper-sunken); padding: 1rem; border-left: 3px solid var(--palanca-marca); margin-top: 0.5rem;">
-Hero shot cenital 3/4, caja paella delivery, iluminación de estudio soft, fondo terracota warm, espacio negativo a la izquierda para copy, mockup producto nítido, estilo editorial food, 4K.
-</div>
-
-</div>
-
-<div>
-
-Mismo modelo. Misma herramienta. Dos niveles de output.
-
-<p class="lead" style="margin-top: 1rem;">
-La diferencia no es <em>"prompt engineering mágico"</em>. Es <strong>tratar al modelo como a un director de arte con información incompleta</strong>.
+<p class="lead" style="margin-top: 1rem; max-width: 72ch; font-size: 1.02rem;">
+Un prompt detallado pesa <mark class="highlight">más que cambiar de herramienta</mark>. Pero pide ser experto en composición, encuadre, luz y paleta — <strong>eso no es vuestro trabajo</strong>. Le declaráis a Claude la escena en castellano normal y él os <mark class="highlight">escribe el prompt experto</mark>.
 </p>
 
+<div style="margin-top: 1.4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; max-width: 56rem; margin-left: auto; margin-right: auto;">
+
+<div>
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.62rem; color: var(--palanca-marca); margin-bottom: 0.4rem;">para Nano Banana · imagen del anuncio</div>
+<div style="background: var(--paper-sunken); padding: 0.85rem 1rem; border-left: 3px solid var(--palanca-marca); font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; line-height: 1.55;">
+Anuncio en imagen para Instagram. Caso: <strong>Pawly anuncia "vet los domingos"</strong>. Escena en mi cabeza: domingo en casa, dueño con perro decaído, alivio al ver al vet en el móvil. <mark class="highlight">Hazme tú el prompt</mark> para Nano Banana con sujeto, composición, luz, fondo, espacio para titular, estilo y formato. <em>Pregúntame antes lo que necesites.</em>
+</div>
+</div>
+
+<div>
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.62rem; color: var(--palanca-marca); margin-bottom: 0.4rem;">para Claude Design · 4 variantes</div>
+<div style="background: var(--paper-sunken); padding: 0.85rem 1rem; border-left: 3px solid var(--palanca-marca); font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; line-height: 1.55;">
+<strong>4 variantes</strong> del mismo anuncio. Imagen base: la del anuncio Pawly. Titular: <em>"Tu perro no entiende de domingos. Nosotros sí."</em> <mark class="highlight">Hazme tú el prompt</mark> para Claude Design con los 4 formatos (cuadrado, Story, Reel, Facebook), tipografía, logo y posición del titular.
+</div>
 </div>
 
 </div>
+
+<div style="margin-top: 2rem; padding: 1.2rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 1.2rem; align-items: center;">
+
+<div style="text-align: center;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.62rem; color: var(--ink-mute); margin-bottom: 0.35rem;">01 · tú</div>
+<div style="font-size: 0.98rem; line-height: 1.3;">Declaras la escena <br/><em style="color: var(--ink-soft); font-size: 0.86rem;">en castellano normal</em></div>
+</div>
+
+<div style="font-family: 'IBM Plex Serif', serif; font-size: 1.6rem; color: var(--palanca-marca); line-height: 1;">→</div>
+
+<div style="text-align: center;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.62rem; color: var(--ink-mute); margin-bottom: 0.35rem;">02 · Claude</div>
+<div style="font-size: 0.98rem; line-height: 1.3;">Te escribe <br/><mark class="highlight">el prompt experto</mark></div>
+</div>
+
+<div style="font-family: 'IBM Plex Serif', serif; font-size: 1.6rem; color: var(--palanca-marca); line-height: 1;">→</div>
+
+<div style="text-align: center;">
+<div class="text-mono text-caps" style="letter-spacing: 0.14em; font-size: 0.62rem; color: var(--ink-mute); margin-bottom: 0.35rem;">03 · pegas en</div>
+<div style="font-size: 0.98rem; line-height: 1.3;"><strong>Nano Banana · Claude Design</strong></div>
+</div>
+
+</div>
+
+<p class="text-mono text-small text-mute" style="margin-top: 0.9rem; letter-spacing: 0.04em; font-size: 0.7rem; text-align: center;">
+Los meta-prompts completos, en el asset descargable.
+</p>
 
 <!--
 GUIÓN:
-"Otra vez los tres movimientos — muy visible en imagen.
+"Hay un truquito que habéis visto sin que os lo contara. Los dos
+prompts que pegué en sala — para Nano Banana y Claude Design —
+NO los escribí yo.
 
-Fijaos en los dos prompts. El de arriba — 'foto de paella'. La IA
-rellena huecos: qué paella, cómo, dónde, qué luz, qué encuadre, qué
-estilo. Rellena con promedios de internet. Sale algo genérico.
+Los escribió Claude por mí.
 
-El de abajo — declaro contexto, especifico composición, iluminación,
-fondo, espacio negativo, estilo, ratio. Le quito a la IA la
-responsabilidad de rellenar huecos. Y el output cambia radicalmente.
+Y antes de explicaros cómo, una cosa importante. En imagen, la
+diferencia entre un anuncio mediocre y uno bueno NO es la herramienta.
+No es Nano Banana versus Midjourney. Es cuánto detalle metéis en el
+prompt. Un prompt vago en la mejor herramienta del mundo os da algo
+plano. Un prompt muy específico en una herramienta normalita os da
+algo bueno.
 
-(Y si no sabéis qué especificar — recordad el movimiento 2: pedidle
-a la IA que os pregunte qué necesita para esta imagen. Os devuelve
-una lista, contestáis, genera.)
+¿Y por qué los pongo entonces juntos? Porque para hacer un prompt
+muy específico de imagen hay que ser experto en composición.
+'Plano americano regla de tercios hora dorada bokeh suave'. Eso no
+lo sabéis vosotros. Yo tampoco. Pero la IA SÍ.
 
-Eso no es prompt engineering mágico — es tratar al modelo como a un
-director de arte al que le pasas un brief. Si mandarais a un freelance
-'foto de paella', vuestro freelance os manda a la mierda. Con la IA
-es igual.
+El truco. Le declaráis a Claude la escena que tenéis en la cabeza,
+en castellano normal: 'domingo en casa, dueño preocupado, perro
+decaído, vet en el móvil, alivio'. Y le pedís: hazme tú el prompt
+experto para Nano Banana. Que os pregunte lo que necesite —
+'¿qué paleta?', '¿qué raza de perro?', '¿más alegre o más íntimo?'.
+Le contestáis, y os devuelve el brief listo para pegar.
 
-Tres palancas cubiertas. Ahora un tema que en Lanzadera os importa
-mucho: cómo hacer todo esto sin quemar cash."
+Dos meta-prompts, uno por herramienta. Los tenéis en el asset
+descargable. Copiáis, pegáis en Claude, Claude os devuelve el prompt
+experto, copiáis ESE en Nano Banana o en Claude Design. Listo.
+
+Esto es DECLARAR y DEJAR PREGUNTAR aplicados a Marca. Misma tesis de
+toda la charla. Pero aquí — sin esto, ni el primer anuncio os sale.
+
+Y antes del cierre, un tema que en Lanzadera os importa mucho: cómo
+hacer todo esto sin quemar cash."
 
 NOTAS:
-- Humor ligero con lo del freelance
-- Si generaste imagen con prompt vago como comparativa, proyéctalas
-  lado a lado
-- Transición directa al bloque de truquitos (cero euros)
+- Este es EL truco práctico que la sala recordará el lunes
+- Si alguien pregunta por el meta-prompt de Veo: existe en el asset
+  descargable. Mismo patrón: declaras la escena, Claude te hace el
+  guion técnico de vídeo. No lo demostramos en sala porque elegimos
+  centrarnos en imagen + variantes
+- Si alguien pregunta para audio (ElevenLabs, Suno): mismo patrón —
+  declaras la canción en castellano normal, Claude te hace el prompt
+  técnico
+- Transición directa al bloque "todo esto se puede hacer por cero euros"
 -->
 
 ---
@@ -2956,7 +3127,6 @@ NOTAS:
 ---
 layout: center
 class: text-center valoration-slide
-transition: fade
 ---
 
 <style>

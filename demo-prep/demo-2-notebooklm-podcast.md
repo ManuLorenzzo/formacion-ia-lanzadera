@@ -1,123 +1,105 @@
-# NotebookLM Podcast (AHORA es bonus track, no demo principal)
+# Demo · NotebookLM · El research convertido en podcast (caso Pawly)
 
-> ⚠️ **Cambio importante**: tras la reestructura a "Producto", el momento wow principal
-> pasó a **construir un MVP con Lovable** (ver `demo-2-mvp-lovable.md`).
-> NotebookLM queda como **mini-demo / mención** de 30-60 segundos dentro del sub-bloque
-> 02c (Asistente / Agente). Este archivo se conserva porque parte del contenido sigue
-> siendo útil (setup, cómo funciona, backup plans).
-
-**Uso actualizado:** mini-demo breve en el sub-bloque Asistente/Agente interno · ~1-2 min
+**Bloque:** Día a día · digerir · cierre de la palanca, ~minuto 30 a 32 de la charla
+**Duración objetivo:** ~90 segundos en sala
 **Tool:** NotebookLM (100% free con cuenta Google)
+**Backup:** archivo `.mp3` local del Audio Overview pregenerado
 
 ---
 
 ## Objetivo del momento
 
-Que la audiencia vea (y escuche) cómo un informe denso de 200+ páginas se convierte en un podcast de 2 voces IA conversando sobre el contenido. Para no-devs esto es casi mágico. Para devs es un ejemplo de orquestación agentic real.
+Cerrar la palanca Día a día con la **tercera salida** del mismo research. La sala oye, en vivo, dos voces conversacionales (en castellano) hablando de los dolores reales de los clientes pet — el mismo `voice-of-customer-pet.md` que Carlos generó hace 10 minutos.
 
-## Setup pre-demo (hacer 24h antes)
+Mensaje implícito: **"una entrada, tres salidas"**. El stack del founder no es UNA herramienta, es tres en cadena.
 
-### 1. Elegir el informe
-**Criterios:**
-- **Público y descargable** (PDF o URL)
-- **Largo** (200+ páginas ideal — refuerza el punto de "no queríais leerlo")
-- **Relevante para la audiencia** pero no del sector de Mint
-- **En español** si es posible, o en inglés con contenido universal
+## Setup pre-demo (la noche antes, ~10 min)
 
-**Opciones recomendadas:**
-1. **AI Index Report 2026** de Stanford HAI — https://aiindex.stanford.edu/
-   - Pros: súper relevante, respetado, reciente
-   - Contras: inglés (pero NotebookLM puede hacer podcast en español)
+### 1. Crear el notebook
 
-2. **State of AI Report 2025** de Air Street Capital — https://www.stateof.ai/
-   - Pros: cult classic en el mundo VC/tech
-   - Contras: inglés, puede haberse actualizado
+- Ir a https://notebooklm.google.com con cuenta Google logeada
+- "New notebook" → nombrarlo: `Pawly · Voice of Customer · Abril 2026`
+- Configurar idioma de output: **castellano**
 
-3. **Informe sectorial público** relevante para Lanzadera (Red.es, Secretaría de Estado de Digitalización, etc.)
+### 2. Cargar el source
 
-**Mi apuesta:** AI Index Report 2026 — es meta ("charla sobre IA usando IA para digerir un informe sobre IA") y académicamente sólido.
+- Subir `voice-of-customer-pet.md` (el output del Deep Research del demo anterior)
+- Esperar indexado (~1–2 min)
+- Verificar que aparece como source con el título correcto
 
-### 2. Pre-cargar el notebook
-- Crea un notebook en https://notebooklm.google.com
-- Sube el PDF del informe
-- **Pre-ejecuta el "Audio Overview"** para tener un podcast generado como backup
-- Configura idioma de output: **castellano**
-- Guarda la URL del notebook — la abres en directo
+### 3. Generar el Audio Overview
 
-### 3. Probar una pregunta específica
-Piensa una pregunta cuya respuesta conozcas (la leíste en el informe). Algo como:
-> *"¿Qué porcentaje de empresas Fortune 500 ha adoptado al menos una plataforma de vibe coding según este informe?"*
+- Click en "Generate Audio Overview" (botón principal)
+- Configurar idioma castellano si pregunta
+- Esperar ~3–5 min (puede tardar más en hora pico)
+- Reproducir 30s y verificar que:
+  - El audio menciona Pawly como contexto
+  - Cita 2–3 dolores específicos del research con detalle
+  - Las dos voces suenan naturales y conversan, no recitan
+  - Si suena muy genérico, regenerar pidiendo "más específico al contexto pet, mencionar competidores y quotes"
 
-O una más citable:
-> *"Dame la cita exacta sobre cuánto % del código en empresas grandes es generado por IA."*
+### 4. Backup local
 
-## Script en directo
+- Descargar el `.mp3` (botón download del Audio Overview)
+- Guardar en `~/pawly-investigacion/audio-overview-backup.mp3`
+- Probar reproducción desde el reproductor del sistema (QuickTime / VLC)
 
-**Minuto 0 — Setup del momento**
-> *"Momento especial. Vamos a hacer algo que, hace 6 meses, era imposible."*
+### 5. Verificar audio en sala (1h antes del evento)
 
-**Minuto 0-1 — El problema**
-- Muestra el notebook con el PDF cargado
-- Haz zoom para mostrar: "200+ páginas"
-- > *"¿Alguien ha leído esto? [pausa] Yo tampoco. Pero debería. Observad."*
+- Conectar portátil a altavoces de la sala
+- Reproducir el `.mp3` de backup
+- Ajustar volumen — apuntar el nivel correcto
 
-**Minuto 1 — Lanzar el podcast**
-- Click "Generate Audio Overview" (o el botón equivalente)
-- **IMPORTANTE:** no esperes — dile a la audiencia que tarda 3-5 min, y sigue con contenido del bloque Equipo mientras genera
+## Script en directo (~90 segundos)
 
-**Minuto 1-5 — Mientras genera**
-- Cubre los casos de uso del bloque Equipo (ya están en slides)
-- **No menciones el podcast hasta que haya terminado** (suspense)
-- Si generas con antelación, puedes saltar esta espera y reproducir directamente
+**Minuto 0 — Setup del momento (5s)**
+> *"Demo tres. Y cierre de la palanca."*
 
-**Minuto 5 — Reproducir el podcast**
-- Vuelve al notebook
-- Click en el podcast generado
-- **Conéctalo a los altavoces de la sala** (crítico — probarlo antes!)
-- Reproduce 45-60 segundos
-- Observa caras de la audiencia (casi todos sonrien o se quedan callados)
-- Pausa
+**Minuto 0–0.5 — Enseñar el source es el MISMO archivo**
+- ALT-TAB al notebook ya abierto
+- Apuntar al panel de sources con el dedo (físico) o cursor
+- > *"Mismo archivo de hace 10 minutos. voice-of-customer-pet.md. El que generó Deep Research. El que Cowork leyó para construir el Pain Map. Y ahora el source de NotebookLM."*
 
-**Minuto 5-6 — C de Check en vivo**
-- > *"Ahora una pregunta específica para verificar que el notebook entiende lo que cargué — no solo repite."*
-- Escribe la pregunta preparada
-- Lee la respuesta
-- Subraya que **el notebook da la cita exacta del PDF**
-- > *"Si hubiese inventado, descartaba todo. Confirma cita → confío."*
+**Minuto 0.5–1 — Click en el Audio Overview**
+- Botón Audio Overview pregenerado
+- Click play
 
-**Minuto 6-7 — Cierre del momento wow**
-> *"Tenéis docs internos que nadie lee — pitch decks, manuales de producto, regulación sectorial, políticas. Mañana por la mañana lo tenéis en formato podcast. Onboarding de vuestro próximo hire escuchando el manual en el coche. 5 minutos de setup. Gratis."*
+**Minuto 1–1.5 — Reproducir 30 segundos**
+- Sube el volumen
+- 30 segundos de las dos voces
+- Pausa con espacio o click
+
+**Minuto 1.5 — Frase de cierre · MORALEJA DE LA PALANCA**
+> *"Una entrada — el research. Tres salidas — informe verificable, mapa de dolores interactivo, podcast para conducir. El stack del founder no es UNA herramienta. Es tres herramientas en cadena. Y el lunes, mañana, lo podéis tener funcionando vosotros."*
+
+→ Transición al puente "del pain map a las features" (siguiente slide)
 
 ## Backup plans
 
-### Si el Audio Overview no genera (raro pero pasa)
-Tener el podcast pre-generado, guardado como MP3 local. Play desde el reproductor del sistema.
-> *"En directo tarda 4 min. Os pongo el que dejé listo esta mañana — misma cosa."*
+### Si NotebookLM no carga / la sesión expiró
+- Plan A: cerrar y reabrir en pestaña nueva, login rápido
+- Plan B: reproducir el `.mp3` local desde reproductor del sistema. Mismo discurso. Pierdes el "veis el source en pantalla" pero el wow del audio se mantiene.
 
-### Si el audio no suena en la sala
-- **Probar altavoces 1h antes del evento** (¡crítico!)
-- Tener bluetooth speaker portátil de backup con el MP3 pre-generado
-- Última opción: reproducir desde el móvil con el volumen al máximo pegado al micro
+### Si el audio no sale por los altavoces de la sala
+- Bluetooth speaker portátil con el `.mp3` ya cargado
+- Última opción: reproducir desde el móvil con volumen al máximo pegado al micro
 
-### Si NotebookLM responde mal a la pregunta de verificación
-Confiesa: *"Mirad, se ha ido. Esto pasa. C de Check es exactamente para esto — detectar estos momentos. En producción no aceptas esta respuesta."* → **Convierte el fallo en lección**.
+### Si el Audio Overview suena raro / genérico
+- Tener una segunda versión generada (regenerada con prompt más específico)
+- Si ambas fallan: leer en alto 2–3 dolores del research desde la app de NotebookLM en formato chat
 
-### Si el informe es demasiado largo y NotebookLM rechaza
-- **Pre-validarlo 24h antes**: el free tier acepta hasta 500K palabras por source
-- Si rechaza: partir el PDF en capítulos clave antes de subir
+## Métricas de éxito
 
-## Métricas de éxito de la demo
-
-- [ ] Al menos 45s de podcast reproducido en sala con audio claro
-- [ ] Una pregunta específica respondida con cita verificable
-- [ ] Audiencia reacciona visualmente (sonrisas, comentarios)
-- [ ] Cierre con caso de uso concreto aplicable (onboarding, manual, pitch)
+- [ ] Al menos 30s de audio reproducido con calidad clara en sala
+- [ ] Audiencia reacciona (sonrisas, ojos abiertos — el wow auditivo es muy visible)
+- [ ] Frase "una entrada, tres salidas" dicha en alto
+- [ ] Total <2 min — si te pasas de 2.5 min recortas la reproducción
 
 ## Riesgos específicos
 
 | Riesgo | Mitigación |
 |--------|------------|
-| Audio no sale por los altavoces de la sala | **Probar 1h antes con el técnico de la sala** |
-| NotebookLM está lento | Pre-generar el podcast y tenerlo listo como MP3 |
-| Pregunta técnica difícil del público | Respuestas canteadas: NotebookLM limita 50 sources, 500K palabras free tier; para más → Claude Projects (Pro) o pro tier |
-| Audiencia pregunta "¿sube mis docs a Google?" | Respuesta honesta: sí, NotebookLM usa Google Cloud. Para docs muy sensibles → Claude Projects (mismo caso de uso, sin entrenamiento con tus datos) o setup local con Whisper + LLM |
+| Audio no sale por altavoces | Probar 1h antes con técnico de sala |
+| NotebookLM lento al generar | Pre-generado la noche antes; jamás generar en vivo |
+| Audiencia pregunta "¿sube mis docs a Google?" | Sí, NotebookLM usa Google Cloud. Para docs sensibles → Claude Projects (Pro) o setup local con Whisper + LLM |
+| Audiencia pregunta por límites | Free tier: 100 notebooks, 50 sources/notebook, 500K palabras/source. Más que suficiente para 99% de founders |

@@ -47,10 +47,9 @@ const props = withDefaults(defineProps<Props>(), {
       <div class="heading-row">
         <span class="numero-big">{{ props.numero }}</span>
         <h1 class="titulo">{{ props.titulo }}</h1>
-      </div>
-
-      <div class="slot-row" v-if="$slots.default">
-        <slot />
+        <div class="slot-row" v-if="$slots.default">
+          <slot />
+        </div>
       </div>
     </div>
   </header>
@@ -68,6 +67,8 @@ const props = withDefaults(defineProps<Props>(), {
   padding: var(--space-4) 0;
   min-height: 60vh;
   position: relative;
+  /* Override text-center que inyecta `layout: section` de Slidev */
+  text-align: left;
 }
 
 .palanca-header[data-palanca='cliente'] {
@@ -129,13 +130,19 @@ const props = withDefaults(defineProps<Props>(), {
   color: var(--ink-mute);
 }
 
-/* -- Heading row — numero enorme + título ------------------------------ */
+/* -- Heading row — numero enorme + título + subtítulo ------------------ */
 .heading-row {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: var(--space-6);
+  grid-template-rows: auto auto;
+  column-gap: var(--space-6);
+  row-gap: 0;
   align-items: baseline;
 }
+
+.numero-big { grid-column: 1; grid-row: 1; }
+.titulo     { grid-column: 2; grid-row: 1; }
+.slot-row   { grid-column: 2; grid-row: 2; }
 
 .numero-big {
   font-family: var(--font-serif);

@@ -138,8 +138,4 @@ description: Materiales de la formación IA para Producto en Lanzadera, Abril 20
 
 </div>
 
-<p style="margin-top: 3rem; font-family: var(--font-mono); font-size: var(--fs-small); color: var(--ink-mute); letter-spacing: 0.04em;">
-  Última actualización: 28 abril 2026 · v1.1
-</p>
-
 </div>

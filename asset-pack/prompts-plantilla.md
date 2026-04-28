@@ -409,7 +409,3 @@ Con esas respuestas, genera:
 Si alguna de mis respuestas es ambigua, pregunta de nuevo antes de generar. No generes un prompt mediocre con contexto incompleto.
 ```
 
----
-
-última actualización: 22 abril 2026
-versión 1.0

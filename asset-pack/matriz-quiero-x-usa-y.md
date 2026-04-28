@@ -120,7 +120,3 @@ Cuando empieces a facturar o se te quede corto, el **primer upgrade** es **Claud
 - **ElevenLabs Creator ($22/mes)** si haces vídeo / podcast con voz clonada
 
 **Total realista para founder activo: $40-60/mes.** Por debajo de una comida de negocios.
-
----
-
-*Última actualización: 28 abril 2026 · v1.1*

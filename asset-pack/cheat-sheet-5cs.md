@@ -80,8 +80,3 @@ Las 5 C's son para **prompts que importan** (cliente, ronda, decisión de produc
 - **Check** siempre importa: no copy-pegues nunca en producción sin verificar.
 
 Regla práctica: si lo que generas va a ver **otra persona** que no sea tú, aplica las 5. Si es para ti y vas a reescribirlo, aplica solo Caja + Check.
-
----
-
-última actualización: 22 abril 2026
-versión 1.0

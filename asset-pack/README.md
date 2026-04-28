@@ -89,8 +89,3 @@ grep -rn "\[verificar\]" *.md
 ## Licencia y uso
 
 Material producido para la formación Lanzadera de abril 2026. Uso libre para los asistentes. Si redistribuyes, mantén el crédito del ponente o marca el documento como derivado.
-
----
-
-última actualización: 22 abril 2026
-versión 1.0

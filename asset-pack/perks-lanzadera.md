@@ -180,8 +180,3 @@ Regla rápida. Si tu equipo usa IA intensivamente, puede compensar más un plan 
 - Usas Claude Code (Claude Max) para desarrollo diario
 
 En ese caso: **Claude Pro $20** o **Gemini AI Pro $20** o **ChatGPT Plus $20**. Uno. No tres.
-
----
-
-última actualización: 22 abril 2026
-versión 1.0

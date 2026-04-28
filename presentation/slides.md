@@ -962,35 +962,30 @@ layout: default
 
 </div>
 
-<div class="grid-2" style="margin-top: 2rem; gap: 1.8rem;">
+<div style="margin-top: 2rem; border: 1px solid var(--rule); background: var(--paper-pure); padding: 1.2rem 1.4rem;">
 
-<div style="border: 1px solid var(--rule); background: var(--paper-pure); padding: 1.2rem 1.4rem;">
+<div class="text-mono text-caps text-mute" style="letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.8rem;">De pago · las 4 serias</div>
 
-<div class="text-mono text-caps text-mute" style="letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.6rem;">De pago · las 4 serias</div>
+<div style="display: grid; grid-template-columns: auto 1fr; gap: 0.6rem 0.9rem; align-items: baseline; font-size: 1rem; line-height: 1.5;">
 
-- **Claude Research** · en claude.ai. Integra Gmail, Calendar, Google Docs.
-- **Gemini Deep Research** · en la app Gemini.
-- **ChatGPT Deep Research** · en chatgpt.com. Basado en GPT-5.2.
-- **Perplexity Deep Research** · la referencia del sector. <em>Corre sobre Claude Opus</em>.
+<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-claude); -webkit-mask: url('/logos/claude.svg') center/contain no-repeat; mask: url('/logos/claude.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
+<span><strong>Claude Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Anthropic</span> · en claude.ai. Integra Gmail, Calendar, Google Docs.</span>
 
-</div>
+<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-gemini); -webkit-mask: url('/logos/googlegemini.svg') center/contain no-repeat; mask: url('/logos/googlegemini.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
+<span><strong>Gemini Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Google</span> · en la app Gemini.</span>
 
-<div style="border: 1px solid var(--palanca-cliente); background: var(--palanca-cliente-soft); padding: 1.2rem 1.4rem;">
+<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-chatgpt); -webkit-mask: url('/logos/openai.svg') center/contain no-repeat; mask: url('/logos/openai.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
+<span><strong>ChatGPT Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· OpenAI</span> · en chatgpt.com. Basado en GPT-5.2.</span>
 
-<div class="text-mono text-caps" style="color: var(--palanca-cliente); letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.6rem;">Si no quieres pagar</div>
-
-<p style="font-size: 1.08rem; margin: 0 0 0.6rem 0;"><strong>Gemini 3.1 Pro en AI Studio</strong></p>
-
-<p style="font-size: 0.92rem; color: var(--ink-soft); margin: 0;">
-Navegador. Cuenta Google. Gratis. No es Deep Research estricto, pero hace research profundo con citas verificables. Fallback digno el 80% de los casos.
-</p>
+<span style="display: inline-block; width: 10px; height: 10px; background-color: var(--ink); border-radius: 50%; flex-shrink: 0; transform: translate(3px, 4px);"></span>
+<span><strong>Perplexity Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Perplexity</span> · la referencia del sector. <em>Corre sobre Claude Opus</em>.</span>
 
 </div>
 
 </div>
 
 <!--
-GUIÓN (~75s · texto para practicar):
+GUIÓN (~50s · texto para practicar):
 
 "Deep Research no es Google con IA encima. Eso lo hace cualquier chatbot.
 
@@ -1003,24 +998,13 @@ Lo que antes os hacía un analista junior en media jornada llega en
 diez minutos. Vuestro trabajo no es hacer el informe — es revisarlo
 y tomar la decisión.
 
-Cuatro serias de pago: una por cada gigante, más Perplexity. Dato
-curioso — Perplexity, que es la referencia del sector, corre sobre
-Claude Opus. Cuando las mejores herramientas eligen motor, eligen
-Claude.
-
-Y si no queréis pagar, siempre hay salida: Gemini 3.1 Pro en AI Studio.
-Navegador, cuenta Google, gratis. No es Deep Research estricto, no
-corre treinta minutos solo, pero hace research profundo con citas.
-Os sirve para el 80% de los casos.
-
-Esa es la regla de la charla: siempre os doy una opción gratis de
-fallback."
+Cuatro serias de pago, una por cada gigante más Perplexity. Y dato
+curioso: Perplexity, la referencia del sector, corre sobre Claude
+Opus. Cuando las mejores herramientas eligen motor, eligen Claude."
 
 NOTAS DE ENTREGA:
 - Los precios ya los diste en la slide de operadores. NO los repitas.
 - El dato "Perplexity corre sobre Claude" es micro-wow — dilo destacado.
-- El bloque verde de la slide es la opción gratis. Apunta si ves caras
-  de "¿cuánto cuesta esto?".
 -->
 
 ---

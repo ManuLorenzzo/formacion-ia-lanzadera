@@ -1,6 +1,10 @@
-# Prompts Plantilla — Las 4 demos de la charla
+---
+title: Prompts plantilla de las demos
+subtitle: Copy-paste, sustituye los placeholders y produce
+eyebrow: Material 04
+---
 
-## Copy-paste, reemplaza `{{placeholders}}`, y a producir
+Plantillas de los prompts demo de la charla. Copy-paste, reemplaza `{{placeholders}}` por tu caso real, y a producir.
 
 > Cada prompt está anotado con qué C de las 5 aplica. Las etiquetas son: `[CABEZA]` `[CAJA]` `[CONTEXTO]` `[CORTAR]` `[CHECK]`. Todos los prompts están pensados para ser iterativos: el primer output se refina con prompts de follow-up, no de una sola tirada.
 

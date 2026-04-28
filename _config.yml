@@ -1,11 +1,18 @@
-title: Pack descargable · Formación IA para Producto
-description: Materiales de la charla de Manu Lorenzo en Lanzadera · Abril 2026
-theme: jekyll-theme-cayman
+title: Pack descargable
+subtitle: Formación IA para Producto · Lanzadera · Abril 2026
+description: Materiales descargables de la formación IA para Producto en Lanzadera
 
-# Sólo publicar las páginas que sirven de landing y los assets descargables.
-# Excluimos código del repo (Slidev, demo-prep, docs) para que no aparezca en el sitio.
+# Sin tema externo — usamos layouts y CSS propios para tener control de diseño.
+# theme: (none)
+
+# Permalinks limpios (sin .html en URLs).
+permalink: pretty
+
+# Solo publicar la landing y la carpeta de assets descargables.
 include:
   - asset-pack
+  - assets
+
 exclude:
   - presentation
   - demo-prep
@@ -19,6 +26,21 @@ exclude:
   - "*.pptx"
   - .DS_Store
   - .gitignore
+  - README.md
+  - asset-pack/README.md
 
-# Permalinks limpios sin .html
-permalink: pretty
+# Variables disponibles en los layouts.
+url: https://manulorenzzo.github.io
+baseurl: /formacion-ia-lanzadera
+
+# Defaults para que los .md del asset-pack usen el layout de página.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+    values:
+      layout: page

@@ -1,6 +1,10 @@
-# Perks de Startup para IA Pro
+---
+title: Guía de perks para IA Pro
+subtitle: Acceder a herramientas IA sin pagar de bolsillo
+eyebrow: Material 03
+---
 
-## Guía práctica para acceder a herramientas IA sin pagar de bolsillo
+Guía práctica para acceder a herramientas IA sin pagar de bolsillo.
 
 > Antes de meter la tarjeta en ningún SaaS de IA, revisa esta guía. Entre perks de Lanzadera y programas abiertos puedes tener $100k-$500k en créditos cloud para correr modelos top (Claude, GPT-5, Gemini) durante 1-2 años.
 
@@ -173,7 +177,7 @@ Regla rápida. Si tu equipo usa IA intensivamente, puede compensar más un plan 
 
 - El founder pasa >2h/día con un modelo específico
 - Necesitas Opus 4.7 / GPT-5.4 / Gemini 3.x Pro sin cuotas aleatorias cortándote el flow
-- Usas Claude Code o Cursor para desarrollo diario
+- Usas Claude Code (Claude Max) para desarrollo diario
 
 En ese caso: **Claude Pro $20** o **Gemini AI Pro $20** o **ChatGPT Plus $20**. Uno. No tres.
 

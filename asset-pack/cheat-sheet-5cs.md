@@ -1,4 +1,8 @@
-# Cheat Sheet — Las 5 C's del Prompting
+---
+title: Cheat sheet de las 5 C's
+subtitle: Checklist táctica para escribir un prompt como senior
+eyebrow: Material 02
+---
 
 **Checklist para que cualquier founder no-técnico prompte como senior.** Imprime en A4, pégalo al lado del monitor.
 

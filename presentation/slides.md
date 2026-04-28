@@ -153,8 +153,8 @@ layout: default
 
 ### Pagáis (o no)
 
-<strong>Casi todos</strong> pagáis al menos una IA al mes. <br/>
-El patrón: **60% en ChatGPT. 40% en Claude. Uno de cada tres con Gemini. Perplexity, casi nadie.**
+<strong>Casi todos</strong> pagáis al menos una IA al mes — y <strong>7 de cada 10 pagáis más de una</strong>. <br/>
+El patrón: **6 de cada 10 con ChatGPT. 4 de cada 10 con Claude. 1 de cada 3 con Gemini. Perplexity, casi nadie.**
 
 </div>
 
@@ -202,10 +202,11 @@ tres minutos. La mayoría respondisteis. Gracias.
 
 Me la he leído cada respuesta. Y hay cuatro patrones claros.
 
-Uno. Casi todos pagáis al menos una IA al mes. Y el reparto sorprende:
-60% en ChatGPT, 40% en Claude. Gemini en uno de cada tres. Perplexity,
-casi nadie. La sala está cargada hacia ChatGPT — y la respuesta que
-os voy a dar hoy va por otro lado. Atentos.
+Uno. Casi todos pagáis al menos una IA al mes. Y siete de cada diez
+pagáis más de una. La foto: seis de cada diez tenéis ChatGPT. Cuatro
+de cada diez, Claude. Uno de cada tres, Gemini. Perplexity, casi
+nadie. La sala está cargada hacia ChatGPT, y la respuesta que os
+voy a dar hoy va por otro lado. Atentos.
 
 Dos. Hay de todo. Cuatro de cada diez ya tocáis agentes o automatizaciones.
 Otros cuatro con una o dos cosas a diario. El resto lo probáis suelto.
@@ -224,8 +225,9 @@ Los números ya los tenéis. La otra mitad — las conversaciones — ahora."
 NOTAS DE ENTREGA:
 - ~90s. Ritmo tranquilo, este momento transforma "masterclass" en
   "me ha leído". No corras.
-- Subraya el 60-40 ChatGPT/Claude — prepara la recomendación de
-  Claude como navaja suiza más adelante.
+- Subraya el dato "muchos pagáis dos o tres a la vez" — evita que la
+  sala lea los porcentajes como reparto exclusivo. Y "cargada hacia
+  ChatGPT" prepara la recomendación de Claude como navaja suiza.
 - Transición: "los números ya los tenéis; ahora los nombres".
 -->
 
@@ -3035,7 +3037,7 @@ Lo que os habéis ganado.
 <div>
 
 <img src="/asset-pack-qr.png" alt="QR para descargar el asset pack" style="width: 14rem; height: 14rem; display: block; margin: 0 auto; padding: 0.6rem; background: var(--paper-pure); border: 1px solid var(--rule);" />
-<div class="text-mono text-small text-mute" style="text-align: center; margin-top: 1rem; font-size: 0.7rem; letter-spacing: 0.04em; line-height: 1.4;">github.com/ManuLorenzzo/<br/>formacion-ia-lanzadera/tree/main/asset-pack</div>
+<div class="text-mono text-small text-mute" style="text-align: center; margin-top: 1rem; font-size: 0.78rem; letter-spacing: 0.04em; line-height: 1.4;">manulorenzzo.github.io<br/>/formacion-ia-lanzadera</div>
 
 </div>
 

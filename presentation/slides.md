@@ -25,13 +25,14 @@ exportFilename: 'ia-para-producto-lanzadera'
 # IA para producto, <br/>sin <mark class="highlight">humo</mark>.
 
 <!--
-GUIÓN:
-(No te presentas aún. Te quedas unos 5-7 segundos en silencio mientras
-la gente se acomoda. La ausencia de voz fuerza atención.)
+GUIÓN (~10s · silencio):
 
-NOTAS:
-- Sin logo de empresa a propósito: refuerza el "esta charla no es un pitch"
-- Cuando sientas a la sala asentada, avanza a la siguiente slide
+[Sin texto. No te presentas aún. Te quedas 5-7 segundos en silencio,
+mientras la gente se acomoda. La ausencia de voz fuerza atención.]
+
+NOTAS DE ENTREGA:
+- Sin logo de empresa a propósito — refuerza "esto no es un pitch".
+- Cuando sientas a la sala asentada, avanza.
 -->
 
 ---
@@ -108,40 +109,34 @@ conectemos →
 </div>
 
 <!--
-GUIÓN:
-"Buenos días. Soy Manu.
+GUIÓN (~90s · texto para practicar):
 
-Dos segundos para que sepáis quién os habla.
+"Buenos días. Soy Manu. Dos segundos para que sepáis quién os habla.
 
-Llevo años desarrollando Mint — nuestro SaaS principal. Años antes
-de que la IA fuera algo que un dev pudiera integrar de verdad desde
-su código.
+Llevo años desarrollando Mint, nuestro SaaS. Años antes de que la
+IA fuera algo que un dev pudiera integrar desde su código.
 
-Marzo de 2023. Se abre la API de GPT-3.5-turbo — el primer modelo
-al que un programador podía llamar desde su código. Y ahí lanzamos
-FoldersAI como side project: un sandbox. Subías los libros de tu
-carrera y los apuntes, y te hacía resúmenes, exámenes, te hacía de
-profesor.
+Marzo de 2023. Se abre la API de GPT-3.5 — el primer modelo al que
+podíamos llamar desde código. Lanzamos FoldersAI como side project:
+subías tus libros de carrera y los apuntes, y te hacía resúmenes,
+exámenes, te hacía de profesor. Cuarenta mil registros el primer mes.
 
-Cuarenta mil registros en el primer mes. No lo cuento por alardear —
-lo cuento porque fue nuestro playground. Ahí aprendimos cómo se
-mete IA en producto de verdad: qué funciona, qué no, dónde te traiciona.
+No lo cuento por alardear. Lo cuento porque fue nuestro playground.
+Ahí aprendimos cómo se mete IA en producto de verdad — qué funciona,
+qué no, dónde te traiciona.
 
-Y todo eso ha vuelto a Mint. Hoy la IA la usamos en dos sitios. Uno
-— dentro del producto, como columna vertebral, no como juguete. Y
-dos — dentro de cómo lo construimos: somos 3 personas entregando
-como un equipo de 10. Cómo llegamos a ese punto es el tema de los
-próximos 80 minutos.
+Hoy uso IA en dos sitios. Uno, dentro de Mint, como columna vertebral
+del producto. Y dos, en cómo lo construimos: somos tres personas
+entregando como un equipo de diez. De ese punto va la charla.
 
 Lo que veréis hoy no sale de leer un paper. Sale de haber construido."
 
-NOTAS:
-- Presentación como máximo 75-90 segundos. No te recrees.
-- "40k en primer mes" da credibilidad — dilo claro, sin modestia falsa.
-- El dato "3 personas / equipo de 10" ya NO es una slide aparte —
-  va integrado aquí en el bloque HOY. Dilo con peso.
-- Transición: "Vale. Y esta charla no sale de un estudio de mercado.
-  Os he oído cuatro problemas concretos" → siguiente slide (4 problemas).
+NOTAS DE ENTREGA:
+- 90 segundos máximo. No te recrees.
+- "40k en primer mes" — dilo claro, sin modestia falsa.
+- "3 personas entregando como 10" — pausa antes y dilo con peso.
+- Transición: "Y esta charla no sale de un estudio de mercado. Os he
+  leído los problemas concretos." → siguiente slide.
 -->
 
 ---
@@ -158,8 +153,8 @@ layout: default
 
 ### Pagáis (o no)
 
-<strong>24 de 29</strong> pagáis al menos una IA al mes. <br/>
-El patrón: **ChatGPT en todas las manos. 3 con Claude. 0 con Perplexity.**
+<strong>Casi todos</strong> pagáis al menos una IA al mes. <br/>
+El patrón: **60% en ChatGPT. 40% en Claude. Uno de cada tres con Gemini. Perplexity, casi nadie.**
 
 </div>
 
@@ -167,10 +162,10 @@ El patrón: **ChatGPT en todas las manos. 3 con Claude. 0 con Perplexity.**
 
 ### Vuestro estado
 
-<strong>5</strong> probando sin flujo. <br/>
-<strong>19</strong> con flujo parcial. <br/>
-<strong>4</strong> ya con sistema. <br/>
-<strong>1</strong> apenas la usa.
+<strong>40%</strong> ya tocáis agentes o automatizaciones. <br/>
+<strong>38%</strong> con 1-2 cosas a diario. <br/>
+<strong>19%</strong> la prueba suelta, sin flujo. <br/>
+<strong>3%</strong> apenas la usa.
 
 </div>
 
@@ -178,9 +173,8 @@ El patrón: **ChatGPT en todas las manos. 3 con Claude. 0 con Perplexity.**
 
 ### El dolor #1
 
-El que más se repite (<strong>14 de 29</strong>): <br/>
-<strong>"Empieza bien y se rompe cuando la tarea es grande."</strong> <br/>
-<em>Lo atacamos de frente en los próximos 60 minutos.</em>
+El que más se repite (<strong>casi la mitad</strong>): <br/>
+<strong>"Empieza bien y se rompe cuando la tarea es grande."</strong>
 
 </div>
 
@@ -188,8 +182,8 @@ El que más se repite (<strong>14 de 29</strong>): <br/>
 
 ### La tarea que queréis delegar
 
-Las 3 más repetidas: <br/>
-<strong>Research de mercado</strong>, <strong>informes para inversores</strong>, <strong>emails de prospección</strong>. <br/>
+Las 3 categorías más repetidas: <br/>
+<strong>Marketing y contenido</strong> (ads, listings, copy), <strong>ventas y prospección</strong> (emails, leads), <strong>research de competidores</strong>. <br/>
 <em>Vamos a resolverlas.</em>
 
 </div>
@@ -201,42 +195,38 @@ Gracias a quien respondió. Os menciono por nombre a lo largo de la charla.
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~90s · texto para practicar):
+
 "48 horas antes de esta sesión, Lanzadera os mandó una encuesta de
-tres minutos. La mayoría respondisteis — gracias.
+tres minutos. La mayoría respondisteis. Gracias.
 
-Me he leído cada respuesta. Y hay patrones claros.
+Me la he leído cada respuesta. Y hay cuatro patrones claros.
 
-[Ir comentando las 4 cards una a una:]
+Uno. Casi todos pagáis al menos una IA al mes. Y el reparto sorprende:
+60% en ChatGPT, 40% en Claude. Gemini en uno de cada tres. Perplexity,
+casi nadie. La sala está cargada hacia ChatGPT — y la respuesta que
+os voy a dar hoy va por otro lado. Atentos.
 
-- Pagáis: 24 de 29. Pero todos en ChatGPT. 3 con Claude, ninguno con
-  Perplexity. O sea, estáis todos en el mismo modelo. Eso tiene
-  consecuencias — en rato hablamos.
+Dos. Hay de todo. Cuatro de cada diez ya tocáis agentes o automatizaciones.
+Otros cuatro con una o dos cosas a diario. El resto lo probáis suelto.
+Esta charla os sirve a los tres grupos.
 
-- Estado: 19 en flujo parcial. La mayoría sabéis que funciona, pero no
-  tenéis sistema. Esta charla está calibrada para ese punto exacto.
+Tres. El dolor que más se repite — casi la mitad lo marcáis: 'empieza
+bien y se rompe cuando la tarea es grande'. Es exactamente el cuarto
+problema que vais a ver en un momento.
 
-- Dolor #1: 'empieza bien y se rompe cuando la tarea es grande'. 14 de
-  29 lo habéis marcado. Es exactamente el cuarto de los problemas que
-  veréis en un momento. Lo resolvemos hoy.
-
-- Tareas que queréis delegar: research de mercado, informes para
-  inversores, emails de prospección. Las tres que mejor resuelve la IA
-  hoy. Las vais a ver resueltas en demos concretas.
-
-A lo largo de la charla voy a citar a algunos por nombre — los que
-disteis permiso. No os asustéis cuando oigáis el nombre.
+Cuatro. Las tareas que queréis delegar — marketing y contenido,
+ventas y prospección, y research de competidores. Las tres caen
+dentro de lo que la IA hace bien hoy. Las vais a ver resueltas.
 
 Los números ya los tenéis. La otra mitad — las conversaciones — ahora."
 
-NOTAS:
-- ANTES DEL EVENTO: sustituir las cifras mock (24/29, 14/29, etc.) y
-  las 3 tareas con los datos REALES del pre-work
-- Si hay una estadística sorprendente, subráyala a mano alzada
-- Este momento transforma "masterclass" en "me has leído" — dale
-  60 segundos de ritmo tranquilo, no corras
-- Transición al slide de los 4 problemas (los mismos, con nombres
-  de pasillo) — "los números ya los tenéis; ahora los nombres"
+NOTAS DE ENTREGA:
+- ~90s. Ritmo tranquilo, este momento transforma "masterclass" en
+  "me ha leído". No corras.
+- Subraya el 60-40 ChatGPT/Claude — prepara la recomendación de
+  Claude como navaja suiza más adelante.
+- Transición: "los números ya los tenéis; ahora los nombres".
 -->
 
 ---
@@ -263,37 +253,36 @@ La encuesta los asoma en números. Aquí están con los nombres que usáis en la
 </p>
 
 <!--
-GUIÓN:
-"Vale. La encuesta ya os ha enseñado los números. Ahora la otra mitad:
-las conversaciones. Esta charla tampoco sale de un estudio de mercado.
+GUIÓN (~75s · texto para practicar):
+
+"Los números ya los tenéis. Ahora la otra mitad — las conversaciones.
+Esta charla tampoco sale de un estudio de mercado.
 
 Yo también soy de Lanzadera. Llevo aquí desde marzo de 2024. He
 comido, he tomado cafés, he hablado en pasillos con muchos de vosotros.
 
-Y detrás de los números que acabáis de ver, os oigo repetir los
-mismos cuatro problemas:
+Y detrás de los números que acabáis de ver, os oigo repetir los mismos
+cuatro problemas.
 
 Uno. Hay demasiadas IAs. No sabéis cuál usar ni cuánto pagar.
 
-Dos. Cuál es la navaja suiza. La que resuelve el 80% de los casos
-sin tener que pensarlo cada vez.
+Dos. Cuál es la navaja suiza — la que resuelve el 80% de los casos
+sin pensarlo cada vez.
 
-Tres. Qué se puede hacer con IA y qué no. Para decidir dónde vale
-la pena meterla — y dónde es perder el tiempo.
+Tres. Qué se puede hacer con IA y qué no. Para saber dónde meterla
+y dónde es perder el tiempo.
 
 Cuatro. Cuando la tarea es grande, la IA lo intenta de una y sale
-regular. No os dice "esto es demasiado, divídamelo". Y vosotros no
-sabéis cómo pedirle que divida bien.
+regular. No os avisa de que es demasiado. Y vosotros no sabéis pedirle
+que divida.
 
-Noventa minutos. Los cuatro, resueltos. Empezamos."
+Hora y cuarto. Los cuatro, resueltos. Empezamos."
 
-NOTAS:
-- Tono cercano, NO acusatorio — es un "estoy en el barro con vosotros"
-- Enlaza con la encuesta del slide anterior: "los números ya los habéis
-  visto, aquí van los nombres"
-- Después de leer los 4 problemas, respira. Tres segundos.
-- Transición: "Para resolverlos, lo primero es saber el terreno. Tres
-  motores. Todo lo demás corre encima." → siguiente slide (operadores).
+NOTAS DE ENTREGA:
+- Tono cercano, NO acusatorio — "estoy en el barro con vosotros".
+- Después de los 4 problemas, respira tres segundos.
+- Transición: "Para resolverlos, lo primero es saber el terreno.
+  Tres motores. Todo lo demás corre encima."
 -->
 
 ---
@@ -426,43 +415,38 @@ Plus <strong>23 €</strong> · Pro <strong>200 €</strong>
 </div>
 
 <!--
-GUIÓN:
-"Antes de opinar, el terreno. Tres motores en el mundo: Anthropic con
-Claude, Google con Gemini, OpenAI con ChatGPT. Todo lo demás — que os
-sonará — corre por dentro sobre uno de estos tres.
+GUIÓN (~110s · texto para practicar):
 
-Cada uno con dos niveles de modelo — uno rápido, uno de razonamiento
-pro. Haiku y Opus en Claude. Flash y Pro en Gemini. GPT y GPT Pro en
-OpenAI. El lite para el día a día, el pro para lo complejo.
+"Antes de opinar, el terreno. Tres motores en el mundo: Anthropic
+con Claude, Google con Gemini, OpenAI con ChatGPT. Todo lo demás
+— que os sonará — corre por dentro sobre uno de estos tres.
 
-Anthropic — Claude. Tres productos que os tocan como founders: Claude
-Code, terminal agente para devs. Claude Cowork, un agente de escritorio
-que ejecuta tareas sobre vuestros archivos y apps — con permisos, no
-se toca nada sin vuestro OK. Claude Design para UI y mockups.
-Ecosistema completo — pero los planes base se agotan rápido si lo
-usáis intenso. Veinte el Pro, cien o más el Max.
+Cada uno con dos niveles de modelo: uno rápido para el día a día,
+uno pro para lo complejo. Haiku y Opus en Claude. Flash y Pro en
+Gemini. GPT y GPT Pro en OpenAI.
 
-Google — Gemini. NotebookLM, que es el killer: le metéis vuestros docs
-y os hace research, síntesis, incluso un podcast de audio con vuestro
-contenido. Antigravity, el IDE gratis con Claude por debajo. Y Nano
-Banana más Veo para imagen y vídeo. La gran ventaja: OCR y un millón
-de tokens de contexto — se come documentos gigantes sin despeinarse.
-La pega: no lidera en código tan fuerte como Claude o GPT. Veintidós
-euros el AI Pro. Pero Gemini Pro lo tenéis gratis en AI Studio con
-vuestra cuenta Google.
+Anthropic — Claude. Tres productos que os tocan: Claude Code, terminal
+para devs. Claude Cowork, un agente de escritorio que ejecuta sobre
+vuestros archivos. Claude Design, para UI y mockups. Ecosistema
+completo. La pega: los planes base se agotan rápido si lo usáis
+intenso. Veinte euros el Pro, cien o más el Max.
+
+Google — Gemini. NotebookLM, el killer: cargáis vuestros docs y os
+hace research, síntesis, incluso un podcast con vuestro contenido.
+Antigravity, IDE gratis con Claude por debajo. Y Nano Banana más Veo
+para imagen y vídeo. Ventaja: OCR y un millón de tokens — se come
+documentos gigantes. Pega: no lidera en código. Veintidós euros el
+AI Pro. Y Gemini Pro lo tenéis gratis en AI Studio con cuenta Google.
 
 OpenAI — ChatGPT. Codex como equivalente a Claude Code. ChatGPT Agent
-para navegar y actuar por vosotros. Aquí la ventaja es la generación
-de imagen nativa — Images 2, que salió la semana pasada. La pega es
-que el plan Pro son doscientos euros, y el combo sube rápido si
-queréis las funciones buenas. Veintitrés euros el Plus."
+navega y actúa por vosotros. Su ventaja: imagen nativa — Images 2.0,
+salió hace una semana. La pega: el Pro son doscientos euros. Veintitrés
+el Plus."
 
-NOTAS:
-- Recorrido rápido, 60-75 segundos. NO te extiendas en cada producto.
-- La pregunta "si tuviera que pagar solo una, ¿cuál?" la respondes
-  explícitamente AL FINAL de la charla (bloque truquitos) — aquí no
-  adelantes nada.
-- Pausa antes de pasar a la siguiente (modelo vs herramienta).
+NOTAS DE ENTREGA:
+- 60-75 segundos. NO te extiendas en cada producto.
+- "¿Cuál pagaría yo?" la respondes en el cierre, no aquí.
+- Pausa antes de pasar a "modelo ≠ herramienta".
 -->
 
 ---
@@ -541,37 +525,35 @@ Cuando preguntas <em>"¿qué IA uso?"</em>, preguntas por la <mark class="highli
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~80s · texto para practicar):
+
 "Un concepto. Leedlo una vez y ya no lo repito.
 
 El motor es la inteligencia pura — Claude Sonnet, Gemini Pro, GPT Pro.
-No tiene UI. Vosotros no abrís 'Claude Sonnet' directamente. Lo abre
+No tiene UI. Vosotros no abrís 'Claude Sonnet' directamente; lo abre
 un programa por debajo.
 
-La herramienta es lo que vosotros sí abrís. claude.ai, Cursor, Perplexity,
-Lovable. La UI con la que trabajáis.
+La herramienta es lo que vosotros sí abrís. Claude.ai, Cursor,
+Perplexity, Lovable. La UI con la que trabajáis.
 
-Ahora mirad la tabla. Lo importante de esta slide:
+Mirad la tabla. Muchas herramientas que usáis a diario — Perplexity,
+Cursor, Lovable, Bolt, v0, NotebookLM — corren por DENTRO sobre uno
+de los tres motores. Lovable y Bolt van sobre Claude. v0 sobre GPT.
+NotebookLM y Stitch sobre Gemini. Perplexity con su Sonar por defecto,
+pero Claude, GPT y Gemini están como opciones en Pro.
 
-Muchas herramientas que usáis a diario — Perplexity, Cursor, Lovable,
-Bolt, v0, NotebookLM — corren por DENTRO sobre uno de los tres motores
-que acabamos de ver. Perplexity tiene su propio Sonar por defecto,
-pero Claude, GPT y Gemini están como opciones en Pro. Lovable y Bolt
-van sobre Claude. v0 sobre GPT. NotebookLM y Stitch sobre Gemini.
-Cursor y Windsurf os dejan elegir.
+Y un detalle que se ve de un vistazo: cuando los que CONSTRUYEN estas
+herramientas eligen motor, eligen Claude mayoritariamente. No es
+casualidad — es la tasa de alucinación más baja y el razonamiento
+más riguroso.
 
-Detalle que se ve de un vistazo y no os voy a forzar a creer — miradlo
-vosotros: cuando los que CONSTRUYEN estas herramientas eligen motor,
-eligen Claude mayoritariamente. No es casualidad — es la tasa de
-alucinación más baja y el razonamiento más riguroso.
+La idea: cuando preguntáis '¿qué IA uso?', preguntáis por la
+herramienta. Pero detrás hay siempre un motor."
 
-Lo que quiero que entendáis: cuando preguntáis '¿qué IA uso?',
-preguntáis por la herramienta. Pero detrás hay siempre un motor."
-
-NOTAS:
-- Dilo rápido. Esta slide es un puente, no un destino.
-- El asterisco de Perplexity es honestidad intelectual — mejor
-  explicarlo que repetir el dato antiguo de "Perplexity → Claude Opus".
+NOTAS DE ENTREGA:
+- Dilo rápido. Es slide-puente, no destino.
+- El asterisco de Perplexity = honestidad — mejor explicarlo que
+  repetir el dato viejo de "Perplexity → Claude Opus".
 - Transición: "Con esto claro, vamos al siguiente punto."
 -->
 
@@ -599,22 +581,22 @@ Porque no es un modelo — es un <strong style="color: var(--ink);">ecosistema d
 </div>
 
 <!--
-GUIÓN:
-"Antes de pasar a Marca — la síntesis de todo lo visto hoy en Producto.
+GUIÓN (~40s · texto para practicar):
 
-Si solo pudierais pagar UNA suscripción de IA al mes, la respuesta
-que os doy hoy — abril de 2026, esto puede cambiar — es Claude.
+"Síntesis. Si solo pudierais pagar UNA suscripción de IA al mes, la
+respuesta que os doy hoy — abril de 2026, esto puede cambiar — es
+Claude.
 
-No porque sea el mejor en todo. No lo es. Gemini es mejor en contextos
-gigantes. Nano Banana de Google es mejor en imagen de marketing. Para
+No porque sea el mejor en todo. No lo es. Gemini gana en contextos
+gigantes. Nano Banana de Google gana en imagen de marketing. Para
 chat diario, cualquiera vale.
 
 Claude gana porque no es un modelo. Es un ecosistema. Cinco productos
 bajo una misma suscripción. Os los desgloso ahora."
 
-NOTAS:
-- Slide editorial, dejar respirar — 10 segundos antes de avanzar
-- Transición directa a "Cinco productos, dos precios"
+NOTAS DE ENTREGA:
+- Slide editorial. Deja respirar 10 segundos antes de avanzar.
+- Transición directa a "Cinco productos, dos precios".
 -->
 
 ---
@@ -669,41 +651,39 @@ layout: default
 </div>
 
 <!--
-GUIÓN:
-"Cinco productos. Pero OJO — dos precios. Vais a ver la diferencia.
+GUIÓN (~95s · texto para practicar):
 
-Los cuatro primeros — Chat, Projects, Design y Cowork —
-vienen en el plan Pro de veinte euros al mes. Ese es el precio estable,
-al menos a día de hoy.
+"Cinco productos. Pero OJO: dos precios.
 
-El quinto — Code — es harina de otro costal. Anthropic lo movió fuera
-del plan Pro el veintiuno de abril de este año. Lo pusieron en Max,
-que son cien euros al mes desde ahí. Luego revirtieron parcialmente
-el cambio en medio de un revuelo en Twitter. Situación fluida.
+Los cuatro primeros — Chat, Projects, Design y Cowork — entran en el
+plan Pro, veinte euros al mes. Precio estable, al menos hoy.
 
-Así que cuando os digo 'Claude Pro te da todo', la verdad más honesta
-es 'Claude Pro te da cuatro de cinco'. Para Code con uso intensivo hace
-falta Max. Y ni aún así es ilimitado — gasta bastantes tokens.
+El quinto — Code — es otra historia. Anthropic lo movió fuera del Pro
+el 21 de abril. Lo pusieron en Max, que son cien euros al mes en
+adelante. Luego revirtieron parcialmente el cambio en medio de un
+revuelo en Twitter. Situación fluida.
+
+Así que cuando os digo 'Claude Pro te da todo', lo honesto es: 'Claude
+Pro te da cuatro de cinco'. Para Code con uso intensivo hace falta
+Max. Y ni aún así es ilimitado.
 
 Dicho esto: cuatro productos por veinte euros sigue siendo la mejor
 relación del mercado. Chat, asistente sobre docs, diseño de prototipos
-y Cowork — la app de escritorio que trabaja sobre VUESTROS archivos.
+y Cowork.
 
 Cowork es la pieza que os importa a los no-devs. Por defecto os ignoran
-cuando hablan de Claude Code porque es técnico. Cowork NO. Le dices
-'analiza este contrato y escríbeme un resumen en Word', y lo hace.
-De punta a punta. Yo la uso a diario.
+cuando hablan de Claude Code, porque es técnico. Cowork NO. Le dices
+'analiza este contrato y escríbeme un resumen en Word', y lo hace de
+punta a punta. Yo lo uso a diario.
 
-Y mi recomendación práctica: si sois no-técnicos, Claude Pro de veinte
-euros es la mejor compra IA de abril 2026. Si vais a picar código a
-diario, sumad Max para Code — salen unos 100 euros al mes."
+Mi recomendación: si no sois técnicos, Claude Pro de veinte euros es
+la mejor compra IA de abril 2026. Si picáis código a diario, sumad
+Max — unos cien euros al mes."
 
-NOTAS:
-- Si usas Cowork a diario, una micro-demo de 15 segundos aquí funciona:
-  - Alt-tab a Claude Desktop con Cowork activo
-  - "Claude, léeme este archivo y resúmeme los 3 puntos clave"
-  - Vuelves a la slide mientras procesa
-- Si no te ves cómodo, mención teórica vale
+NOTAS DE ENTREGA:
+- Si te ves cómodo, micro-demo de 15s aquí: Alt-tab a Claude Desktop,
+  "léeme este archivo y resúmeme los 3 puntos clave", vuelves a la
+  slide mientras procesa. Si no, mención teórica vale.
 -->
 
 ---
@@ -732,7 +712,8 @@ Dominar la IA no es <em>"promptear mejor"</em>. Es saber declararos, dejar que p
 </p>
 
 <!--
-GUIÓN:
+GUIÓN (~50s · texto para practicar):
+
 "La tesis de hoy. Una sola.
 
 Vuestro trabajo no es el prompt perfecto. Tachado. Es la conversación.
@@ -741,20 +722,17 @@ La IA no es un becario al que le dictáis instrucciones perfectas y
 espera en silencio a ejecutar. Es un sparring: os pregunta, os
 contradice, os completa los huecos.
 
-Dominar la IA hoy no es 'promptear mejor' — eso ya lo hace ella por
+Dominar la IA hoy no es 'promptear mejor'. Eso ya lo hace ella por
 vosotros. Es saber declarar quién sois, dejar que os pregunte lo que
 le falta, y comprobar lo que entrega.
 
-(Pausa. Transición al siguiente slide.)
+Los tres movimientos tácticos — a continuación."
 
-Los tres movimientos tácticos de la tesis — a continuación."
-
-NOTAS:
-- Dilo despacio. Esta es LA frase que van a retuitear.
-- "Vuestro trabajo no es el prompt perfecto" → énfasis fuerte
-- "Sparring" → si prefieres en tiempo real, di "copiloto" o "compañero
-  de pizarra". Decide según la sala.
-- Transición clara al siguiente slide (los 3 movimientos)
+NOTAS DE ENTREGA:
+- Dilo despacio. Esta es LA frase que se llevarán.
+- "Vuestro trabajo no es el prompt perfecto" → énfasis fuerte.
+- "Sparring": si no encaja en directo, sustituye por "copiloto" o
+  "compañero de pizarra".
 -->
 
 ---
@@ -812,40 +790,34 @@ Sea texto, imagen, código o informe — léelo, pruébalo, ábrelo, míralo. Si
 </div>
 
 <!--
-GUIÓN:
-"Los tres movimientos tácticos. Los vais a ver en CADA una de las
-tres palancas.
+GUIÓN (~110s · texto para practicar):
+
+"Los tres movimientos. Los vais a ver en CADA una de las tres palancas.
 
 Uno — declarar. No es un prompt de experto. Es un brief de humano:
-quién soy, qué sé del tema, qué NO sé. La IA se adapta al nivel — si
-no le dices que eres novato, asume que eres experta y te da un output
+quién soy, qué sé del tema, qué no sé. La IA se adapta al nivel. Si
+no le dices que eres novato, asume que eres experto y te da un output
 denso que no entiendes.
 
-Dos — dejar que pregunte. Literal: añades al final 'hazme las preguntas
-que necesites antes de ponerte'. Ella detecta qué le falta. Tú
-contestas desde lo que sabes. Y luego ejecuta con contexto REAL, no
-con suposiciones. Este es el movimiento que cambia el juego.
+Dos — dejar que pregunte. Literal. Añadís al final del prompt: 'hazme
+las preguntas que necesites antes de ponerte'. Ella detecta los huecos.
+Vosotros contestáis desde lo que sabéis. Y luego ejecuta con contexto
+real, no con suposiciones. Este es el movimiento que cambia el juego.
 
 Tres — verificar. Nunca aceptéis a la primera. Sea texto, imagen,
-código o un informe — se lee, se prueba, se abre, se mira. Si no
-encaja, lo pedís distinto. Si huele mal, no lo usáis. En cada palanca
-veréis cómo se traduce — una cita en research, un número en análisis,
-una URL en código, una imagen en marca.
+código o informe: se lee, se prueba, se abre, se mira. Si no encaja,
+lo pedís distinto. Si huele mal, no lo usáis. En cada palanca veréis
+un ejemplo concreto.
 
-Atajo final, que está en la nota de abajo y desarrollo al final de la
-charla: si ni siquiera sabes cómo empezar a declarar, abres un chat y
-pides 'hazme tú el prompt para esta tarea, y pregúntame lo que
-necesites antes'. La IA te escribe el prompt. Tú lo pegas en la tool
-de verdad. La IA especifica por ti — tú solo contestas preguntas y
-verificas."
+Y un atajo final, que desarrollo al cierre. Si ni siquiera sabéis por
+dónde empezar a declarar, abrís un chat y pedís: 'hazme tú el prompt
+para esta tarea, y pregúntame lo que necesites antes'. La IA escribe
+el prompt. Vosotros solo contestáis preguntas y verificáis."
 
-NOTAS:
-- Los 3 movimientos los vas a repetir en CADA palanca — aquí los
-  presentas, en cada palanca los aplicas.
-- La aside del atajo (meta-prompting) es un anticipo — lo desarrollas
-  con slide propia en el bloque Truquitos.
-- No te extiendas en "Verificar" — cada palanca da su ejemplo concreto
-  después.
+NOTAS DE ENTREGA:
+- Los 3 movimientos los repites en CADA palanca. Aquí los presentas.
+- No te extiendas en "Verificar" — cada palanca da su ejemplo después.
+- El atajo (meta-prompting) tiene su propia slide al final.
 -->
 
 ---
@@ -882,21 +854,22 @@ Contenido. Imagen. Vídeo. Diseño.
 </div>
 
 <!--
-GUIÓN:
-"Las tareas que queréis delegar, los dolores que tenéis — todos caen
-en tres frentes.
+GUIÓN (~30s · texto para practicar):
+
+"Las tareas que queréis delegar y los dolores que tenéis — caen en
+tres frentes.
 
 Día a día. Producto. Marca.
 
-En cada uno: un problema real, una tool concreta, una demo en vivo
-y una acción que podéis hacer el lunes.
+En cada uno: un problema real, una herramienta concreta, una demo
+en vivo, y una acción que podéis hacer el lunes.
 
 Empezamos por el día a día — lo que os come la mañana sin construir
 producto."
 
-NOTAS:
-- Enumera los 3 con pausas cortas entre cada uno
-- Transición directa a palanca 1 (Día a día)
+NOTAS DE ENTREGA:
+- Pausa corta entre cada uno de los 3 nombres.
+- Transición directa al PalancaHeader de Día a día.
 -->
 
 ---
@@ -917,21 +890,20 @@ Lo que un founder hace cada mañana — <em>sin equipo, sin perder horas</em>.
 </PalancaHeader>
 
 <!--
-GUIÓN:
+GUIÓN (~30s · texto para practicar):
+
 "Palanca uno. Día a día.
 
-Esto es lo que hacéis cada mañana — investigar, digerir documentos,
-ejecutar tareas operativas. Lo que os come las primeras horas y os
-deja sin tiempo para construir producto.
+Lo que hacéis cada mañana: investigar, digerir documentos, ejecutar
+tareas operativas. Lo que os come las primeras horas.
 
 Tres asistentes para tres trabajos. Investigar lo que pasa ahí fuera.
 Digerir documentos densos. Ejecutar encargos en vuestro ordenador.
-Y todo cosido con un mismo caso real — Pawly, founder primerizo
-preparando la versión 2.0."
+Cosidos con un mismo caso real: Pawly, founder primerizo preparando
+la versión 2.0."
 
-NOTAS:
-- 3 segundos de pausa en esta slide
-- Avanza
+NOTAS DE ENTREGA:
+- 3 segundos de pausa antes de avanzar.
 -->
 
 ---
@@ -952,25 +924,24 @@ Todo eso ya tiene <mark class="highlight">quién lo haga por ti</mark>.
 </p>
 
 <!--
-GUIÓN:
-"Pregunta rápida a la sala — sin manos arriba, solo pensadlo:
-¿a qué hora del día tocáis producto por primera vez?
+GUIÓN (~50s · texto para practicar):
+
+"Pregunta rápida a la sala — sin manos, solo pensadlo: ¿a qué hora
+del día tocáis producto por primera vez?
 
 Antes hacéis research. Leéis docs. Contestáis mails. Preparáis la
-reunión de las 11. Ordenáis archivos. Y son las 13:00 y aún no habéis
-escrito una línea de código ni hablado con un cliente.
+reunión de las once. Ordenáis archivos. Son las 13:00 y aún no
+habéis escrito una línea de código ni hablado con un cliente.
 
-Esas tres-cuatro horas de la mañana las pierde casi todo founder
-que conozco. Y escala mal — cuanto más crece la startup, más
-operación cae encima.
+Esas tres horas de la mañana las pierde casi todo founder que conozco.
+Y escala mal: cuanto más crece la startup, más operación cae encima.
 
-Todo eso ya tiene quién lo haga por vosotros. Empezamos por el
-primer trabajo del día — investigar. Y la herramienta es Deep Research."
+Todo eso ya tiene quién lo haga por vosotros. Empezamos por el primer
+trabajo del día — investigar. La herramienta: Deep Research."
 
-NOTAS:
-- No pidas manos — es un momento reflexivo
-- Enumera las 5 actividades lentamente con pausas
-- La frase final es la transición directa a Deep Research
+NOTAS DE ENTREGA:
+- No pidas manos. Es un momento reflexivo.
+- Enumera las 5 actividades lentamente, con pausas.
 -->
 
 ---
@@ -1017,35 +988,37 @@ Navegador. Cuenta Google. Gratis. No es Deep Research estricto, pero hace resear
 </div>
 
 <!--
-GUIÓN:
-"Deep Research no es Google con IA encima. Eso lo hace cualquier
-chatbot.
+GUIÓN (~75s · texto para practicar):
 
-Deep Research es un agente autónomo. Le das un brief, se va 5 a 30
-minutos navegando por su cuenta, lee cientos de páginas, cruza
-fuentes, detecta contradicciones, y vuelve con un informe estructurado
-y CITAS verificables.
+"Deep Research no es Google con IA encima. Eso lo hace cualquier chatbot.
 
-Lo que antes os hacía un analista junior en media jornada, ahora
-llega en diez minutos. Vuestro trabajo no es hacer el informe — es
-revisarlo y tomar la decisión.
+Deep Research es un agente autónomo. Le das un brief y se va entre
+cinco y treinta minutos navegando por su cuenta. Lee cientos de
+páginas, cruza fuentes, detecta contradicciones, y vuelve con un
+informe estructurado y citas verificables.
 
-Cuatro serias de pago — una por cada gigante más Perplexity. Dato
-curioso: Perplexity, que es la referencia, corre sobre Claude Opus.
-Cuando las mejores herramientas del mundo eligen motor, eligen Claude.
+Lo que antes os hacía un analista junior en media jornada llega en
+diez minutos. Vuestro trabajo no es hacer el informe — es revisarlo
+y tomar la decisión.
 
-Y si no quieres pagar, siempre hay salida — Gemini 3.1 Pro en AI
-Studio. Gratis, navegador, cuenta Google. No es Deep Research estricto
-— no corre 30 minutos solo — pero hace research profundo con citas.
+Cuatro serias de pago: una por cada gigante, más Perplexity. Dato
+curioso — Perplexity, que es la referencia del sector, corre sobre
+Claude Opus. Cuando las mejores herramientas eligen motor, eligen
+Claude.
+
+Y si no queréis pagar, siempre hay salida: Gemini 3.1 Pro en AI Studio.
+Navegador, cuenta Google, gratis. No es Deep Research estricto, no
+corre treinta minutos solo, pero hace research profundo con citas.
 Os sirve para el 80% de los casos.
 
-Esa es la regla: siempre os doy la opción gratis de fallback."
+Esa es la regla de la charla: siempre os doy una opción gratis de
+fallback."
 
-NOTAS:
-- Precios los comenté en la slide de los 3 operadores — NO los repitas aquí
-- El bloque VERDE es la opción gratis — si la sala tiene caras de
-  "¿cuánto cuesta todo esto?", apunta a ese bloque
-- El dato Perplexity → Claude es un micro-wow, dilo destacado
+NOTAS DE ENTREGA:
+- Los precios ya los diste en la slide de operadores. NO los repitas.
+- El dato "Perplexity corre sobre Claude" es micro-wow — dilo destacado.
+- El bloque verde de la slide es la opción gratis. Apunta si ves caras
+  de "¿cuánto cuesta esto?".
 -->
 
 ---
@@ -1073,44 +1046,42 @@ Este prompt está en el asset descargable. Adaptadlo a vuestro sector y pegadlo.
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~120s · texto para practicar):
+
 "Antes de la demo, el prompt. Fijaos — es un prompt que podría haber
-escrito cualquier founder de esta sala. Cuatro párrafos cortos.
+escrito cualquier founder de la sala. Cuatro párrafos cortos.
 
-Caso: Carlos, founder de Pawly. Llevamos 8 meses, vamos a sacar
-la versión 2.0. Y antes de decidir QUÉ feature priorizar, queremos
-oír a los clientes — no a los nuestros, a los de TODA la categoría.
+El caso: Carlos, founder de Pawly. Ocho meses funcionando, va a sacar
+la versión 2.0. Antes de decidir qué feature priorizar, quiere oír
+a los clientes — no a los suyos, a los de toda la categoría.
 
-Uno — quién soy. Dos líneas. 'Founder de Pawly, marketplace para
-dueños de perros en España. Versión 2.0'.
+Uno — quién soy. Dos líneas: founder de Pawly, marketplace para
+dueños de perros en España, versión 2.0.
 
-Dos — mi nivel. Ésta es la clave. 'Vendí un veterinario hace 4 años,
+Dos — mi nivel. Esta es la clave: 'vendí un veterinario hace 4 años,
 conozco el sector. Pero nunca he hecho discovery sistemático'. Sin
-esto la IA asume que soy consultor de McKinsey y me devuelve un
-output denso que no puedo defender.
+esto, la IA asume que sois consultores de McKinsey y os devuelve un
+output denso que no podéis defender.
 
-Tres — qué necesito. Aquí SÍ soy específico — porque como founder
-sé qué quiero. Los 10 dolores más mencionados en reseñas de 1-2
-estrellas. Frecuencia, gravedad, qué competidor lo resuelve, dos
-quotes literales por dolor. Esto NO es un research de pitch deck
-para inversores. Esto es discovery para decidir QUÉ construir.
+Tres — qué necesito. Aquí sí soy específico, porque como founder sé
+qué quiero. Los diez dolores más mencionados en reseñas de una y dos
+estrellas. Frecuencia, gravedad, qué competidor lo resuelve, dos quotes
+literales por dolor. Esto no es research para un pitch deck. Es
+discovery para decidir qué construir.
 
-Pero — y aquí viene el giro, cuarto — lo que NO sé es CÓMO. 'Hazme
-las preguntas que necesites — qué competidores priorizo, qué
-segmentos, qué idioma, qué ventana temporal'. Delego el CÓMO. La IA
-me va a preguntar: ¿priorizamos marketplaces puros o también vets
-online? ¿solo España y Portugal o también UK? Preguntas que yo SÍ
-puedo contestar desde mi experiencia — pero que no sabía que tenía
-que especificar.
+Y aquí viene el giro — el cuarto párrafo. Lo que NO sé es el cómo.
+'Hazme las preguntas que necesites: qué competidores priorizo, qué
+segmentos, qué idioma, qué ventana temporal'. Delego el cómo. Y la
+IA me va a preguntar — '¿solo marketplaces puros o también vets
+online?'. Preguntas que yo sí puedo contestar desde mi experiencia,
+pero que no sabía que tenía que especificar.
 
-Esto es DECLARAR y DEJAR PREGUNTAR. Vamos a la demo."
+Esto es declarar y dejar preguntar. Vamos a la demo."
 
-NOTAS:
-- El matiz clave: el founder sabe el QUÉ (lista de dolores con quotes),
-  la IA pregunta el CÓMO (competidores, segmentos, idioma, ventana).
+NOTAS DE ENTREGA:
+- El matiz: el founder sabe el QUÉ. La IA pregunta el CÓMO.
 - "Es un prompt que podría haber escrito cualquier founder" — es la
-  liberación para la audiencia no-técnica.
-- Transición limpia a la demo pre-ejecutada
+  liberación para los no-técnicos.
 -->
 
 ---
@@ -1132,57 +1103,49 @@ Abrimos el informe real. Una cita al azar para verificar que no inventa.
 </p>
 
 <!--
-GUIÓN:
-"Deep Research tarda entre 5 y 30 minutos — no tiene sentido quemar
-tiempo de sala esperando. Anoche corrí el prompt que acabáis de ver,
-con Pawly como caso. Ahora abrimos el informe real.
+GUIÓN (~60s + demo · texto para practicar):
 
-[ALT-TAB a la app de Deep Research (Gemini / Claude Research / ChatGPT).
-Informe generado la noche anterior ya cargado:]
+[Antes del alt-tab, sala abajo, di:]
+"Deep Research tarda entre cinco y treinta minutos — no tiene sentido
+quemar tiempo de sala esperando. Anoche corrí el prompt que acabáis
+de ver. Abrimos el informe real."
 
-- Scroll rápido de arriba abajo: enseña volumen — fuentes leídas,
-  número de dolores identificados (típicamente 8-12), longitud.
-- Leo en alto un dolor concreto: el más mencionado, con su quote
-  literal, su frecuencia y qué competidor lo resuelve (o nadie).
-- Señalo otra fila — un dolor sin solución actual, oportunidad clara.
+[Durante la demo, mientras manipulas en pantalla:]
+"Mirad el volumen — cientos de fuentes leídas, diez dolores identificados.
+Os leo el más mencionado: [quote literal]. Frecuencia: [X]. Competidor
+que lo resuelve: nadie. Eso es una oportunidad."
 
-Y ahora lo importante — la verificación. Clico en una cita al azar.
+[Antes de clicar en una cita:]
+"Y ahora lo importante: la verificación. Clico una cita al azar."
 
-[CLICK en cita → abre URL en vivo]
+[Tras abrir la URL:]
+"Existe. Dice lo que el informe resumió. Si no hubiera cargado, o el
+texto fuera distinto, descarto el informe entero. C de Check — siempre."
 
-Está. URL real. Contenido real. Dice lo que el informe resumió.
-Si la URL no hubiese cargado, o el texto hubiese sido distinto,
-descarto TODO el informe. C de Check — siempre.
+[Cierre y transición:]
+"Esto es Deep Research. Guardo el archivo, lo vais a ver dos veces
+más. Vamos a la siguiente herramienta del día a día — Cowork."
 
-Eso es Deep Research. Lo guardo en mi carpeta y paso a la siguiente
-herramienta del día a día — Cowork."
+NOTAS DE ENTREGA + PROCEDIMIENTO (~2.5 min total):
 
-NOTAS:
-- ANTES DEL EVENTO:
-  1. LA NOCHE ANTES correr Deep Research con el prompt de slide
-     anterior con Pawly como caso. Abrir la app con el informe ya
-     cargado en una pestaña.
-  2. Revisar 2-3 citas del informe — identificar una que cargue bien
-     en navegador, para abrirla en vivo durante la demo.
-  3. Guardar el informe como archivo local — Cowork y NotebookLM lo
-     van a usar como input en sus respectivas demos pre-grabadas.
-- PASOS DE LA DEMO EN SALA (~2.5 MINUTOS):
-  1. ALT-TAB a la app de Deep Research con el informe generado
-  2. Scroll rápido arriba → enseñas volumen (fuentes, dolores listados)
-  3. Lee EN ALTO 1-2 dolores con sus quotes y frecuencia
-  4. CLICK en una cita → abrir URL en vivo
-  5. "Real. Dice lo resumido. Verificado."
-  6. Cierre: "guardo este archivo, lo váis a ver dos veces más"
-- BACKUP si la app no carga en vivo: screenshots de la noche anterior
-  (página principal del informe + 1 cita con URL abierta) en visor
-  local.
-- HILO NARRATIVO CLAVE: este informe es el INPUT de las dos demos
-  siguientes (Cowork Pain Map + NotebookLM podcast). Asegúrate de
-  enfatizarlo aquí para que el público vea la cadena.
-- EJEMPLO ELEGIDO: Pawly. Caso ya conectado con la palanca Producto
-  (donde la landing de Pawly ya está construida). Voice of Customer
-  encaja con "Día a día" porque es research RECURRENTE — un founder
-  lo hace cada 1-2 meses, no una vez antes del pitch.
+PRE-EVENTO (la noche antes):
+1. Correr Deep Research con el prompt de la slide anterior, Pawly.
+2. Identificar 1 cita que cargue bien en navegador para abrir en vivo.
+3. Guardar el informe como archivo local — Cowork y NotebookLM lo
+   reutilizan en sus demos.
+
+EN SALA:
+1. ALT-TAB a la app con el informe pregenerado.
+2. Scroll arriba → enseña volumen (fuentes, dolores).
+3. Lee en alto 1-2 dolores con quote y frecuencia.
+4. CLICK en una cita → abre URL en vivo.
+5. Cierre con la frase de transición a Cowork.
+
+BACKUP: screenshots la noche anterior (informe + cita abierta) en
+visor local. La narración funciona igual.
+
+HILO NARRATIVO: este informe es el INPUT de las dos demos siguientes.
+Enfatízalo aquí.
 -->
 
 ---
@@ -1258,48 +1221,46 @@ incluido en Claude Pro · Mac y Windows
 </div>
 
 <!--
-GUIÓN:
-"Esta es la que quiero que recordéis — si os lleváis un solo nombre
-de la palanca Día a día, que sea éste. Claude Cowork.
+GUIÓN (~95s · texto para practicar):
 
-Pensadlo así: Cowork es la navaja suiza. El asistente que vive DENTRO
-de vuestro ordenador, con llaves de vuestros archivos, vuestras apps
-y vuestro correo. No os advierte, no os aconseja — hace el trabajo.
-Y la interfaz sigue siendo un chat normal, como el Claude de la web.
-Sin terminal, sin código.
+"Si os lleváis un solo nombre de la palanca Día a día, que sea éste:
+Claude Cowork.
 
-Lo que HACE por vosotros es bastante: abre, lee y ordena archivos
-locales. Escribe mails, documentos e informes. Monta Excels partiendo
-de PDFs o fotos de facturas. Busca en vuestro Drive, Gmail, Notion.
-Y — esto es importante — os pide permiso antes de borrar nada.
+Cowork es la navaja suiza. Un asistente que vive dentro de vuestro
+ordenador, con llaves de vuestros archivos, apps y correo. No os
+aconseja: hace el trabajo. Y la interfaz sigue siendo un chat normal,
+como el Claude de la web. Sin terminal, sin código.
 
-Cómo se lo pedís. Tres modos:
+Lo que hace por vosotros: abre, lee y ordena archivos locales. Escribe
+mails, documentos e informes. Monta Excels partiendo de PDFs o fotos
+de facturas. Busca en vuestro Drive, Gmail, Notion. Y os pide permiso
+antes de borrar nada.
+
+Cómo se lo pedís. Tres modos.
 
 Uno — desde el ordenador, chat normal. Obvio.
 
-Dos — y esto es lo que me tiene enganchado — desde el MÓVIL. Se llama
-Dispatch. Estáis en el AVE, os acordáis de una cosa, le escribís desde
-el móvil, y Claude la ejecuta en vuestro Mac en casa. Cuando llegáis
-a la oficina, el deliverable ya está en la carpeta.
+Dos — y esto es lo que me tiene enganchado — desde el móvil. Se llama
+Dispatch. Estáis en el AVE, os acordáis de una cosa, le escribís, y
+Claude la ejecuta en vuestro Mac en casa. Cuando llegáis a la oficina,
+el deliverable ya está en la carpeta.
 
-Tres — en automático. Le decís 'cada lunes a las nueve resume los
-mails del finde por prioridad', y se ejecuta solo. Sin tener que
-acordarse.
+Tres — en automático. 'Cada lunes a las nueve, resúmeme los mails del
+finde por prioridad'. Y se ejecuta solo.
 
-Tercer ejemplo de la lista — fijaos — 'coge el research que acabo
-de generar y montame un dashboard'. Eso es exactamente lo que vamos
-a ver en la demo de aquí a dos slides.
+Y fijaos en el tercer ejemplo de la lista: 'coge el research que acabo
+de generar y montame un dashboard'. Eso es exactamente la demo que
+vais a ver en dos slides.
 
-Frase para llevarse: Claude Code es para programadores. Cowork es
-para el resto. Y está incluido en Claude Pro. No cuesta un euro más."
+Frase para llevarse: Claude Code es para programadores. Cowork es para
+el resto. Incluido en Claude Pro. No cuesta un euro más."
 
-NOTAS:
-- NO hacer demo en vivo — hay partes en beta, puede fallar en directo
-- Si preguntan por seguridad: honestidad — le das permiso TÚ, toca
-  solo las carpetas que apruebes, pero es beta — no lo conectéis
-  aún a cuentas sensibles sin probar antes en una carpeta sandbox.
-- Dispatch requiere la app de Claude móvil + desktop emparejadas con QR
-- Transición a slide Dispatch & Artifacts (zoom-in)
+NOTAS DE ENTREGA:
+- NO hacer demo en vivo aquí — Cowork está en beta y puede fallar.
+- Si preguntan por seguridad: tú das permiso, solo toca lo que apruebes.
+  Pero es beta — no conectéis a cuentas sensibles sin probar primero
+  en una carpeta sandbox.
+- Dispatch requiere app móvil + desktop emparejadas con QR.
 -->
 
 ---
@@ -1343,42 +1304,35 @@ ambos · incluidos en Claude Pro
 </div>
 
 <!--
-GUIÓN:
-"Zoom rápido en dos cosas de Cowork que merecen su propia slide
-porque cambian la forma en que os vais a relacionar con la IA.
+GUIÓN (~85s · texto para practicar):
 
-A la izquierda, Dispatch. Lo que veis en pantalla es la app del móvil.
-La clave: como Cowork ya está instalado en vuestro ordenador con
-permisos sobre vuestras carpetas, vuestro Drive y vuestros conectores,
-desde el móvil aprovecháis ESA misma conexión. Le escribís un encargo
-— en el AVE, en la cola del médico, lo que sea — y Claude lo ejecuta
-en VUESTRO ordenador (Mac o Windows). Cuando llegáis a la oficina, el
-deliverable ya está en la carpeta. El móvil es el mando. El ordenador,
-el taller. O dicho de otra forma: un becario que vive dentro de vuestro
-ordenador y recibe órdenes por WhatsApp.
+"Zoom rápido en dos cosas de Cowork que merecen su propia slide.
 
-A la derecha, Artifacts. Esto es la otra mitad. Cuando le pedís a
-Claude algo que es más que un texto — un dashboard, un simulador, un
-mapa de dolores — no os lo explica: os lo MONTA. Una mini-app personal,
-viva, en una ventana al lado del chat. Y aquí está la magia: se
-alimenta de VUESTRAS cosas — vuestros PDFs, vuestro Drive, vuestros
-conectores. Lo veis ahí: el ejemplo es el Pawly Pain Map. Cogéis el
-research que generó Deep Research, y Claude os monta un dashboard
-interactivo: top opportunity, frecuencia, gravedad. Y eso es justo
-lo que vamos a ver en la siguiente slide, en vivo.
+A la izquierda, Dispatch. Lo que veis es la app del móvil. La clave:
+Cowork ya está instalado en vuestro ordenador, con permisos sobre
+carpetas, Drive y conectores. Desde el móvil aprovecháis ESA misma
+conexión. Le escribís un encargo en el AVE, en la cola del médico,
+y Claude lo ejecuta en vuestro Mac o Windows. Cuando llegáis a la
+oficina, el deliverable ya está en la carpeta. El móvil es el mando.
+El ordenador, el taller.
 
-La frase para llevarse: Dispatch hace el trabajo. Artifacts te hace
-la herramienta. Las dos vienen incluidas en Claude Pro."
+A la derecha, Artifacts. La otra mitad. Cuando le pedís a Claude algo
+que es más que un texto — un dashboard, un simulador, un mapa de
+dolores — no os lo explica: os lo monta. Una mini-app personal, viva,
+en una ventana al lado del chat. Y la magia: se alimenta de vuestras
+cosas — vuestros PDFs, vuestro Drive, vuestros conectores. El ejemplo
+en pantalla es el Pawly Pain Map. Cogéis el research de Deep Research
+y Claude os monta el dashboard interactivo. Eso es lo que vamos a ver
+en vivo en la siguiente slide.
 
-NOTAS:
-- 90 segundos máximo en esta slide. Es zoom-in, no presentación nueva.
+Frase para llevarse: Dispatch hace el trabajo. Artifacts te hace la
+herramienta. Las dos van incluidas en Claude Pro."
+
+NOTAS DE ENTREGA:
+- 90 segundos máximo. Es zoom-in, no presentación nueva.
 - Si preguntan "¿esto es Cowork también?" → matiz: Dispatch nace en
-  Cowork (móvil ↔ desktop emparejados); Artifacts también aparece en
-  claude.ai web. Pero en el discurso para founders, ambos son "Claude
-  ejecutando, no Claude respondiendo".
-- El mock-up del Artifact es ilustrativo del Pain Map de la demo
-  siguiente — los datos coinciden con los que enseñamos en vivo.
-- Transición a la demo del Pain Map (slide siguiente)
+  Cowork; Artifacts también aparece en claude.ai web. Para founders,
+  ambos son "Claude ejecutando, no Claude respondiendo".
 -->
 
 ---
@@ -1400,56 +1354,54 @@ Lo abrimos. Movemos el slider de segmento. Leemos el top opportunity en vivo.
 </p>
 
 <!--
-GUIÓN:
+GUIÓN (~75s + demo · texto para practicar):
+
+[Antes del alt-tab:]
 "Demo dos. Pawly Pain Map. Esto es lo que Cowork hizo anoche cogiendo
-el research que acabamos de ver — el voice of customer en markdown.
+el research que acabamos de ver."
 
-[ALT-TAB a Claude Cowork con la conversación de anoche ya abierta.
-El Artifact 'pawly-pain-map' debe estar renderizado en la ventana
-lateral del chat.]
+[Al abrir Cowork:]
+"El setup fue una frase. Le pedí a Cowork: 'lee el research que acabo
+de generar y montame una mini-app interactiva — cuadrante 2D con
+frecuencia por gravedad, color por gap competitivo, slider de segmento,
+y un big number arriba con la top opportunity'. Tardó unos minutos."
 
-Tres cosas mostrar, ~90 segundos:
+[Mostrando el resultado:]
+"Lo veis ahí. Los diez dolores como puntos. Verde, nadie lo resuelve.
+Rojo, bien resuelto por un competidor. Big number arriba: 'vet
+disponible los domingos, 847 menciones, gravedad 4.6'. Esa es la
+decisión de feature de Pawly."
 
-Uno — el setup. Le pedí a Cowork: 'lee el research que acabo de
-generar y montame una mini-app interactiva: cuadrante 2D con frecuencia x
-gravedad, color por gap competitivo, slider de segmento, y un big
-number arriba con la top opportunity'. Una frase. Tarda unos minutos.
+[Moviendo el slider:]
+"Y manipulación. Muevo el segmento de 'todos' a 'urbano Madrid y
+Barcelona'. Los puntos se reordenan. Ahora la top opportunity cambia
+a 'guardería de fin de semana'. El founder de Pawly tiene en treinta
+segundos lo que un PM con un Excel haría en una semana."
 
-Dos — el resultado. Lo veis ahí. Cuadrante con los 10 dolores como
-puntos. Verde = nadie lo resuelve. Rojo = bien resuelto por un
-competidor. Big number arriba: 'vet disponible los domingos · 847
-menciones · gravedad 4.6'. Eso es la decisión de feature de Pawly.
-
-Tres — manipulación. Muevo el slider de segmento de 'todos' a 'urbano
-Madrid+Barcelona'. Los puntos se reordenan. Ahora la top opportunity
-cambia: 'guardería de fin de semana'. Founder de Pawly tiene en 30
-segundos lo que un PM con un Excel haría en una semana.
-
-Y fijaos — esto NO es un PDF, no es un report. Es software vivo en
+[Cierre:]
+"Y fijaos — esto no es un PDF, no es un report. Es software vivo en
 la mesa de Carlos. Para él. No para vender."
 
-NOTAS:
-- ANTES DEL EVENTO (la noche antes, ~3-4h):
-  1. Generar el research con Deep Research (paso de la demo anterior).
-  2. Pasarle a Cowork el archivo + prompt detallado para construir
-     el Artifact (ver demo-prep/demo-cowork-pawly-pain-map.md).
-  3. Iterar 2-3 veces hasta que el Pain Map quede bien (slider
-     funciona, datos coherentes con el research).
-  4. DEJAR la conversación de Cowork abierta. NO cerrar Claude
-     desktop la noche antes.
-- PASOS DE LA DEMO EN SALA (~90 SEGUNDOS):
-  1. ALT-TAB a Claude Cowork → conversación previa
-  2. Scroll hasta el último mensaje donde está el Artifact
-  3. Mostrar el Pain Map renderizado
-  4. Leer el big number en alto + 1-2 puntos del cuadrante
-  5. Mover el slider de segmento → leer cómo cambia la top opportunity
-  6. Cierre: "software vivo en la mesa de Carlos, no un PDF"
-- BACKUP si Cowork falla / Artifact no renderiza:
-  Screenshot estático del Pain Map en una slide local. Narrar igual,
-  enseñando el screenshot. La frase de cierre funciona igual.
-- CRÍTICO: NO pedirle nada nuevo a Cowork en sala. Cowork está en
-  beta, llamadas en vivo pueden romper. Solo manipulación local del
-  Artifact ya cargado (slider).
+NOTAS DE ENTREGA + PROCEDIMIENTO (~90s en sala):
+
+PRE-EVENTO (la noche antes, 3-4h):
+1. Generar el research con Deep Research (de la demo anterior).
+2. Pasarle a Cowork el archivo + prompt detallado del Pain Map (ver
+   demo-prep/demo-cowork-pawly-pain-map.md).
+3. Iterar 2-3 veces hasta que el slider funcione y los datos cuadren.
+4. DEJAR la conversación abierta. NO cerrar Claude Desktop.
+
+EN SALA:
+1. ALT-TAB a Cowork → conversación previa.
+2. Scroll al último mensaje con el Artifact.
+3. Lee el big number + 1-2 puntos del cuadrante.
+4. Mueve el slider → lee cómo cambia la top opportunity.
+5. Cierre con la frase del PDF.
+
+CRÍTICO: NO pidas nada nuevo a Cowork en sala (beta, puede romper).
+Solo manipulación local del Artifact ya cargado.
+
+BACKUP: screenshot del Pain Map en visor local. Misma narración.
 -->
 
 ---
@@ -1493,42 +1445,40 @@ No ejecuta tareas en tu ordenador como Cowork. Le cargas hasta <strong>50 fuente
 </div>
 
 <!--
-GUIÓN:
-"Última pieza del trío: NotebookLM, de Google. Y aquí la palabra
-'asistente' se queda corta. Esto es otra cosa: un centro documental
-con IA.
+GUIÓN (~85s · texto para practicar):
+
+"Última pieza del trío: NotebookLM, de Google. La palabra 'asistente'
+aquí se queda corta. Esto es otra cosa: un centro documental con IA.
 
 Cowork vive en tu ordenador y ejecuta tareas. NotebookLM vive en la
-web y no toca nada de tu máquina. Le cargas documentación y te la
+web y no toca nada de tu máquina. Le cargas documentación, te la
 devuelve transformada.
 
-Tres líneas, qué es: Está en la web. Subes archivos — PDFs, enlaces,
-vídeos, audios, lo que sea, hasta 50 fuentes. Y te genera podcasts,
-vídeos, mapas mentales y resúmenes con el contenido de esos archivos.
+Qué es, en tres líneas: vive en la web. Subes archivos — PDFs,
+enlaces, vídeos, audios, hasta cincuenta fuentes. Y os genera podcasts,
+vídeos, mapas mentales y resúmenes a partir de ese contenido.
 
-Para qué lo usa un founder — cuatro casos concretos, fijaos en el
-último:
+Cuatro casos para un founder. Fijaos sobre todo en el último.
 
-- Onboarding. Nuevo empleado. Cargáis el manual de la empresa, os
-  devuelve un podcast de diez minutos con dos voces explicándolo.
-  El empleado lo escucha en el coche el primer día.
+Uno. Onboarding del nuevo empleado. Cargáis el manual de la empresa,
+os devuelve un podcast de diez minutos con dos voces explicándolo.
+El empleado lo escucha en el coche el primer día.
 
-- Inversor con prisa. Cargáis el pitch deck, os devuelve un resumen
-  en audio de tres minutos. Se lo mandas por WhatsApp.
+Dos. Inversor con prisa. Cargáis el pitch deck, os da un resumen en
+audio de tres minutos. Lo mandáis por WhatsApp.
 
-- Cliente que no lee documentación. Cargáis la doc de vuestra API,
-  os genera un vídeo explicativo. Se lo pasáis al account manager.
+Tres. Cliente que no lee. Cargáis la doc de vuestra API, os genera
+un vídeo explicativo. Se lo pasa el account manager.
 
-- Y el cuarto — que es lo que vamos a hacer en directo en la
-  siguiente slide. Cargáis EL RESEARCH QUE GENERASTEIS hace 10
-  minutos. Y os devuelve un podcast de dos voces hablando de los
-  dolores reales de los clientes. Para escuchar mientras conducís
-  el lunes por la mañana.
+Y cuatro — esto lo hacemos en directo en la siguiente slide. Cargáis
+el research que generasteis hace diez minutos, y os devuelve un
+podcast de dos voces hablando de los dolores reales de los clientes.
+Para escuchar el lunes en el coche.
 
 Gratis con cuenta Google. Cinco minutos de setup."
 
-NOTAS:
-- ~1.5 min en esta slide. Es setup para la demo siguiente.
+NOTAS DE ENTREGA:
+- ~1.5 min. Es setup de la demo.
 - Énfasis en el cuarto caso → conecta con la demo en vivo.
 -->
 
@@ -1551,48 +1501,42 @@ Reproducimos. Dos voces hablando de los dolores reales de los clientes pet.
 </p>
 
 <!--
-GUIÓN:
-"Demo tres. Y cierre de la palanca. El mismo research, una salida más.
+GUIÓN (~50s + audio · texto para practicar):
 
-[ALT-TAB a NotebookLM con el notebook ya creado y el research como
-source. El Audio Overview ya generado anoche.]
+[Antes del alt-tab:]
+"Demo tres. Cierre de la palanca. El mismo research, una salida más."
 
-Tres pasos, ~90 segundos:
+[Al abrir NotebookLM:]
+"Es el mismo research que generamos antes, cargado aquí como source.
+Click en el Audio Overview que generé anoche."
 
-Uno — enseño el source. Es el mismo research que generamos antes,
-ahora cargado en NotebookLM.
+[Reproduces el fragmento — escucha unos 20-30 segundos. Pausa.]
 
-Dos — click en el Audio Overview ya generado.
+[Cierre de la palanca:]
+"Tres herramientas, tres trabajos del día a día. Cada una hace una
+cosa muy bien — y las podéis tener funcionando el lunes, gratis o
+por veinte euros. Vamos a la siguiente palanca: Producto."
 
-Tres — reproduzco un fragmento. Dos voces conversacionales, en
-español, hablando de los dolores top de Pawly. La sala oye los
-nombres reales de los competidores citados, las frecuencias, alguna
-quote literal.
+NOTAS DE ENTREGA + PROCEDIMIENTO (~90s):
 
-Frase de cierre — y aquí es donde quiero que se les quede la palanca:
+PRE-EVENTO:
+1. Crear notebook en NotebookLM, subir el research.
+2. Generar Audio Overview en castellano (~5 min).
+3. Descargar el .mp3 como BACKUP local.
+4. Verificar audio sale por altavoces (1h antes del evento).
 
-'Tres herramientas, tres trabajos del día a día. Cada una hace una
-cosa muy bien — y la podéis tener funcionando el lunes, gratis o por
-veinte euros. Vamos a la siguiente palanca: Producto.'"
+EN SALA:
+1. ALT-TAB al notebook.
+2. Apunta al source: "el mismo research".
+3. Click en el Audio Overview pregenerado.
+4. Play 20-30 segundos del fragmento. Lee la sala — si engancha, deja
+   correr más; si no, pausa antes.
+5. Frase de cierre que enlaza con Producto.
 
-NOTAS:
-- ANTES DEL EVENTO:
-  1. Crear notebook en NotebookLM, subir el resultado del research
-  2. Generar Audio Overview en castellano (~5 min)
-  3. Descargar el .mp3 como BACKUP local
-  4. Verificar audio sale por altavoces de la sala (1h antes)
-- PASOS DE LA DEMO EN SALA (~90 SEGUNDOS):
-  1. ALT-TAB al notebook
-  2. Apuntar al source: "es el mismo research que generamos antes"
-  3. Click en Audio Overview pregenerado
-  4. Play del fragmento (juega de oído según la sala)
-  5. Pausa
-  6. Frase de cierre que enlaza directo con Producto
-- BACKUP si NotebookLM no carga / audio no sale: reproducir el .mp3
-  local desde el reproductor del sistema. Mismo discurso.
-- ESTE ES EL CIERRE DE LA PALANCA — la transición a Producto es
-  hablada (no hay slide puente). Asegúrate de decir "Vamos a la
-  siguiente palanca: Producto" antes de avanzar al PalancaHeader.
+BACKUP: reproducir el .mp3 local desde el reproductor del sistema.
+
+CRÍTICO: la transición a Producto es hablada — no hay slide-puente.
+Di "Vamos a la siguiente palanca: Producto" antes de avanzar.
 -->
 
 ---
@@ -1612,16 +1556,16 @@ Sin saber programar demasiado. Sin quemar cash.
 </PalancaHeader>
 
 <!--
-GUIÓN:
+GUIÓN (~25s · texto para practicar):
+
 "Palanca dos. Producto.
 
-Y aquí está el corazón de la charla — porque esto es lo que de verdad
-queréis. Construir vuestro producto sin contratar a medio equipo,
-sin saber programar demasiado, sin quemar cash antes de tener tracción."
+Y aquí está el corazón de la charla. Porque esto es lo que de verdad
+queréis: construir vuestro producto sin contratar a medio equipo, sin
+saber programar demasiado, sin quemar cash antes de tener tracción."
 
-NOTAS:
+NOTAS DE ENTREGA:
 - Pausa. Énfasis en "esto es lo que de verdad queréis".
-- Avanza.
 -->
 
 ---
@@ -1659,27 +1603,26 @@ Dos tipos. Dos stacks. Dos decisiones distintas.
 </p>
 
 <!--
-GUIÓN:
-"Antes de recomendaciones, algo importante: cuando oís 'producto',
+GUIÓN (~50s · texto para practicar):
+
+"Antes de las recomendaciones, algo importante. Cuando oís 'producto',
 cada uno piensa en una cosa distinta.
 
 Unos pensáis en una landing — página que vende y captura emails.
-Otros en un SaaS de verdad — usuarios, login, base de datos, pagos.
+Otros, en un SaaS de verdad — usuarios, login, base de datos, pagos.
 
-Los dos se construyen con IA hoy. Pero con herramientas distintas
-y con precios muy distintos.
+Los dos se construyen con IA hoy. Pero con herramientas distintas y
+precios muy distintos.
 
-Y antes de seguir — un disclaimer rápido. Asistentes para vuestro día
-a día — Cowork, NotebookLM, Deep Research — los vimos en la palanca
-anterior. Eso NO es producto vendible. Es apalancamiento personal
-para vosotros, los founders. Aquí, en Producto, construimos lo que
-vendéis a vuestros clientes."
+Disclaimer rápido. Los asistentes que vimos en la palanca anterior
+— Cowork, NotebookLM, Deep Research — eso NO es producto vendible.
+Es apalancamiento personal para vosotros. Aquí, en Producto,
+construimos lo que vendéis a vuestros clientes."
 
-NOTAS:
-- Transición al primer quadrant
-- Subraya "dos stacks distintos" — es el insight clave del bloque
-- El disclaimer asistente vs. producto evita confusión con la palanca
-  anterior. Importante decirlo.
+NOTAS DE ENTREGA:
+- Subraya "dos stacks distintos" — es el insight del bloque.
+- El disclaimer asistente vs. producto evita la confusión con la
+  palanca anterior. Dilo claro.
 -->
 
 ---
@@ -1761,47 +1704,46 @@ $ · ~25 €/mes &nbsp;|&nbsp; $$ · ~90 €/mes
 </div>
 
 <!--
-GUIÓN:
-"Primer tipo. Quiero una landing. Landing real — para que nos
-entendamos — página que captura leads, con deploy funcionando. No
-un mockup.
+GUIÓN (~110s · texto para practicar):
 
-Primero os pongo el mapa del mercado. Free — Lovable, Bolt, AI
-Studio, Antigravity, v0 (este solo hace frontend). De pago — Lovable
-Pro, Bolt Pro, Replit Agent. Producción — Claude Code Max más Vercel.
-Todo lo que hay hoy, ahí.
+"Primer tipo. Quiero una landing. Landing real — página que captura
+leads, con deploy funcionando. No un mockup.
 
-Ahora, según tu perfil:
+Primero, el mapa del mercado. Free: Lovable, Bolt, AI Studio,
+Antigravity. De pago: Lovable Pro, Bolt Pro, Replit Agent, Framer.
+Producción: Claude Code Max con Vercel. Todo lo que hay hoy, ahí.
+
+Ahora, por perfil.
 
 Sin presupuesto, no-técnico → Lovable free o Bolt free. Treinta
 generaciones al mes. Suficiente para una landing con alguna iteración.
 
-25 euros al mes, no-técnico → Lovable Pro o Bolt Pro. Sin límite de
-generaciones, Supabase ya integrado, deploy en un click. El camino
-estándar hoy para founders no-técnicos que van en serio.
+Veinticinco euros al mes, no-técnico → Lovable Pro o Bolt Pro. Sin
+límite de generaciones, Supabase ya integrado, deploy en un click.
+El camino estándar hoy.
 
 Técnico sin presupuesto → AI Studio Build de Google más Antigravity,
-el IDE gratis de Google con Claude debajo. Todo gratis, vive en el
-navegador, deploy en Vercel.
+el IDE gratis con Claude por debajo. Vive en el navegador, deploy en
+Vercel.
 
-Técnico con presupuesto — unos 90 euros al mes — Claude Code más
-Vercel. Control total, techo de producción. Aviso importante: Claude
-Code ya NO está en el plan Pro de 20 euros, lo movieron al Max que
-son 90-100 euros.
+Técnico con presupuesto — unos noventa euros al mes — Claude Code más
+Vercel. Control total, techo de producción. Aviso: Claude Code ya no
+está en el plan Pro de veinte euros. Lo movieron al Max, noventa o
+cien euros.
 
-Matiz importante — y esta es mi opinión, lo veis marcado bajo el
-mapa. Una landing NO pide expertise técnico alto. Si vais a gastar
-los 20-25 euros del $, mi apuesta hoy es Claude por encima de Lovable
-Pro, incluso para perfiles no-técnicos. Os llevará más lejos.
+Matiz importante — y es mi opinión, lo veis abajo. Una landing no
+pide expertise técnico alto. Si vais a gastar los veinte-veinticinco
+del $, mi apuesta hoy es Claude por encima de Lovable Pro, incluso
+para no-técnicos. Os llevará más lejos.
 
-Y para los que pensaban 'y si solo quiero diseño, no código' — slide
+Y para los que pensáis 'y si solo quiero diseño, no código' — slide
 siguiente."
 
-NOTAS:
-- Primero mapa (panorámica), luego decisión por perfil
-- Tono neutral: "el camino estándar", no "mi pick"
-- Si se ve que la sala se está perdiendo, para y pide "levantad la
-  mano los que entienden en qué perfil estáis" — diagnóstico en vivo
+NOTAS DE ENTREGA:
+- Primero mapa, luego decisión por perfil.
+- Tono neutral: "camino estándar", no "mi pick".
+- Si la sala se pierde, para y pide "levantad la mano los que sabéis
+  en qué perfil estáis" — diagnóstico en vivo.
 -->
 
 ---
@@ -1851,49 +1793,47 @@ El estándar clásico con IA integrada. Para equipos con diseñador ya en planti
 </p>
 
 <!--
-GUIÓN:
-"Antes de pasar al segundo tipo — un paréntesis importante.
+GUIÓN (~110s · texto para practicar):
+
+"Antes del segundo tipo, un paréntesis.
 
 Todo lo que os he enseñado construye producto ejecutable — landing
 con formulario que funciona. Pero muchas veces NO queréis eso. A veces
 queréis un pitch deck para un inversor. Un mockup para el cofundador.
-Un prototipo navegable para enseñar al primer cliente. Sin deploy, sin
-código, sin complicaciones.
+Un prototipo navegable para enseñar al primer cliente. Sin deploy,
+sin código, sin complicaciones.
 
-Para ESO, las tools son distintas. Tres que funcionan hoy:
+Para eso, herramientas distintas. Tres que funcionan hoy.
 
-Claude Design — se lanzó hace muy pocos días, el 17 de abril. Esto es
-importante, porque la mayoría pensáis que Claude Design es solo para
-mockups de producto. No. Hace pitch decks, prototipos interactivos
-con chat y vídeo dentro, landing pages, dashboards, marketing assets.
-Y exporta a PowerPoint, PDF, Canva, HTML. Y tiene handoff directo a
-Claude Code si luego queréis pasar a ejecutable. Viene incluido en
-Claude Pro y Max — sin coste extra.
+Claude Design — se lanzó el 17 de abril. Y esto es importante porque
+la mayoría pensáis que solo hace mockups de producto. No. Hace pitch
+decks, prototipos interactivos con chat y vídeo dentro, landing pages,
+dashboards, marketing assets. Exporta a PowerPoint, PDF, Canva y HTML.
+Y tiene handoff directo a Claude Code si luego queréis pasar a
+ejecutable. Incluido en Claude Pro y Max, sin coste extra.
 
 Google Stitch — gratis. Canvas con IA nativa, genera varias direcciones
 de diseño a la vez para que escojáis. Perfecto para explorar.
 
-Y Figma con IA — el clásico, si ya tenéis diseñador en plantilla.
+Figma con IA — el clásico. Si ya tenéis diseñador en plantilla.
 
-Regla simple para decidir. Si tenéis diseñador, Figma. Si no tenéis
-diseñador pero ya pagáis Claude, Claude Design — cubre pitch deck,
-mockup y prototipo con un solo producto. Si no pagáis nada, Stitch
-de Google.
+Regla simple. Si tenéis diseñador, Figma. Si ya pagáis Claude, Claude
+Design — cubre pitch deck, mockup y prototipo con un solo producto.
+Si no pagáis nada, Stitch de Google.
 
-Importante — ninguna de las tres genera código real ni deja una app
+Importante: ninguna de las tres genera código real ni deja una app
 funcionando. Son diseño, presentación o prototipo. Si queréis pasar
 a producto real, el handoff está en Claude Design → Claude Code, o
-volvéis al quadrant anterior.
+volvéis al cuadrante anterior.
 
 Pasamos al segundo tipo — SaaS, el que probablemente más os interesa."
 
-NOTAS:
-- Este slide cura el vacío: "no confundáis diseño con producto"
-- Dato clave nuevo: Claude Design NO es solo para mockups — también
-  hace decks de presentación. Menciónalo EXPLÍCITAMENTE porque la
-  audiencia va a pensar que es solo UI.
-- Si alguien pregunta "¿Claude Design → Claude Code?" — sí, handoff
-  directo, pasa el design system al dev con un comando.
+NOTAS DE ENTREGA:
+- Esta slide cura el vacío "no confundáis diseño con producto".
+- DATO CLAVE: Claude Design NO es solo para mockups, también hace
+  decks. Dilo EXPLÍCITAMENTE — la audiencia va a pensar que es solo UI.
+- Si preguntan "¿handoff Claude Design → Claude Code?": sí, pasa el
+  design system al dev con un comando.
 -->
 
 ---
@@ -1971,44 +1911,42 @@ $ · ~25 €/mes &nbsp;|&nbsp; $$ · ~90 €/mes
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~100s · texto para practicar):
+
 "Segundo tipo. Quiero mi MVP de verdad — SaaS con usuarios, login,
 base de datos, pagos. Todo el pack.
 
-Primero el mapa completo. Free — Lovable, Bolt, Antigravity, AI
-Studio (solo prototipo). De pago — Lovable Pro más Supabase, Bolt
-Pro, Replit Agent, Cursor Pro, Windsurf. Producción — Claude Code
-Max, solo o con Cursor encima.
+Primero, el mapa. Free: Lovable, Bolt, Antigravity, AI Studio. De
+pago: Lovable Pro con Supabase, Bolt Pro, Replit Agent, Cursor Pro,
+Windsurf. Producción: Claude Code Max, solo o con Cursor encima.
 
-Ahora según perfil:
+Por perfil.
 
-Sin presupuesto, no-técnico → Lovable free o Bolt free, SOLO para
-prototipar. Validas la idea con diez usuarios. Si funciona, pagas.
+Sin presupuesto, no-técnico → Lovable o Bolt free, SOLO para prototipar.
+Validáis la idea con diez usuarios. Si funciona, pagáis.
 
-25 euros al mes, no-técnico → Lovable Pro más Supabase. MVP real,
-escalable. Conozco un founder que llegó a 500 usuarios de pago solo
-con este stack.
+Veinticinco euros al mes, no-técnico → Lovable Pro más Supabase. MVP
+real, escalable. Conozco un founder que llegó a quinientos usuarios
+de pago solo con este stack.
 
-Técnico sin presupuesto → Antigravity o AI Studio. Stack gratis
-más completo que hay hoy, con Claude y Gemini por debajo. Tiene
-sus límites de estabilidad, pero funciona.
+Técnico sin presupuesto → Antigravity o AI Studio. Stack gratis más
+completo que hay hoy, con Claude y Gemini por debajo. Tiene sus
+límites de estabilidad, pero funciona.
 
-Técnico en producción → Cursor Pro, 20 euros al mes para el día a
+Técnico en producción → Cursor Pro, veinte euros al mes para el día a
 día, más Claude Code en Max para refactors complejos. En total unos
-120 euros al mes. No os vendo que es barato — es lo que cuesta
-cuando un producto importa y queréis control de verdad.
+ciento veinte euros al mes. No os vendo que sea barato — es lo que
+cuesta cuando un producto importa y queréis control.
 
-Aviso que repito: Claude Code ya NO está en el plan Pro de 20 euros
-— lo movieron al Max de 90-100.
+Aviso que repito: Claude Code ya no está en el Pro de veinte. Está
+en Max, noventa o cien.
 
-Y viene la demo — la más grande de la charla. Construimos un MVP
-real en vivo."
+Y viene la demo más grande de la charla. Construimos un MVP real."
 
-NOTAS:
-- Primero mapa (panorámica), luego decisión por perfil
-- Tono neutral: guías, no dictas
-- La mención a "500 usuarios" es plausible y universal (no es de Mint)
-- Transición a la demo
+NOTAS DE ENTREGA:
+- Primero mapa, luego decisión por perfil.
+- Tono neutral: guías, no dictas.
+- "500 usuarios" es plausible y universal — no es de Mint.
 -->
 
 ---
@@ -2054,51 +1992,57 @@ layout: default
 </div>
 
 <!--
-GUIÓN:
-"Segunda demo del bloque Producto. Y aquí viene la clave de cómo construimos
-con IA cuando queremos algo que NO parezca generado por IA.
+GUIÓN (~110s + demo · texto para practicar):
 
-Este prompt es el que corrí anoche en Claude Code. Mismo caso — Pawly. Y
-fijaos en el giro importante: no le digo a Claude Code 'hazme la landing'
-directamente. Le digo 'piensa qué prompts necesitas para hacer la landing
-bien — créalos en /prompts, y luego orquéstalos'.
+[Antes del alt-tab:]
+"Segunda demo del bloque Producto. Y aquí viene la clave de cómo
+construimos con IA cuando queremos algo que NO parezca generado por IA.
 
-Claude Code se toma su tiempo, genera seis o siete sub-prompts — uno de
-estructura, otro de copy, otro de paleta tipográfica, otro de SEO, otro
-de deploy. Me pregunta lo que le falta: URLs de referencia, si tenemos
-fotos, qué precios reales. Yo contesto. Y luego va ejecutando sub-prompts
-en orden.
+Este prompt es el que corrí anoche en Claude Code. Mismo caso, Pawly.
+Y fijaos en el giro importante: no le digo a Claude Code 'hazme la
+landing'. Le digo: 'piensa qué prompts necesitas para hacer la landing
+bien, créalos en barra prompts, y luego orquéstalos'.
 
-Resultado: landing deployada que NO parece IA — tipografía con carácter,
-paleta contenida, copy real basado en el market research que ya teníamos,
-foto cuidada. La misma disciplina de 'declarar + dejar preguntar + verificar'
-pero escalada a un proyecto entero.
+Claude Code se toma su tiempo y genera seis o siete sub-prompts — uno
+de estructura, otro de copy, otro de paleta tipográfica, otro de SEO,
+otro de deploy. Me pregunta lo que le falta: URLs de referencia, si
+tenemos fotos, qué precios reales. Yo contesto. Y luego ejecuta cada
+sub-prompt en orden, con un subagente propio."
 
-[ALT-TAB al navegador con la landing de Pawly ya desplegada]
+[Al abrir Claude Code y mostrar /prompts:]
+"Esto es lo que generó anoche. Mirad el árbol — seis sub-prompts.
+Os abro uno: copy. Concreto, no lorem ipsum."
 
-Esto es lo que salió anoche. Scroll. Fijaos en los detalles — nada de
-iconitos rocket-shield-lightning, cero gradients, copy que parece escrito
-por alguien que sabe del sector.
+[ALT-TAB a la landing desplegada:]
+"Esto es lo que salió. Scroll. Fijaos en los detalles: nada de iconitos
+rocket-shield-lightning. Cero gradients. Tipografía con carácter. Copy
+real basado en el research que ya teníamos. Foto cuidada."
 
-Y — el mismo principio — esta presentación está construida igual. Claude
-Code, sub-prompts orquestados, Slidev. No agencia, no Keynote."
+[Cierre:]
+"Misma disciplina de 'declarar + dejar preguntar + verificar', pero
+escalada a un proyecto entero. Y — fijaos — esta presentación está
+construida igual. Claude Code, sub-prompts orquestados, Slidev. No
+agencia, no Keynote."
 
-NOTAS:
-- ANTES DEL EVENTO (la noche antes):
-  1. Correr el prompt en Claude Code real, dejando que cree /prompts
-  2. Contestar las preguntas que haga
-  3. Deployar la landing en Vercel (URL pública)
-  4. Tener tab con la landing abierta para alt-tab rápido
-  5. Guardar el árbol /prompts/ — es parte del "wow" visual si alguien pregunta
-- PASOS DE LA DEMO EN SALA (~3-4 min):
-  1. Leer el prompt en voz alta (está en la slide)
-  2. ALT-TAB a Claude Code — mostrar el árbol /prompts/ generado anoche
-  3. Abrir 1-2 sub-prompts para enseñar que son concretos, no lorem
-  4. ALT-TAB a la landing desplegada — scroll de arriba abajo
-  5. "Esta presentación también. Mismo patrón."
-- BACKUP si la URL no carga: screenshots de la landing + /prompts/
-- ESTE PROMPT ES ASSET DESCARGABLE — mismo nivel que el prompt del
-  Deep Research. Manu lo incluye en el asset-pack.
+NOTAS DE ENTREGA + PROCEDIMIENTO (~4 min):
+
+PRE-EVENTO (la noche antes):
+1. Correr el prompt en Claude Code real, dejarle crear /prompts.
+2. Contestar las preguntas que haga.
+3. Deployar la landing en Vercel (URL pública).
+4. Tener tab con la landing abierta para alt-tab rápido.
+5. Guardar el árbol /prompts/ — wow visual si preguntan.
+
+EN SALA:
+1. Lee el prompt en voz alta (está en la slide).
+2. ALT-TAB a Claude Code → muestra el árbol /prompts/.
+3. Abre 1-2 sub-prompts para enseñar que son concretos.
+4. ALT-TAB a la landing desplegada → scroll arriba abajo.
+5. Cierre con la frase de la propia presentación.
+
+BACKUP: screenshots de landing + /prompts/.
+
+ASSET: este prompt va en el asset-pack descargable.
 -->
 
 ---
@@ -2119,15 +2063,16 @@ fue hace un año, olvidadlo. Es otra liga.
 </PalancaHeader>
 
 <!--
-GUIÓN:
+GUIÓN (~25s · texto para practicar):
+
 "Palanca tres. Marca.
 
-De las tres palancas, esta es la que más ha cambiado en los últimos
+De las tres palancas, ésta es la que más ha cambiado en los últimos
 seis meses. Si la última vez que intentasteis generar imagen o vídeo
 con IA fue hace un año, olvidad lo que visteis. Es otra liga."
 
-NOTAS:
-- Enfatiza "OTRA LIGA"
+NOTAS DE ENTREGA:
+- Enfatiza "OTRA LIGA".
 -->
 
 ---
@@ -2292,83 +2237,72 @@ layout: default
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~3 min · texto para practicar):
+
 "Os enseño el mapa del estado del arte en marca, rápido. Para que
 tengáis referencias cuando lleguéis a casa.
 
-Imagen. La semana pasada OpenAI lanzó ChatGPT Images 2.0. Ya es
-número uno del ranking. Su diferenciador: genera texto PERFECTO
-dentro de la imagen, algo que ninguna otra hacía bien. Ads con copy
-de verdad, pósters, mockups — directo.
+IMAGEN. La semana pasada OpenAI lanzó ChatGPT Images 2.0. Ya es
+número uno del ranking. Su diferenciador: genera texto perfecto
+dentro de la imagen — algo que ninguna otra hacía bien. Ads con copy
+de verdad, pósters, mockups, directos.
 
-Nano Banana Pro de Google sigue siendo imbatible en coste y velocidad.
-Y un truco importante para vosotros: es gratis en AI Studio dentro
-de ciertos límites, y con los créditos de Google Cloud que os da
-Lanzadera podéis tirar prácticamente sin coste. Anotádlo.
+Nano Banana Pro, de Google, sigue imbatible en coste y velocidad. Y
+un truco importante: es gratis en AI Studio con límites suficientes,
+y con los créditos de Google Cloud de Lanzadera podéis tirar
+prácticamente sin coste. Anotadlo.
 
 Midjourney, solo si buscáis arte puro.
 
-Vídeo. Marqué Veo 3.1 como 'lo más práctico', no como 'el mejor'.
-Y os explico la diferencia. El líder en calidad pura es Kling 3.0,
-de los chinos de Kuaishou — los hermanos de TikTok. Supera a Veo en
-realismo de movimiento, es el número uno mundial en este momento.
-Cinco euros al mes y tiene tier free de 66 créditos al día. Pero
-para vosotros, founders no técnicos, Veo gana por dos cosas: audio
-nativo y que ya viene gratis con vuestra cuenta Google. Diez vídeos
-al mes en Google Vids, doce al día en Google Flow. Sin instalar
-nada, sin tarjeta. Si la calidad visual es vuestra obsesión, dad el
-salto a Kling. Si queréis algo que ya tenéis, Veo. Hailuo y Runway
-son alternativas — Hailuo es el más rápido y mejor con humanos,
-Runway es la suite editorial más completa.
+VÍDEO. Marqué Veo 3.1 como 'lo más práctico', no como 'el mejor'. Os
+explico. El líder en calidad pura es Kling 3.0, de Kuaishou — los
+hermanos de TikTok. Supera a Veo en realismo de movimiento, número
+uno mundial. Cinco euros al mes, con free tier de 66 créditos al día.
 
-Voz. ElevenLabs v3, 74 idiomas, líder sin discusión. Si hacéis vídeo
+Pero para vosotros, founders no técnicos, Veo gana por dos cosas:
+audio nativo y que ya viene gratis con cuenta Google. Diez vídeos al
+mes en Google Vids, doce al día en Google Flow. Sin instalar nada.
+
+Si la calidad visual es vuestra obsesión, dad el salto a Kling. Si
+queréis algo que ya tenéis, Veo. Hailuo es el más rápido con humanos,
+Runway la suite editorial más completa.
+
+VOZ. ElevenLabs v3, 74 idiomas. Líder sin discusión. Para vídeo
 corporativo o doblaje, el estándar. Y Veo 3 ya genera audio sincronizado
-en el propio vídeo — importante saberlo.
+en el propio vídeo.
 
-Música. Suno v5, ocho euros al mes incluye derechos comerciales.
+MÚSICA. Suno v5. Ocho euros al mes, incluye derechos comerciales.
 Jingles, música de fondo, lo que queráis.
 
-Y abajo del todo, transversal a todas las categorías — los AGREGADORES.
-Una suscripción y os dan acceso a quince o más modelos. Tres que
-merecen la pena para un founder.
+Y abajo del todo, transversal — los AGREGADORES. Una suscripción, acceso
+a quince o más modelos. Tres que merecen la pena para un founder.
 
-Higgsfield. Para vídeo cinematográfico. Lo fundó el ex-Head of
-Generative AI de Snap. Ciento treinta millones de funding, valoración
-de mil trescientos millones en enero. Su Cinema Studio simula física
-óptica real — eliges cuerpo de cámara, lente, focal. No es filtro,
-es modelado de óptica.
+Higgsfield, para vídeo cinematográfico. Su Cinema Studio simula
+física óptica — eliges cámara, lente, focal. No es filtro, es modelado.
 
-Krea. Para iterar rápido. Dos founders españoles — uno ex-Runway,
-otro ex-Perplexity. Series B de cuarenta y siete millones, valoración
-quinientos millones. Usuarios LEGO, Samsung, Nike, Pixar. Su Real-Time
-genera en cincuenta milisegundos mientras escribís. Cambia el flujo.
+Krea, para iterar rápido. Dos founders españoles — ex-Runway y ex-
+Perplexity. Real-Time genera en cincuenta milisegundos mientras
+escribís. Cambia el flujo.
 
-Leonardo. Para consistencia de marca. El menos hype de los tres pero
-el más útil para producto: subes diez fotos de vuestro logo o de
-vuestro producto y os entrena un modelo que SIEMPRE genera en vuestro
-estilo. Indispensable si tenéis e-commerce o app con cientos de
-imágenes que tienen que mantener un look.
+Leonardo, para consistencia de marca. Subís diez fotos de vuestro
+producto y os entrena un modelo que siempre genera en vuestro estilo.
+Indispensable si tenéis e-commerce.
 
-Si vais a cero euros, mejor directo a la fuente — Veo gratis de Google,
-Kling free. Si tenéis presupuesto y queréis probar todo el mercado,
-agregador.
+Regla: cero euros → Veo gratis y Kling free. Con presupuesto y ganas
+de probar mercado → un agregador.
 
-El dato importante: OpenAI sacó ChatGPT Images 2.0 anteayer y ya
-desplazó a Midjourney para marketing. Esto cambia cada semana — por
-eso os doy el mapa de abril 2026."
+Y el dato bomba: OpenAI sacó Images 2.0 hace una semana y ya desplazó
+a Midjourney para marketing. Esto cambia cada semana. Por eso os doy
+el mapa de abril 2026."
 
-NOTAS:
-- Enfatiza "hace 2 días" en ChatGPT Images — la audiencia va a alucinar
-- "Gratis" en Veo 3.1 es el otro dato bomba — ahora directo desde
-  Google Vids y Google Flow, no solo vids.new
-- Si la charla es después del 26-abr-2026, Sora ya está muerto — no lo menciones
-- AGREGADORES: si preguntan por Freepik, dilo: "es buen agregador
-  pero solo entra al podio si ya usabais Freepik para banco de stock"
-- AGREGADORES: si preguntan por fal.ai o Replicate: "son APIs para
-  developers, pago por uso, no van por suscripción. Si tenéis técnico
-  en el equipo, miradlas; si no, los tres de la slide son el camino"
-- Diseño y prototipos NO va aquí — ya están cubiertos en la slide
-  "¿Solo diseño?" del bloque Producto
+NOTAS DE ENTREGA:
+- Enfatiza "hace una semana" en ChatGPT Images — la audiencia aluci­nará.
+- "Gratis" en Veo 3.1 es el otro dato bomba — Google Vids y Flow.
+- Si preguntan Freepik: "buen agregador, solo si ya usabais Freepik
+  para banco de stock".
+- Si preguntan fal.ai o Replicate: "APIs para developers, pago por uso.
+  Si tenéis técnico, miradlas; si no, los tres del podio".
+- Diseño y prototipos NO va aquí — ya están en "¿Solo diseño?".
 -->
 
 
@@ -2408,62 +2342,71 @@ Ahora la contamos al mundo.
 </p>
 
 <!--
-GUIÓN:
+GUIÓN (~75s + 2 demos · texto para practicar):
+
+[Antes de las demos:]
 "Última demo. Y enlaza con todo lo que hemos hecho hoy.
 
-Recordáis. En la palanca 1, Día a día, descubrimos un dolor real
-del sector pet — el research dijo: 'vet disponible los domingos',
-ochocientas cuarenta y siete menciones, gravedad cuatro coma seis,
-NADIE lo resolvía. En la palanca 2 acabamos de construir la landing
-de Pawly con la novedad incluida. Ahora Carlos tiene el servicio
-listo: un veterinario disponible los domingos.
+Recordáis. En la palanca 1, Día a día, descubrimos un dolor real:
+'vet disponible los domingos', 847 menciones, gravedad 4.6, nadie lo
+resolvía. En la palanca 2 construimos la landing de Pawly con la
+novedad incluida. Ahora Carlos tiene el servicio listo.
 
 Pero si la novedad solo está en la app, no se entera nadie. Hay que
-contarlo en redes. Y para eso necesitamos dos piezas: la imagen del
-anuncio y las variantes para todos los formatos.
+contarlo en redes. Necesitamos dos piezas: la imagen del anuncio y
+las variantes para todos los formatos.
 
-Antes de la IA: fotógrafo (quinientos euros), dos semanas. Diseñador
-(trescientos euros), cuatro días más. Un mes y ochocientos euros para
-anunciar UNA novedad.
+Antes de la IA: fotógrafo, quinientos euros, dos semanas. Diseñador,
+trescientos euros, cuatro días más. Un mes y ochocientos euros para
+anunciar una sola novedad.
 
 Hoy, en esta sala, con dos herramientas. Vamos."
 
-NOTAS:
-- ESTE ES EL CIERRE NARRATIVO de toda la charla. Pawly atravesado
-  por las tres palancas: descubrir, construir, anunciar.
-- Énfasis en el quote del Pain Map ("847 menciones, 4.6 gravedad").
-  La sala se acordará — fue la TOP OPPORTUNITY del Artifact.
-- DEMO 1 · NANO BANANA (~3 min):
-  1. Alt-tab a Gemini con Nano Banana Pro
-  2. Pega el prompt visible para la sala (está en asset-pack)
-  3. LEE en alto los 7 campos del prompt: sujeto, composición,
-     iluminación, fondo, espacio para titular, estilo, formato.
-     "Misma tesis: especificar más que el modelo."
-  4. Genera. Tarda 30-90s. Mientras sale, muestra un pre-capturado
-     con prompt vago ("imagen para anuncio de Pawly") al lado para
-     contrastar.
-  5. Pantalla completa con el output bueno.
-- DEMO 2 · CLAUDE DESIGN (~3 min):
-  1. Alt-tab a Claude Design (claude.ai/design)
-  2. Adjuntas la imagen recién generada (o el backup pre-generado)
-  3. Pega el prompt: 4 variantes del mismo anuncio
-     (Instagram cuadrado, Story vertical, Reel vertical, Facebook horizontal)
-     con el titular "Tu perro no entiende de domingos. Nosotros sí."
-  4. Genera (~2-3 min)
-  5. Mientras genera, narra: "Claude Design salió hace dos semanas.
-     Lo que antes hacías en Figma — un diseñador, dos días — ahora
-     en cinco minutos. Y está incluido en Claude Pro: ya lo pagas."
-  6. Cuando termine, enseña los 4 formatos en pantalla.
-- CIERRE: muestra los 2 outputs juntos en pantalla si se puede.
-  "Imagen y cuatro variantes para anunciar la novedad de Pawly. Cero
-  euros si tiráis de versiones gratis (AI Studio + Stitch de Google).
-  Veinte euros al mes si ya pagáis Gemini AI Pro o Claude Pro."
-- BACKUPS: pre-generados de los 2 en pestañas separadas, listos
-  para alt-tab si algo falla.
-- TRANSICIÓN AL SLIDE SIGUIENTE (el truquito de los prompts):
-  "Y antes del cierre, una cosa que habéis visto sin que os la
-  contara explícitamente. El prompt que pegué para Nano Banana —
-  el largo con los siete campos — NO lo escribí yo."
+[Tras la demo de Nano Banana:]
+"Misma tesis de toda la charla: especificar más pesa más que la
+herramienta."
+
+[Mientras Claude Design genera:]
+"Claude Design salió hace dos semanas. Lo que antes hacías en Figma
+— un diseñador, dos días — ahora en cinco minutos. Y está incluido
+en Claude Pro: ya lo pagáis."
+
+[Cierre:]
+"Imagen y cuatro variantes para anunciar la novedad de Pawly. Cero
+euros con AI Studio y Stitch. Veinte euros al mes si ya pagáis Gemini
+AI Pro o Claude Pro."
+
+[Transición al siguiente slide:]
+"Y antes del cierre, una cosa que habéis visto sin que os la contara.
+El prompt largo que pegué para Nano Banana — los siete campos — NO
+lo escribí yo."
+
+NOTAS DE ENTREGA + PROCEDIMIENTO (~6 min total):
+
+CIERRE NARRATIVO: Pawly atravesado por las tres palancas — descubrir,
+construir, anunciar. Énfasis en "847 menciones, 4.6 gravedad" — la
+sala se acordará del Pain Map.
+
+DEMO 1 · NANO BANANA (~3 min):
+1. ALT-TAB a Gemini con Nano Banana Pro.
+2. Pega el prompt (visible en sala, está en asset-pack).
+3. Lee en alto los 7 campos: sujeto, composición, iluminación, fondo,
+   espacio para titular, estilo, formato.
+4. Genera (30-90s). Mientras, muestra pre-capturado con prompt vago
+   ("imagen para anuncio de Pawly") para contrastar.
+5. Pantalla completa con el output bueno.
+
+DEMO 2 · CLAUDE DESIGN (~3 min):
+1. ALT-TAB a Claude Design (claude.ai/design).
+2. Adjunta la imagen recién generada (o backup).
+3. Pega el prompt: 4 variantes del anuncio (cuadrado IG, Story, Reel,
+   Facebook horizontal) con titular "Tu perro no entiende de domingos.
+   Nosotros sí."
+4. Genera (~2-3 min).
+5. Cuando termine, enseña los 4 formatos en pantalla.
+
+BACKUPS: pre-generados de ambos en pestañas separadas, listos para
+alt-tab si algo falla.
 -->
 
 ---
@@ -2524,52 +2467,45 @@ Los meta-prompts completos, en el asset descargable.
 </p>
 
 <!--
-GUIÓN:
+GUIÓN (~95s · texto para practicar):
+
 "Hay un truquito que habéis visto sin que os lo contara. Los dos
-prompts que pegué en sala — para Nano Banana y Claude Design —
-NO los escribí yo.
+prompts que pegué en sala — para Nano Banana y Claude Design — NO
+los escribí yo. Los escribió Claude por mí.
 
-Los escribió Claude por mí.
+Antes de cómo, una cosa importante. En imagen, la diferencia entre
+un anuncio mediocre y uno bueno NO es la herramienta. No es Nano
+Banana contra Midjourney. Es cuánto detalle metéis en el prompt. Un
+prompt vago en la mejor herramienta os da algo plano. Un prompt
+específico en una herramienta normalita os da algo bueno.
 
-Y antes de explicaros cómo, una cosa importante. En imagen, la
-diferencia entre un anuncio mediocre y uno bueno NO es la herramienta.
-No es Nano Banana versus Midjourney. Es cuánto detalle metéis en el
-prompt. Un prompt vago en la mejor herramienta del mundo os da algo
-plano. Un prompt muy específico en una herramienta normalita os da
-algo bueno.
-
-¿Y por qué los pongo entonces juntos? Porque para hacer un prompt
-muy específico de imagen hay que ser experto en composición.
-'Plano americano regla de tercios hora dorada bokeh suave'. Eso no
-lo sabéis vosotros. Yo tampoco. Pero la IA SÍ.
+¿Por qué entonces los pongo juntos? Porque para hacer un prompt
+específico de imagen hay que ser experto en composición. 'Plano
+americano, regla de tercios, hora dorada, bokeh suave'. Eso no lo
+sabéis vosotros. Yo tampoco. Pero la IA sí.
 
 El truco. Le declaráis a Claude la escena que tenéis en la cabeza,
 en castellano normal: 'domingo en casa, dueño preocupado, perro
-decaído, vet en el móvil, alivio'. Y le pedís: hazme tú el prompt
-experto para Nano Banana. Que os pregunte lo que necesite —
-'¿qué paleta?', '¿qué raza de perro?', '¿más alegre o más íntimo?'.
-Le contestáis, y os devuelve el brief listo para pegar.
+decaído, vet en el móvil, alivio'. Y le pedís: 'hazme tú el prompt
+experto para Nano Banana, pregúntame lo que necesites'. Os pregunta
+— qué paleta, qué raza, más alegre o más íntimo. Contestáis. Os
+devuelve el brief listo para pegar.
 
-Dos meta-prompts, uno por herramienta. Los tenéis en el asset
-descargable. Copiáis, pegáis en Claude, Claude os devuelve el prompt
-experto, copiáis ESE en Nano Banana o en Claude Design. Listo.
+Dos meta-prompts, uno por herramienta. Los tenéis en el asset.
+Copiáis, pegáis en Claude, Claude os devuelve el prompt experto, ese
+lo pegáis en Nano Banana o Claude Design. Listo.
 
-Esto es DECLARAR y DEJAR PREGUNTAR aplicados a Marca. Misma tesis de
-toda la charla. Pero aquí — sin esto, ni el primer anuncio os sale.
+Esto es declarar y dejar preguntar aplicados a marca. Misma tesis,
+sin esto ni el primer anuncio sale.
 
-Y antes del cierre, un tema que en Lanzadera os importa mucho: cómo
-hacer todo esto sin quemar cash."
+Antes del cierre, un tema que en Lanzadera importa mucho: cómo hacer
+todo esto sin quemar cash."
 
-NOTAS:
-- Este es EL truco práctico que la sala recordará el lunes
-- Si alguien pregunta por el meta-prompt de Veo: existe en el asset
-  descargable. Mismo patrón: declaras la escena, Claude te hace el
-  guion técnico de vídeo. No lo demostramos en sala porque elegimos
-  centrarnos en imagen + variantes
-- Si alguien pregunta para audio (ElevenLabs, Suno): mismo patrón —
-  declaras la canción en castellano normal, Claude te hace el prompt
-  técnico
-- Transición directa al bloque "todo esto se puede hacer por cero euros"
+NOTAS DE ENTREGA:
+- ESTE es el truco práctico que la sala recordará el lunes.
+- Si preguntan meta-prompt para Veo: existe en el asset, mismo patrón
+  — declaras la escena, Claude te hace el guion técnico de vídeo.
+- Para audio (ElevenLabs, Suno): mismo patrón.
 -->
 
 ---
@@ -2587,18 +2523,19 @@ Y si no, tenéis <strong>perks sentados</strong> en Lanzadera sin usar.
 </p>
 
 <!--
-GUIÓN:
+GUIÓN (~30s · texto para practicar):
+
 "Antes del cierre, un regalo. Cinco minutos sobre cómo hacer todo
 lo que hemos visto hoy sin pagar.
 
-Porque la charla sería incompleta si os dejo con la idea de que
-necesitáis pagar 200 euros al mes para hacer esto. No es verdad.
+Porque la charla sería incompleta si os dejo con la idea de que hay
+que pagar doscientos euros al mes para esto. No es verdad.
 
-Sed que sabéis dónde mirar — o si no, tenéis perks de Lanzadera sentados
+Si sabéis dónde mirar — y si no, tenéis perks de Lanzadera sentados
 que probablemente no estáis usando para IA. Vamos."
 
-NOTAS:
-- Energía alta en este bloque. Es el "regalo" de la charla.
+NOTAS DE ENTREGA:
+- Energía alta. Este bloque es el "regalo" de la charla.
 -->
 
 ---
@@ -2623,33 +2560,32 @@ layout: default
 | Diseñar interfaces | Google Stitch | Lienzo visual gratis |
 
 <!--
-GUIÓN:
+GUIÓN (~70s · texto para practicar):
+
 "Con UNA sola cuenta de Google, gratis, tenéis esto.
 
-Chat con modelos Pro — AI Studio. aistudio.google.com. Gemini 3.1 Pro
-sin límites si usáis el browser — si conectáis una app vuestra a la
-API sí hay límites, pero para uso personal o pruebas no.
+Chat con modelos Pro: AI Studio, en aistudio.google.com. Gemini 3.1
+Pro sin límites prácticos en el navegador.
 
-Build mini-apps — AI Studio tiene un modo que se llama Build. Construye
-apps conversacionalmente. Mini-apps útiles, no producción, pero útiles.
+Mini-apps: AI Studio en modo Build. Construye apps conversacionalmente.
+Útiles, no producción.
 
-Código — Antigravity. Esto lo voy a destacar en la siguiente slide.
+Código: Antigravity. Lo destaco en la siguiente slide.
 
-Asistente sobre docs — NotebookLM. Lo que hemos usado en la demo.
+Asistente sobre docs: NotebookLM. Lo que hemos usado en la demo.
 
-Imagen — ImageFX y Nano Banana dentro de AI Studio, ambos gratis con
-límites de uso suficientes para empezar.
+Imagen: ImageFX y Nano Banana dentro de AI Studio, ambos gratis.
 
-Vídeo — Veo 3.1 en vids.new. Diez por mes. Gratis. Ya lo dije.
+Vídeo: Veo 3.1 en vids.new. Diez al mes, gratis.
 
-Código por terminal — Gemini CLI. Mil requests diarios.
+Código por terminal: Gemini CLI. Mil requests diarios.
 
-Diseño UI — Google Stitch. Canvas completo. Gratis.
+Diseño UI: Google Stitch. Canvas completo, gratis.
 
 Todo con una cuenta de Google. Sin tarjeta. Sin truco."
 
-NOTAS:
-- Enumera cada fila pero no te detengas — el detalle está en el asset
+NOTAS DE ENTREGA:
+- Enumera cada fila sin detenerte. El detalle está en el asset.
 -->
 
 ---
@@ -2678,26 +2614,27 @@ Aviso honesto: Antigravity se cuelga más de la cuenta, y Google le está recort
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~55s · texto para practicar):
+
 "Dos herramientas gratis que casi nadie en esta sala está usando.
 Apuntadlas.
 
 AI Studio y Antigravity.
 
-AI Studio es de Google — os da el modelo top de Gemini en el browser,
-sin límites prácticos para vuestro uso. Antigravity, también de Google,
-es un editor de código — un IDE — que soporta Claude Opus, Claude
-Sonnet y Gemini. Gratis. Literalmente los mejores modelos del mundo
-por cero euros, si sabes que existe.
+AI Studio es de Google. Os da el Gemini top en el navegador, sin
+límites prácticos para uso personal. Antigravity, también de Google,
+es un IDE que soporta Claude Opus, Claude Sonnet y Gemini. Gratis.
+Literalmente los mejores modelos del mundo por cero euros, si sabéis
+que existe.
 
-Aviso honesto y os lo digo porque quiero que me creáis lo que digo:
-Antigravity a día de hoy, abril de 2026, tiene inestabilidades. No
-es lo que usaría yo para cosas críticas en producción. Pero como
-entrada gratis a esa liga, no hay nada mejor. Para probar, para
-experimentar, para pequeños proyectos — perfecto."
+Aviso honesto, y os lo digo porque quiero que creáis lo que digo:
+Antigravity hoy, abril de 2026, tiene inestabilidades. No es lo que
+usaría yo para producción crítica. Pero como entrada gratis a esa
+liga, no hay nada mejor. Para probar, experimentar, proyectos pequeños
+— perfecto."
 
-NOTAS:
-- La honestidad del warning te da credibilidad
+NOTAS DE ENTREGA:
+- La honestidad del warning te da credibilidad. Dilo claro.
 -->
 
 ---
@@ -2757,37 +2694,38 @@ Suficiente para probar Gemini API en producción, Nano Banana Pro o Veo 3.1 Pro 
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~90s · texto para practicar):
+
 "Creéis que el regalo gratis de antes era grande. Mirad esto.
 
 Los perks de Lanzadera que probablemente no estáis usando para IA.
 
-Google Cloud — del acuerdo que tiene Lanzadera con Google España,
-aproximadamente 25 mil dólares en créditos para usar el tiempo que
-dure vuestra aceleración. Confirmad la cifra exacta con vuestro
-Director de Proyecto — no es pública, pero ahí la tenéis.
+Google Cloud — del acuerdo de Lanzadera con Google España. Unos
+veinticinco mil dólares en créditos para el tiempo que dure vuestra
+aceleración. Confirmad la cifra con vuestro Director de Proyecto.
 
-AWS — aproximadamente 10 u 11 mil dólares. Todo redimible en
-Amazon Bedrock, donde podéis pagar Claude Opus o Sonnet por uso
-contra esos créditos, sin comprar licencias individuales.
+AWS — unos diez u once mil dólares. Todo redimible en Amazon Bedrock,
+donde podéis pagar Claude Opus o Sonnet por uso contra esos créditos.
+Sin comprar licencias individuales.
 
 Microsoft for Startups — este no es de Lanzadera, es independiente.
-Cualquier founder puede aplicar, estéis en Lanzadera o no. Va de
-mil hasta ciento cincuenta mil dólares según vuestro funding. Y da
-acceso a Azure OpenAI — GPT por detrás.
+Cualquier founder puede aplicar. De mil a ciento cincuenta mil dólares
+según funding. Da acceso a Azure OpenAI: GPT por detrás.
 
-Y si aún no tenéis cuenta de Google Cloud — al registraros, 300
-dólares en créditos gratis, 90 días. Sin tarjeta que se cobra.
-Suficiente para probar Gemini API en producción, Nano Banana Pro
-o Veo 3.1 Pro de verdad, no solo el free tier del navegador.
+Y si aún no tenéis cuenta de Google Cloud, al registraros os dan
+trescientos dólares gratis. Noventa días. Sin tarjeta que se cobre.
+Suficiente para probar Gemini API en producción, Nano Banana Pro o
+Veo 3.1 Pro de verdad — no solo el free tier del navegador.
 
-Sumadlo. Estáis sentados entre 35 mil y 200 mil dólares en créditos
-para IA. Que probablemente no estáis gastando en IA."
+Sumadlo. Estáis sentados entre treinta y cinco mil y doscientos mil
+dólares en créditos para IA. Que probablemente no estáis gastando
+en IA."
 
-NOTAS:
-- Cifras marcadas "[confirmar]" — preguntar al equipo Lanzadera
-  antes del evento y actualizar si se sabe
-- El "probablemente no estáis gastando" es provocación honesta
+NOTAS DE ENTREGA:
+- Cifras "[confirmar]": preguntar al equipo Lanzadera antes del evento
+  y actualizar si se sabe.
+- "Probablemente no estáis gastando" es provocación honesta. Pausa
+  antes de la frase final.
 -->
 
 ---
@@ -2849,37 +2787,39 @@ Luego devuélveme solo el prompt final.
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~75s · texto para practicar):
+
 "Último truquito antes del cierre. El más importante.
 
 El mejor prompt no es tuyo. Es el que te escribe la IA.
 
 Dos pasos.
 
-Paso uno — abres un chat cualquiera. Claude, ChatGPT, Gemini, el que
-tengáis a mano. Y le pedís literal: 'Hazme el prompt ideal para X
-tarea. Soy Y persona con Z nivel. Pregúntame todo lo que necesites
-— formato, constraints, fuentes, nivel — antes de escribir el prompt'.
+Paso uno — abrís un chat cualquiera. Claude, ChatGPT, Gemini, el que
+tengáis a mano. Y le pedís literal: 'Hazme el prompt ideal para esta
+tarea. Soy esta persona con este nivel. Pregúntame todo lo que
+necesites — formato, constraints, fuentes — antes de escribir el
+prompt'.
 
 La IA os pregunta. Vosotros contestáis desde lo que sabéis. Ella
 genera el prompt.
 
-Paso dos — cogéis el prompt resultante y lo pegáis donde toca. Si es
-research, en Deep Research. Si es landing, en Lovable. Si es código,
-en Claude Code. Si es imagen, en Nano Banana.
+Paso dos — cogéis ese prompt y lo pegáis donde toca. Si es research,
+en Deep Research. Si es landing, en Lovable. Si es código, en Claude
+Code. Si es imagen, en Nano Banana.
 
-Y ahí la IA ejecuta con un prompt que vosotros nunca habríais escrito
-— porque no sabíais cómo.
+Y la IA ejecuta con un prompt que vosotros nunca habríais escrito.
+Porque no sabíais cómo.
 
-Este truquito es la consecuencia lógica de la tesis: si vuestro
-trabajo no es el prompt perfecto, delegádselo. A otra IA."
+Es la consecuencia lógica de la tesis: si vuestro trabajo no es el
+prompt perfecto, delegádselo. A otra IA."
 
-NOTAS:
-- Este es el "trick" más empoderador de toda la charla — los no-técnicos
-  se lo llevan aplicable desde el minuto 1.
-- Cuando lo expliques, mira al no-técnico de la sala.
-- Transición: "Y con esto, os doy la checklist de cinco letras que uso
-  yo cuando escribo prompts a mano" → 5 C's.
+NOTAS DE ENTREGA:
+- Este es el "trick" más empoderador. Los no-técnicos se lo llevan
+  aplicable desde el minuto 1.
+- Cuando lo cuentes, mira al no-técnico de la sala.
+- Transición: "Y con esto, la checklist de cinco letras que uso yo
+  cuando escribo prompts a mano" → 5 C's.
 -->
 
 ---
@@ -2923,24 +2863,23 @@ Tip meta — en prompts exploratorios de bajo riesgo, podéis saltar Cabeza y Co
 </div>
 
 <!--
-GUIÓN:
-"Antes del cierre, os doy una checklist táctica que uso yo.
+GUIÓN (~80s · texto para practicar):
+
+"Antes del cierre, una checklist táctica.
 
 Los tres movimientos — declarar, dejar preguntar, verificar — son el
 marco mental. Cuando vais a escribir un prompt concreto, esta checklist
-de cinco letras los convierte en acción. Las tenéis en el asset
-descargable — os las cuento para que las reconozcáis.
+los convierte en acción. Cinco letras que caben en una tarjeta de
+visita. Cada una mapea a uno de los tres movimientos.
 
-Cinco C's. Cinco letras que caben en una tarjeta de visita. Y cada
-una mapea a uno de los tres movimientos:
+Declarar — dos letras. Cabeza: piensa antes de escribir qué quieres,
+para quién, con qué formato. Contexto: quién eres, qué sabes, qué no,
+para quién, constraints.
 
-Declarar — dos letras. Cabeza: piensa antes de escribir qué quieres.
-Contexto: quién eres, qué sabes, qué no, para quién, constraints.
+Preguntar — una letra. Consultar: le pedís 'hazme preguntas antes de
+ejecutar', y contestáis.
 
-Preguntar — una letra. Consultar: le pedís explícitamente 'hazme
-preguntas antes de ejecutar'. Y luego contestáis.
-
-Verificar — dos letras. Check: abrís una cita al azar, la comprobáis.
+Verificar — dos letras. Check: abrís una cita al azar y la comprobáis.
 Cortar: no pidáis 'hazme la app' — cortad el problema en pasos y
 verificad cada uno.
 
@@ -2948,9 +2887,9 @@ Tip meta: en prompts exploratorios de bajo riesgo — pruebas, brain-
 storming — podéis saltaros Cabeza y Contexto. Iteráis rápido, perdéis
 rigor. Pero en producción siempre las cinco."
 
-NOTAS:
-- Dilas rápido — están en el asset para consulta
-- Subraya el mapeo 2+1+2 a los tres movimientos
+NOTAS DE ENTREGA:
+- Dilas rápido. Están en el asset para consulta.
+- Subraya el mapeo 2+1+2 → tres movimientos.
 -->
 
 ---
@@ -2999,8 +2938,9 @@ Para <mark class="highlight">2027</mark>, la mitad de las <em>no-code platforms<
 </div>
 
 <!--
-GUIÓN:
-"Antes de cerrar, una lectura del sector. Esto lo quiero que lo veáis.
+GUIÓN (~75s · texto para practicar):
+
+"Antes de cerrar, una lectura del sector. Quiero que lo veáis.
 
 El no-code se está comiendo a sí mismo.
 
@@ -3009,23 +2949,23 @@ Agents. Airtable Cobuilder.
 
 Las cuatro plataformas que sostienen todo el ecosistema no-code están
 corriendo a convertirse en wrappers de IA. ¿Por qué? Porque saben lo
-que se viene. Lovable, Claude Code, v0 hacen ese mismo atajo con
-código tuyo, sin jaula. Las que no lleguen a tiempo, desaparecen.
+que viene. Lovable, Claude Code, v0 hacen ese mismo atajo con código
+vuestro, sin jaula. Las que no lleguen a tiempo, desaparecen.
 
 Y una apuesta pública. Anotadla.
 
 Para dos mil veintisiete — un año a partir de hoy — la mitad de las
 no-code platforms que hoy conocéis habrán desaparecido o pivotado a
-ser wrappers de IA. No todas. La mitad. La otra mitad sobrevivirá
-pero muy distinta a como es hoy.
+wrappers de IA. No todas. La mitad. La otra mitad sobrevivirá, pero
+muy distinta a como es hoy.
 
 Me lo recordáis en el próximo Demo Day. Si me equivoco, aceptaré la
 crítica en público."
 
-NOTAS:
-- Enumera las cuatro plataformas con ritmo — no te detengas en cada una
-- Pausa después de "desaparecen" antes de la apuesta
-- Tono ligero en la apuesta — posicionamiento intelectual honesto
+NOTAS DE ENTREGA:
+- Enumera las cuatro plataformas con ritmo, sin detenerte.
+- Pausa después de "desaparecen" antes de la apuesta.
+- Tono ligero en la apuesta — posicionamiento honesto.
 -->
 
 ---
@@ -3048,27 +2988,25 @@ La respuesta honesta es vuestro primer proyecto.
 </p>
 
 <!--
-GUIÓN:
-"Cerramos. Con una pregunta. La he dejado para el final porque quiero
-que os la llevéis — que la tengáis en la cabeza los próximos siete
-días.
+GUIÓN (~50s · texto para practicar):
 
-Cuál es la tarea de tu semana que más odias, que crees que solo tú
-puedes hacer, y que probablemente una IA bien configurada hace mejor.
+"Cerramos. Con una pregunta. La he dejado para el final porque quiero
+que os la llevéis — que la tengáis en la cabeza los próximos siete días.
+
+¿Cuál es la tarea de tu semana que más odias, que crees que solo tú
+puedes hacer, y que probablemente una IA bien configurada hace mejor?
 
 Pensad la respuesta en silencio. Tres segundos.
 
-Uno.
-Dos.
-Tres.
+Uno. Dos. Tres.
 
 La respuesta honesta a esa pregunta es vuestro primer proyecto de IA.
 No uno que leísteis en LinkedIn. No uno que os recomiendo yo. El
 vuestro."
 
-NOTAS:
-- Pausa en los "uno, dos, tres"
-- La pregunta debería doler un poco a cada uno
+NOTAS DE ENTREGA:
+- Pausa real en "uno, dos, tres".
+- La pregunta debería doler un poco a cada uno.
 -->
 
 ---
@@ -3096,32 +3034,31 @@ Lo que os habéis ganado.
 
 <div>
 
-<div style="width: 14rem; height: 14rem; background: var(--paper-sunken); border: 2px solid var(--ink); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
-<span class="text-mono text-caps text-mute" style="font-size: 0.8rem;">[QR aquí]</span>
-</div>
-<div class="text-mono text-small text-mute" style="text-align: center; margin-top: 1rem;">[URL corta del pack]</div>
+<img src="/asset-pack-qr.png" alt="QR para descargar el asset pack" style="width: 14rem; height: 14rem; display: block; margin: 0 auto; padding: 0.6rem; background: var(--paper-pure); border: 1px solid var(--rule);" />
+<div class="text-mono text-small text-mute" style="text-align: center; margin-top: 1rem; font-size: 0.7rem; letter-spacing: 0.04em; line-height: 1.4;">github.com/ManuLorenzzo/<br/>formacion-ia-lanzadera/tree/main/asset-pack</div>
 
 </div>
 
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~45s · texto para practicar):
+
 "Lo prometido. El pack que os habéis ganado.
 
-Scaneáis el QR y tenéis: la matriz de qué IA usar para qué — con
-versión free y versión pro; la cheat sheet de las cinco C's, que
-cabe en una hoja A4; la guía de perks con URLs exactas — Bedrock,
-GCP, Azure, Microsoft for Startups; y las plantillas de prompts de
-las cuatro demos de hoy.
+Escaneáis el QR y tenéis: la matriz de qué IA usar para qué, con
+versión free y versión pro. La cheat sheet de las cinco C's, que cabe
+en una hoja A4. La guía de perks con URLs exactas — Bedrock, GCP,
+Azure, Microsoft for Startups. Y las plantillas de prompts de las
+cuatro demos de hoy.
 
 Los prompts son copy-paste. Cambiáis lo que está entre llaves por
 vuestros datos y los ejecutáis. Con eso replicáis exactamente lo
-que habéis visto hoy."
+que habéis visto."
 
-NOTAS:
-- Antes del evento: sustituir los marcadores {QR real} y {URL corta}
-  por la imagen/URL real del pack
+NOTAS DE ENTREGA:
+- Antes del evento: sustituir [QR aquí] y [URL corta] por la imagen
+  y URL reales del pack.
 -->
 
 ---
@@ -3187,7 +3124,8 @@ Ahora <strong style="font-size: 1.55rem; font-weight: 700; color: #ffffff;">te t
 </div>
 
 <!--
-GUIÓN:
+GUIÓN (~25s · texto para practicar):
+
 "Gracias por el tiempo.
 
 Dos minutos en la plataforma. Los que valoraron en la última
@@ -3197,7 +3135,7 @@ vosotros mejorar lo que viene.
 Estoy abierto a preguntas. Y tenéis el pack con todo el detalle en
 el QR."
 
-NOTAS:
-- Cierre breve, sin alargarlo
+NOTAS DE ENTREGA:
+- Cierre breve, sin alargarlo. Q&A abierto.
 - La valoración es el último gesto — recordadla antes de abrir Q&A
 -->

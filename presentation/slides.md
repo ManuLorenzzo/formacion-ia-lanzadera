@@ -448,7 +448,7 @@ el Plus."
 NOTAS DE ENTREGA:
 - 60-75 segundos. NO te extiendas en cada producto.
 - "¿Cuál pagaría yo?" la respondes en el cierre, no aquí.
-- Pausa antes de pasar a "modelo ≠ herramienta".
+- Pausa antes de pasar a "motor ≠ herramienta".
 -->
 
 ---
@@ -457,14 +457,14 @@ layout: default
 
 <span class="eyebrow">concepto · leed esto una vez y va fuera</span>
 
-# Modelo <span style="color: var(--ink-mute);">≠</span> <mark class="highlight">herramienta</mark>.
+# Motor <span style="color: var(--ink-mute);">≠</span> <mark class="highlight">herramienta</mark>.
 
 <div style="margin-top: 1.2rem; max-width: 70ch;">
 <p style="font-family: 'IBM Plex Serif', serif; font-size: 1.55rem; line-height: 1.35; font-weight: 400; margin: 0;">
 El <strong>motor</strong> piensa. La <strong>herramienta</strong> es lo que abres.
 </p>
 <p style="font-family: 'IBM Plex Serif', serif; font-size: 1.55rem; line-height: 1.35; font-weight: 400; margin: 0.5rem 0 0 0;">
-Cuando preguntas <em>"¿qué IA uso?"</em>, preguntas por la <mark class="highlight">herramienta</mark>.
+Como un coche: el motor lo elige <mark class="highlight">quien fabrica</mark> la herramienta — tú solo conduces.
 </p>
 </div>
 
@@ -522,8 +522,10 @@ Cuando preguntas <em>"¿qué IA uso?"</em>, preguntas por la <mark class="highli
 <sup>**</sup> Multi-modelo seleccionable · el indicado es el default o el más usado
 </div>
 
-<div class="text-mute" style="margin-top: 1.1rem; font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 0.95rem;">
-— y los que construyen las herramientas, mayoritariamente eligen Claude.
+<div style="margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--rule);">
+<p style="font-family: 'IBM Plex Serif', serif; font-style: italic; font-size: 1.35rem; line-height: 1.35; color: var(--ink-soft); margin: 0;">
+Y los que <strong style="font-style: normal; color: var(--ink);">fabrican</strong> las herramientas, mayoritariamente eligen <mark class="highlight">Claude</mark>.
+</p>
 </div>
 
 <!--
@@ -538,25 +540,29 @@ un programa por debajo.
 La herramienta es lo que vosotros sí abrís. Claude.ai, Cursor,
 Perplexity, Lovable. La UI con la que trabajáis.
 
+Pensadlo como un coche. Hay tres motores en el mundo. Cada
+herramienta que usáis monta uno por dentro. Quien decide qué motor
+va dentro NO sois vosotros — es el fabricante de la herramienta.
+Vosotros conducís.
+
 Mirad la tabla. Muchas herramientas que usáis a diario — Perplexity,
 Cursor, Lovable, Bolt, v0, NotebookLM — corren por DENTRO sobre uno
 de los tres motores. Lovable y Bolt van sobre Claude. v0 sobre GPT.
 NotebookLM y Stitch sobre Gemini. Perplexity con su Sonar por defecto,
 pero Claude, GPT y Gemini están como opciones en Pro.
 
-Y un detalle que se ve de un vistazo: cuando los que CONSTRUYEN estas
-herramientas eligen motor, eligen Claude mayoritariamente. No es
-casualidad — es la tasa de alucinación más baja y el razonamiento
-más riguroso.
-
-La idea: cuando preguntáis '¿qué IA uso?', preguntáis por la
-herramienta. Pero detrás hay siempre un motor."
+Y aquí viene el detalle que importa — leed la frase de abajo.
+Cuando los que FABRICAN estas herramientas eligen motor, eligen
+Claude mayoritariamente. No es casualidad: tasa de alucinación
+más baja y razonamiento más riguroso. Por eso la siguiente slide
+no os la voy a vender — os la voy a justificar."
 
 NOTAS DE ENTREGA:
 - Dilo rápido. Es slide-puente, no destino.
 - El asterisco de Perplexity = honestidad — mejor explicarlo que
   repetir el dato viejo de "Perplexity → Claude Opus".
-- Transición: "Con esto claro, vamos al siguiente punto."
+- El remate ("los que fabrican eligen Claude") es el puente
+  literal a la siguiente slide. Pausa breve antes de avanzar.
 -->
 
 ---
@@ -912,44 +918,6 @@ NOTAS DE ENTREGA:
 layout: default
 ---
 
-<span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · el dolor</span>
-
-# Tres horas operando, <br/><mark class="highlight">cero construyendo</mark>.
-
-<p class="lead" style="margin-top: 2rem;">
-Research de clientes y competencia. Leer manuales y regulación. <br/>
-Escribir mails e informes. Preparar reuniones. Ordenar archivos.
-</p>
-
-<p class="lead" style="margin-top: 1rem; color: var(--ink);">
-Todo eso ya tiene <mark class="highlight">quién lo haga por ti</mark>.
-</p>
-
-<!--
-GUIÓN (~50s · texto para practicar):
-
-"Pregunta rápida a la sala — sin manos, solo pensadlo: ¿a qué hora
-del día tocáis producto por primera vez?
-
-Antes hacéis research. Leéis docs. Contestáis mails. Preparáis la
-reunión de las once. Ordenáis archivos. Son las 13:00 y aún no
-habéis escrito una línea de código ni hablado con un cliente.
-
-Esas tres horas de la mañana las pierde casi todo founder que conozco.
-Y escala mal: cuanto más crece la startup, más operación cae encima.
-
-Todo eso ya tiene quién lo haga por vosotros. Empezamos por el primer
-trabajo del día — investigar. La herramienta: Deep Research."
-
-NOTAS DE ENTREGA:
-- No pidas manos. Es un momento reflexivo.
-- Enumera las 5 actividades lentamente, con pausas.
--->
-
----
-layout: default
----
-
 <span class="eyebrow" style="color: var(--palanca-cliente);">Día a día · investigar · qué es</span>
 
 # <mark class="highlight">Deep Research</mark> no es "búsqueda con IA".
@@ -963,25 +931,11 @@ layout: default
 </div>
 
 <div style="margin-top: 2rem; border: 1px solid var(--rule); background: var(--paper-pure); padding: 1.2rem 1.4rem;">
-
 <div class="text-mono text-caps text-mute" style="letter-spacing: 0.14em; font-size: 0.72rem; margin-bottom: 0.8rem;">De pago · las 4 serias</div>
-
-<div style="display: grid; grid-template-columns: auto 1fr; gap: 0.6rem 0.9rem; align-items: baseline; font-size: 1rem; line-height: 1.5;">
-
-<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-claude); -webkit-mask: url('/logos/claude.svg') center/contain no-repeat; mask: url('/logos/claude.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
-<span><strong>Claude Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Anthropic</span> · en claude.ai. Integra Gmail, Calendar, Google Docs.</span>
-
-<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-gemini); -webkit-mask: url('/logos/googlegemini.svg') center/contain no-repeat; mask: url('/logos/googlegemini.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
-<span><strong>Gemini Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Google</span> · en la app Gemini.</span>
-
-<span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-chatgpt); -webkit-mask: url('/logos/openai.svg') center/contain no-repeat; mask: url('/logos/openai.svg') center/contain no-repeat; flex-shrink: 0; transform: translateY(2px);"></span>
-<span><strong>ChatGPT Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· OpenAI</span> · en chatgpt.com. Basado en GPT-5.2.</span>
-
-<span style="display: inline-block; width: 10px; height: 10px; background-color: var(--ink); border-radius: 50%; flex-shrink: 0; transform: translate(3px, 4px);"></span>
-<span><strong>Perplexity Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Perplexity</span> · la referencia del sector. <em>Corre sobre Claude Opus</em>.</span>
-
-</div>
-
+<div style="display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 0.55rem; font-size: 1rem; line-height: 1.5;"><span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-claude); -webkit-mask: url('/logos/claude.svg') center/contain no-repeat; mask: url('/logos/claude.svg') center/contain no-repeat; flex-shrink: 0; align-self: center;"></span><span><strong>Claude Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Anthropic</span></span></div>
+<div style="display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 0.55rem; font-size: 1rem; line-height: 1.5;"><span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-gemini); -webkit-mask: url('/logos/googlegemini.svg') center/contain no-repeat; mask: url('/logos/googlegemini.svg') center/contain no-repeat; flex-shrink: 0; align-self: center;"></span><span><strong>Gemini Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Google</span></span></div>
+<div style="display: flex; align-items: baseline; gap: 0.7rem; margin-bottom: 0.55rem; font-size: 1rem; line-height: 1.5;"><span style="display: inline-block; width: 16px; height: 16px; background-color: var(--brand-chatgpt); -webkit-mask: url('/logos/openai.svg') center/contain no-repeat; mask: url('/logos/openai.svg') center/contain no-repeat; flex-shrink: 0; align-self: center;"></span><span><strong>ChatGPT Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· OpenAI</span></span></div>
+<div style="display: flex; align-items: baseline; gap: 0.7rem; font-size: 1rem; line-height: 1.5;"><span style="display: inline-block; width: 10px; height: 10px; background-color: var(--ink); border-radius: 50%; flex-shrink: 0; align-self: center; margin-left: 3px; margin-right: 3px;"></span><span><strong>Perplexity Deep Research</strong> <span style="color: var(--ink-mute); font-size: 0.86rem;">· Perplexity</span> · la referencia del sector. <em>Corre sobre Claude Opus</em>.</span></div>
 </div>
 
 <!--
